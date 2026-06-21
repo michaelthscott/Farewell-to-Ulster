@@ -1,5 +1,10 @@
-# Prologue
-farewell to Ulster
+# Farewell to Ulster
+
+![Michael Runnning](Michael-running.png)
+
+**Prologue**
+
+farewell to Ulster\
 so matter of fact
 
 when speaking your mind\
