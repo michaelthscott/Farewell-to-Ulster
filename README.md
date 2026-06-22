@@ -1,6 +1,6 @@
 # Farewell to Ulster
 
-![Michael Runnning](Michael-running.png)
+![Michael Runnning](images/Michael-running.png)
 
 **Prologue**
 
