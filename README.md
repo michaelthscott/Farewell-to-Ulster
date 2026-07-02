@@ -2,8 +2,6 @@
 
 ![Michael Runnning](images/Michael-running.png)
 
-**Prologue**
-
 farewell to Ulster\
 so matter of fact
 
