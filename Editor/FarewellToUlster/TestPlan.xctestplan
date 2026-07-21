@@ -1,0 +1,18 @@
+{
+  "configurations" : [
+    {
+      "id" : "6FC28114-C28F-400E-A543-7CEA2311B226",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

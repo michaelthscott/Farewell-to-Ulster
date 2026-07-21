@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA3354DD300F715500B4BAEA /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = DA3354DC300F715500B4BAEA /* Documentation.docc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA335380300F6DF300B4BAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA335368300F6DF100B4BAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA33536F300F6DF100B4BAEA;
+			remoteInfo = FarewellToUlster;
+		};
+		DA33538A300F6DF300B4BAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA335368300F6DF100B4BAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA33536F300F6DF100B4BAEA;
+			remoteInfo = FarewellToUlster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA335370300F6DF100B4BAEA /* FarewellToUlster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarewellToUlster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA33537F300F6DF300B4BAEA /* FarewellToUlsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarewellToUlsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA335389300F6DF300B4BAEA /* FarewellToUlsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarewellToUlsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3354DC300F715500B4BAEA /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		DA3354DE300F717200B4BAEA /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DA3354E1300F741100B4BAEA /* Exceptions for "FarewellToUlster" folder in "FarewellToUlster" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DA33536F300F6DF100B4BAEA /* FarewellToUlster */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DA335372300F6DF100B4BAEA /* FarewellToUlster */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DA3354E1300F741100B4BAEA /* Exceptions for "FarewellToUlster" folder in "FarewellToUlster" target */,
+			);
+			path = FarewellToUlster;
+			sourceTree = "<group>";
+		};
+		DA335382300F6DF300B4BAEA /* FarewellToUlsterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FarewellToUlsterTests;
+			sourceTree = "<group>";
+		};
+		DA33538C300F6DF300B4BAEA /* FarewellToUlsterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FarewellToUlsterUITests;
+			sourceTree = "<group>";
+		};
+		DA335436300F70AD00B4BAEA /* PreviewContent */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PreviewContent;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA33536D300F6DF100B4BAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA33537C300F6DF300B4BAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA335386300F6DF300B4BAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA335367300F6DF100B4BAEA = {
+			isa = PBXGroup;
+			children = (
+				DA3354DE300F717200B4BAEA /* TestPlan.xctestplan */,
+				DA3354DC300F715500B4BAEA /* Documentation.docc */,
+				DA335436300F70AD00B4BAEA /* PreviewContent */,
+				DA335372300F6DF100B4BAEA /* FarewellToUlster */,
+				DA335382300F6DF300B4BAEA /* FarewellToUlsterTests */,
+				DA33538C300F6DF300B4BAEA /* FarewellToUlsterUITests */,
+				DA335371300F6DF100B4BAEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA335371300F6DF100B4BAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA335370300F6DF100B4BAEA /* FarewellToUlster.app */,
+				DA33537F300F6DF300B4BAEA /* FarewellToUlsterTests.xctest */,
+				DA335389300F6DF300B4BAEA /* FarewellToUlsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA33536F300F6DF100B4BAEA /* FarewellToUlster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA335393300F6DF300B4BAEA /* Build configuration list for PBXNativeTarget "FarewellToUlster" */;
+			buildPhases = (
+				DA33536C300F6DF100B4BAEA /* Sources */,
+				DA33536D300F6DF100B4BAEA /* Frameworks */,
+				DA33536E300F6DF100B4BAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DA335372300F6DF100B4BAEA /* FarewellToUlster */,
+				DA335436300F70AD00B4BAEA /* PreviewContent */,
+			);
+			name = FarewellToUlster;
+			packageProductDependencies = (
+			);
+			productName = FarewellToUlster;
+			productReference = DA335370300F6DF100B4BAEA /* FarewellToUlster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA33537E300F6DF300B4BAEA /* FarewellToUlsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA335396300F6DF300B4BAEA /* Build configuration list for PBXNativeTarget "FarewellToUlsterTests" */;
+			buildPhases = (
+				DA33537B300F6DF300B4BAEA /* Sources */,
+				DA33537C300F6DF300B4BAEA /* Frameworks */,
+				DA33537D300F6DF300B4BAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA335381300F6DF300B4BAEA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA335382300F6DF300B4BAEA /* FarewellToUlsterTests */,
+			);
+			name = FarewellToUlsterTests;
+			packageProductDependencies = (
+			);
+			productName = FarewellToUlsterTests;
+			productReference = DA33537F300F6DF300B4BAEA /* FarewellToUlsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA335388300F6DF300B4BAEA /* FarewellToUlsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA335399300F6DF300B4BAEA /* Build configuration list for PBXNativeTarget "FarewellToUlsterUITests" */;
+			buildPhases = (
+				DA335385300F6DF300B4BAEA /* Sources */,
+				DA335386300F6DF300B4BAEA /* Frameworks */,
+				DA335387300F6DF300B4BAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA33538B300F6DF300B4BAEA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA33538C300F6DF300B4BAEA /* FarewellToUlsterUITests */,
+			);
+			name = FarewellToUlsterUITests;
+			packageProductDependencies = (
+			);
+			productName = FarewellToUlsterUITests;
+			productReference = DA335389300F6DF300B4BAEA /* FarewellToUlsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA335368300F6DF100B4BAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					DA33536F300F6DF100B4BAEA = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					DA33537E300F6DF300B4BAEA = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = DA33536F300F6DF100B4BAEA;
+					};
+					DA335388300F6DF300B4BAEA = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = DA33536F300F6DF100B4BAEA;
+					};
+				};
+			};
+			buildConfigurationList = DA33536B300F6DF100B4BAEA /* Build configuration list for PBXProject "FarewellToUlster" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA335367300F6DF100B4BAEA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DA335371300F6DF100B4BAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA33536F300F6DF100B4BAEA /* FarewellToUlster */,
+				DA33537E300F6DF300B4BAEA /* FarewellToUlsterTests */,
+				DA335388300F6DF300B4BAEA /* FarewellToUlsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA33536E300F6DF100B4BAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA33537D300F6DF300B4BAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA335387300F6DF300B4BAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA33536C300F6DF100B4BAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3354DD300F715500B4BAEA /* Documentation.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA33537B300F6DF300B4BAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA335385300F6DF300B4BAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA335381300F6DF300B4BAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA33536F300F6DF100B4BAEA /* FarewellToUlster */;
+			targetProxy = DA335380300F6DF300B4BAEA /* PBXContainerItemProxy */;
+		};
+		DA33538B300F6DF300B4BAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA33536F300F6DF100B4BAEA /* FarewellToUlster */;
+			targetProxy = DA33538A300F6DF300B4BAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA335391300F6DF300B4BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 953887MQL5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_ISOLATED_CONFORMANCES = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		DA335392300F6DF300B4BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 953887MQL5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_ISOLATED_CONFORMANCES = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT = YES;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA335394300F6DF300B4BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = PreviewContent;
+				DEVELOPMENT_TEAM = 953887MQL5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FarewellToUlster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Farewell to Ulster";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.michaelthscott.FarewellToUlster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA335395300F6DF300B4BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = PreviewContent;
+				DEVELOPMENT_TEAM = 953887MQL5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FarewellToUlster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Farewell to Ulster";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.michaelthscott.FarewellToUlster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DA335397300F6DF300B4BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 953887MQL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.michaelthscott.FarewellToUlsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarewellToUlster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FarewellToUlster";
+			};
+			name = Debug;
+		};
+		DA335398300F6DF300B4BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 953887MQL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.michaelthscott.FarewellToUlsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarewellToUlster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FarewellToUlster";
+			};
+			name = Release;
+		};
+		DA33539A300F6DF300B4BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 953887MQL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.michaelthscott.FarewellToUlsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FarewellToUlster;
+			};
+			name = Debug;
+		};
+		DA33539B300F6DF300B4BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 953887MQL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.michaelthscott.FarewellToUlsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FarewellToUlster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA33536B300F6DF100B4BAEA /* Build configuration list for PBXProject "FarewellToUlster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA335391300F6DF300B4BAEA /* Debug */,
+				DA335392300F6DF300B4BAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA335393300F6DF300B4BAEA /* Build configuration list for PBXNativeTarget "FarewellToUlster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA335394300F6DF300B4BAEA /* Debug */,
+				DA335395300F6DF300B4BAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA335396300F6DF300B4BAEA /* Build configuration list for PBXNativeTarget "FarewellToUlsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA335397300F6DF300B4BAEA /* Debug */,
+				DA335398300F6DF300B4BAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA335399300F6DF300B4BAEA /* Build configuration list for PBXNativeTarget "FarewellToUlsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA33539A300F6DF300B4BAEA /* Debug */,
+				DA33539B300F6DF300B4BAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA335368300F6DF100B4BAEA /* Project object */;
+}

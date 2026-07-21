@@ -1,0 +1,154 @@
+{
+  "author" : "Archibald Tumbledown",
+  "eras" : [
+    {
+      "end" : "2001-01-01T00:00:00Z",
+      "uuid" : "7F184646-54B0-4D5A-ACC1-7150517DCFD0",
+      "fileOrder" : "0001",
+      "start" : "2000-01-01T00:00:00Z",
+      "text" : "When the world was new and all the things in it were bright and shiny, and the rivers flowed uphill and became gods.",
+      "title" : "The Beginning"
+    },
+    {
+      "end" : "2002-01-01T00:00:00Z",
+      "uuid" : "955A02A6-3C2F-4604-8B43-6750E7CC1AB6",
+      "fileOrder" : "0002",
+      "start" : "2001-01-01T00:00:00Z",
+      "text" : "When the world was not so new.",
+      "title" : "The Middle"
+    },
+    {
+      "end" : "2003-01-01T00:00:00Z",
+      "uuid" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
+      "fileOrder" : "0003",
+      "start" : "2002-01-01T00:00:00Z",
+      "text" : "When the world was old.",
+      "title" : "The End"
+    }
+  ],
+  "events" : [
+    {
+      "date" : "2000-04-24T00:00:00Z",
+      "uuid" : "B25C3E23-327C-4B6B-A9D2-75D2E8DDC1B9",
+      "fileOrder" : "0001",
+      "title" : "Wild Time"
+    },
+    {
+      "date" : "2001-04-24T00:00:00Z",
+      "uuid" : "50038EB3-B382-48A6-BCC5-D5917BB0471D",
+      "fileOrder" : "0002",
+      "title" : "Coffee Break"
+    },
+    {
+      "date" : "2002-04-24T00:00:00Z",
+      "uuid" : "42149FEA-4DB0-43CC-BC42-04D98E5C6D1A",
+      "fileOrder" : "0003",
+      "title" : "Full Moon"
+    }
+  ],
+  "poems" : [
+    {
+      "eraUUID" : "7F184646-54B0-4D5A-ACC1-7150517DCFD0",
+      "eventUUIDs" : ["B25C3E23-327C-4B6B-A9D2-75D2E8DDC1B9"],
+      "uuid" : "999DFF64-E541-4591-8096-949881B8B2CB",
+      "fileOrder" : "0001",
+      "status" : "in progress",
+      "category" : "lament",
+      "subjectUUIDs" : [
+        "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
+      ],
+      "text" : "Azure twinkles leave me breathless\nAs the dawn goes endlessly on",
+      "title" : "Azure twinkles"
+    },
+    {
+      "eraUUID" : "955A02A6-3C2F-4604-8B43-6750E7CC1AB6",
+      "eventUUIDs" : [
+        "42149FEA-4DB0-43CC-BC42-04D98E5C6D1A"
+      ],
+      "uuid" : "69F56C74-8EB7-4A3A-8A54-AD1134FCF837",
+      "fileOrder" : "0002",
+      "status" : "almost finished",
+      "subjectUUIDs" : [
+        "E28B3420-8274-473A-AF36-4F47E3E78D2B"
+      ],
+      "text" : "Green whispers moist with dew\nWould I know but who is you",
+      "title" : "Green whispers"
+    },
+    {
+      "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
+      "eventUUIDs" : ["50038EB3-B382-48A6-BCC5-D5917BB0471D"],
+      "uuid" : "BA83B562-5C01-491C-98FB-58CAB55A37DD",
+      "fileOrder" : "0003",
+      "scratchpad" : "Cinnamon too",
+      "status" : "finished",
+      "subjectUUIDs" : [
+        "F8280D42-533E-4D4F-A6B9-9A2A4CF1F051"
+      ],
+      "text" : "Sugar dusted custard cake\nLong to eat\nEasy to bake",
+      "title" : "Custard cake "
+    },
+    {
+      "eraUUID" : "7F184646-54B0-4D5A-ACC1-7150517DCFD0",
+      "eventUUIDs" : ["B25C3E23-327C-4B6B-A9D2-75D2E8DDC1B9"],
+      "uuid" : "999DFF64-E541-4591-8096-949881B8B2CA",
+      "fileOrder" : "0004",
+      "status" : "in progress",
+      "subjectUUIDs" : [
+        "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
+      ],
+      "text" : "Twilight leaves me breathless\nHorses in the field",
+      "title" : "Twilight"
+    },
+    {
+      "eraUUID" : "955A02A6-3C2F-4604-8B43-6750E7CC1AB6",
+      "eventUUIDs" : [
+        "42149FEA-4DB0-43CC-BC42-04D98E5C6D1A"
+      ],
+      "uuid" : "69F56C74-8EB7-4A3A-8A54-AD1134FCF83A",
+      "fileOrder" : "0005",
+      "status" : "almost finished",
+      "subjectUUIDs" : [
+        "E28B3420-8274-473A-AF36-4F47E3E78D2B"
+      ],
+      "text" : "Drips of dew on sleeping leaves\nThe yellow meets the green",
+      "title" : "Sleeping leaves"
+    },
+    {
+      "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
+      "eventUUIDs" : ["50038EB3-B382-48A6-BCC5-D5917BB0471D"],
+      "uuid" : "BA83B562-5C01-491C-98FB-58CAB55A37DA",
+      "fileOrder" : "0006",
+      "scratchpad" : "Globs of honey on the floor",
+      "status" : "finished",
+      "subjectUUIDs" : [
+        "F8280D42-533E-4D4F-A6B9-9A2A4CF1F051"
+      ],
+      "text" : "No need to think about it\nSharp tangy taste\nSpikey needles",
+      "title" : "Rosemary"
+    }
+  ],
+  "subjects" : [
+    {
+      "category" : "activity",
+      "uuid" : "F8280D42-533E-4D4F-A6B9-9A2A4CF1F051",
+      "fileOrder" : "0001",
+      "sortIndex" : 0,
+      "title" : "Thinking"
+    },
+    {
+      "category" : "place",
+      "uuid" : "E28B3420-8274-473A-AF36-4F47E3E78D2B",
+      "fileOrder" : "0002",
+      "sortIndex" : 1,
+      "title" : "The Horizon"
+    },
+    {
+      "category" : "animal",
+      "uuid" : "B564F8D2-7F95-4CAA-B1AC-381B807E2437",
+      "fileOrder" : "0003",
+      "sortIndex" : 2,
+      "title" : "Pussycat"
+    }
+  ],
+  "title" : "The Blue Dawn"
+}
