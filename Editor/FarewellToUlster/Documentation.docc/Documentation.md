@@ -1,10 +1,10 @@
 # ``FarewellToUlster``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+An application to facilitate the creation of a poetry collection.
 
 ## Overview
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+Poems are associated with Eras, Events and Subjects.
 
 ## Topics
 
