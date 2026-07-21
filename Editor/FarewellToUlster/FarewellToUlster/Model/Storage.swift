@@ -18,7 +18,7 @@ enum StorageError: Error {
 final class Storage {
     let container: ModelContainer
     
-    init(isStoredInMemoryOnly: Bool = false, assetName: String = "Farewell_to_Ulster", bundle: Bundle = Bundle.main) throws {
+    init(isStoredInMemoryOnly: Bool = false, assetName: String = "Farewell-to-Ulster", bundle: Bundle = Bundle.main) throws {
         let schema = Schema([
             Book.self,
             Era.self,
