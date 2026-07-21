@@ -12,7 +12,13 @@
     "testTimeoutsEnabled" : true
   },
   "testTargets" : [
-
+    {
+      "target" : {
+        "containerPath" : "container:FarewellToUlster.xcodeproj",
+        "identifier" : "DA33537E300F6DF300B4BAEA",
+        "name" : "FarewellToUlsterTests"
+      }
+    }
   ],
   "version" : 1
 }
