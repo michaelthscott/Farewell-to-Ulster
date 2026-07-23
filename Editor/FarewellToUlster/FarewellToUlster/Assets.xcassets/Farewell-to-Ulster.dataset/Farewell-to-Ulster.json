@@ -946,7 +946,7 @@
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0026",
       "scratchpad" : "Finding Out\nTomorrow's World\nsome schools have computers to play with",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "13613B9B-E678-491E-95E3-761B9585EF44",
         "9924A588-F82D-4241-87C0-2435F61CD7FB"
@@ -6313,7 +6313,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0437",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D0A143CA-8080-4954-9C77-F1D22931F2D5",
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
@@ -8825,7 +8825,7 @@
       "category" : "descriptive",
       "eraUUID" : "E86C3877-3815-42AE-BEBF-3787BDB69C56",
       "fileOrder" : "0637",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
@@ -10555,11 +10555,11 @@
         "0C12E87F-0191-4F0B-A73D-F8351E025090"
       ],
       "fileOrder" : "0781",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "876C0503-2522-4DE9-97AB-A98F9660FA0D"
       ],
-      "text" : "mysterious rebranding\nlong live the Yippie\nHippie is dead\n\noutside in the wide world\nfuzzy black and white\nlong hair beards\n\nwhile here\nteen flies trapped\nin a sectarian jam jar",
+      "text" : "mysterious rebranding\nlong live the Yippie\nHippie is dead\n\noutside in the wide world\nfuzzy black and white\nlong hair beards\n\nwhile here\nteen bugs trapped\nin a sectarian jam jar",
       "title" : "Change",
       "uuid" : "1FECFA91-26D4-46B6-80CB-DE5E56618837"
     },
@@ -10747,11 +10747,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0798",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "Levi’s\nWranglers\nLee Cooper",
+      "text" : "can't find Levi’s straight leg\ndark Wranglers feel too stiff\nLee Cooper are made in UK",
       "title" : "Choice",
       "uuid" : "51AD78C8-EE93-4088-835A-DFD454FCCC52"
     },
@@ -10859,11 +10859,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0807",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "old newspaper sheets\naround the hearth\n\nblackened smell of soot\n\nbristle fan brush\nroughly up \nscrewing bendy rods\n\ngrime lined silent face of coal\nwas long gone chimney sweep",
+      "text" : "old newspaper sheets\naround the hearth\n\nblackened smell of soot\n\nbristle fan brush\nshoved roughly up \nscrewing bendy rods\n\ngrime lined silent face of coal\nwas long gone chimney sweep",
       "title" : "Chimney sweep",
       "uuid" : "3B0916EE-830F-412A-B763-007BFB5CC956"
     },
