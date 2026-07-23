@@ -73,6 +73,13 @@ struct BookTab: View {
                     Menu {
                         Button(action: {
                             Task {
+                                await commitJSON()
+                            }
+                        }) {
+                            Label("GitHub", systemImage: "square.and.arrow.down.fill")
+                        }
+                        Button(action: {
+                            Task {
                                 saveJSON()
                             }
                         }) {
@@ -132,6 +139,28 @@ struct BookTab: View {
         return pages
     }
 
+    private func commitJSON() async {
+        guard let jsonFile = JSONFile(modelContext: modelContext) else {
+            print("Failed to get JSON file")
+            return
+        }
+
+        let document = jsonFile.document
+        
+        do {
+            let data = try document.snapshot(contentType: jsonFile.contentType)
+            let committer = GitHubCommitter(owner: "michaelthscott", repo: "Farewell-to-Ulster")
+            try await committer.commitFile(
+                path: "Editor/FarewellToUlster/FarewellToUlster/Assets.xcassets/Farewell-to-Ulster.dataset/Farewell-to-Ulster.json",
+                content: String(data: data, encoding: .utf8)!,
+                message: "Commit from editor app"
+                )
+        } catch  {
+            print("Commit failed: \(error.localizedDescription)")
+            return
+        }
+    }
+    
     private func saveJSON() {
         guard let jsonFile = JSONFile(modelContext: modelContext) else {
             return
