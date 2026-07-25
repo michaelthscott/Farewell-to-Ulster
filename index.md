@@ -1,6 +1,6 @@
 ---
 layout:	home
-title: Farewell to Ulster
 ---
 
+# Farewell to Ulster
 {% include series-list.html collection="Eras" %}
