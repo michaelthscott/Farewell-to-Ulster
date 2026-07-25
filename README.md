@@ -1,7 +1,4 @@
 # Farewell to Ulster
-
-![Michael Runnning](assets/images/Michael-running.png)
-
 farewell to Ulster\
 so matter of fact
 
