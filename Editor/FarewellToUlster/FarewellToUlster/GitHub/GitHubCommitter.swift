@@ -7,26 +7,13 @@
 
 import Foundation
 
-enum GitHubCommitterError: LocalizedError {
-    case noToken
-    case requestFailed(Int, String)
-
-    var errorDescription: String? {
-        switch self {
-        case .noToken:
-            return "No GitHub token found in Keychain. Save one first."
-        case .requestFailed(let code, let body):
-            return "GitHub API error \(code): \(body)"
-        }
-    }
-}
 
 struct GitHubCommitter {
     let owner: String
     let repo: String
     
     private func authorizedRequest(url: URL, method: String) throws -> URLRequest {
-        guard let token = try GitHubKeychain.load() else {
+        guard let token = try iCloudKeychain.load() else {
             throw GitHubCommitterError.noToken
         }
         

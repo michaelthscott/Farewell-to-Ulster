@@ -1,5 +1,5 @@
 //
-//  GitHubKeychain.swift
+//  iCloudKeychain.swift
 //  FarewellToUlster
 //
 //  Created by Michael Scott on 22/07/2026.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum GitHubKeychain {
+enum iCloudKeychain {
     static let service = "org.michaelthscott.FarewellToUlster"
     static let account = "github-pat"
 
