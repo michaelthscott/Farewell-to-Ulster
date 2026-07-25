@@ -1,0 +1,27 @@
+{% assign series = site[include.collection] | where_exp: "p", "p.series == page.series" | sort: "path" %}
+{% assign current_index = nil %}
+{% for p in series %}
+  {% if p.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index != nil %}
+  {% assign prev_index = current_index | minus: 1 %}
+  {% assign next_index = current_index | plus: 1 %}
+  {% assign series_size = series.size %}
+
+  <nav class="prev-next">
+    {% if prev_index >= 0 %}
+      <a class="prev" href="{{ series[prev_index].url | relative_url }}">← {{ series[prev_index].title }}</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+
+    {% if next_index < series_size %}
+      <a class="next" href="{{ series[next_index].url | relative_url }}">{{ series[next_index].title }} →</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+  </nav>
+{% endif %}
