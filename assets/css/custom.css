@@ -1,0 +1,89 @@
+header .wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header .wrapper h1 {
+  margin-right: auto;
+}
+footer .wrapper {
+  text-align: right;
+  font-size: 0.9rem;
+}
+header .wrapper nav {
+  display: flex;
+  gap: 1rem;
+}
+header .wrapper nav a {
+  padding-left: 1rem;
+  border-left: 1px solid #000;
+}
+header .wrapper nav a:first-child {
+  border-left: none;
+}
+
+.prev-next {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.prev-next a {
+  text-decoration: none;
+  color: inherit;
+}
+.prev-next a.next {
+  margin-left: auto;
+}
+.prev-next a:hover {
+  text-decoration: underline;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  gap: 0.4rem;
+}
+.menu-toggle span {
+  width: 1.5rem;
+  height: 2px;
+  background: #333;
+}
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: flex;
+  }
+  
+  #nav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    z-index: 1000;
+  }
+  
+  #nav-menu.open {
+    display: flex;
+  }
+}
+.study-title {
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    color: #666;
+}
+.sketch-title {
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    color: #666;
+}
