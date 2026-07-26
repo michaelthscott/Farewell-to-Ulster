@@ -5,3 +5,31 @@ theme: minima
 collections:
   Eras:
     output: true
+  Era01:
+    output: true
+  Era02:
+    output: true
+  Era03:
+    output: true
+  Era04:
+    output: true
+  Era05:
+    output: true
+  Era06:
+    output: true
+  Era07:
+    output: true
+  Era08:
+    output: true
+  Era09:
+    output: true
+  Era10:
+    output: true
+  Era11:
+    output: true
+  Era12:
+    output: true
+  Era13:
+    output: true
+  Era14:
+    output: true
