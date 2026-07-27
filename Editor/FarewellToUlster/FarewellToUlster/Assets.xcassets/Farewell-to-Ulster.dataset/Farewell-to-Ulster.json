@@ -9139,11 +9139,11 @@
       "category" : "descriptive",
       "eraUUID" : "955A02A6-3C2F-4604-8B43-6750E7CC1AB6",
       "fileOrder" : "0663",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "160CB9BF-7680-4F40-A253-3259DB5A5A62"
       ],
-      "text" : "Robinson & Cleaver's\nSanta's space ship",
+      "text" : "Robinson & Cleaver's\nin Santa's space ship",
       "title" : "Christmas",
       "uuid" : "03E0F93B-E45E-4606-9F23-BB4FA9A612BE"
     },
@@ -10771,11 +10771,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0800",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
-      "text" : "linocut focus\nwrist follows hand\nswapping delicate blades\n\nroll sticky on glass\nprints in reverse\npure angels",
+      "text" : "linocut focus\nwrist follows hand\nswapping delicate blades\n\nroll sticky inks on glass\nprinting in reverse\npure angels",
       "title" : "Christmas card",
       "uuid" : "3DF79836-695D-4247-88AD-A82ECFBE03CF"
     },
