@@ -7652,11 +7652,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0544",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1291394B-42B9-4035-9CE4-3B99CEE779C4"
       ],
-      "text" : "white Vauxhall\nchurch car park\ngravel like wading through stones",
+      "text" : "white Vauxhall\nchurch car park\nup the gravel like \nwading through stones",
       "title" : "Church",
       "uuid" : "F97108F2-EE2B-48AF-8367-9DC544A34678"
     },
