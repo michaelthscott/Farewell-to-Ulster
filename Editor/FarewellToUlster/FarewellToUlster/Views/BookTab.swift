@@ -20,6 +20,8 @@ struct BookTab: View {
     @State private var document: Document?
     @State private var contentType: UTType = .pdf
     @State private var defaultFileName: String = "Untitled"
+    @State private var isCommittingJSON: Bool = false
+    @State private var isCommittingMarkdown: Bool = false
 
     var body: some View {
         @Bindable var navigation = navigation
@@ -73,28 +75,48 @@ struct BookTab: View {
                     Menu {
                         Button(action: {
                             Task {
+                                isCommittingJSON = true
                                 await commitJSON()
+                                isCommittingJSON = false
                             }
                         }) {
-                            Label("GitHub", systemImage: "square.and.arrow.down.fill")
+                            Label("Commit JSON", systemImage: "square.and.arrow.down")
                         }
                         Button(action: {
                             Task {
-                                saveJSON()
+                                isCommittingMarkdown = true
+                                await commitMarkdown()
+                                isCommittingMarkdown = false
                             }
                         }) {
-                            Label("JSON", systemImage: "square.and.arrow.down")
+                            Label("Commit Markdown", systemImage: "square.and.arrow.down")
                         }
                         Button(action: {
                             Task {
                                 await exportPDF()
                             }
                         }) {
-                            Label("PDF", systemImage: "square.and.arrow.up")
+                            Label("Export PDF", systemImage: "square.and.arrow.up")
                         }
                     } label: {
                         Label("Export", systemImage: "ellipsis.circle")
                     }
+                }
+            }
+            .overlay {
+                if isCommittingJSON {
+                    Color.black.opacity(0.3).ignoresSafeArea()
+                    ProgressView("Committing JSON …")
+                        .padding(24)
+                        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
+                }
+            }
+            .overlay {
+                if isCommittingMarkdown {
+                    Color.black.opacity(0.3).ignoresSafeArea()
+                    ProgressView("Committing Markdown …")
+                        .padding(24)
+                        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
                 }
             }
             .fileExporter(isPresented: $showExporter, document: document, contentType: contentType, defaultFilename: defaultFileName) { result in
@@ -158,6 +180,36 @@ struct BookTab: View {
         } catch  {
             print("Commit failed: \(error.localizedDescription)")
             return
+        }
+    }
+    
+    private func commitMarkdown() async {
+        guard let eras = try? modelContext.fetch(FetchDescriptor<Era>()) else {
+            return
+        }
+
+        var eraNumber: Int = 1
+
+        for era in eras.sorted() {
+            var localFiles: [LocalFile] = []
+            let mdEra = MDEra(number: eraNumber, title: era.title, text: era.text)
+            print("Era: \(mdEra.path) \(mdEra.title)")
+            localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
+            guard let poems = era.poems else { continue }
+            var poemNumber = 1
+            for poem in poems.vectorSorted() {
+                let mdPoem = MDPoem(eraPaddedNumber: mdEra.paddedNumber, number: poemNumber, title: poem.title, text: poem.text)
+                print("Poem:: \(mdPoem.path) \(mdPoem.title)")
+                localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
+                poemNumber += 1
+            }
+            let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
+            do {
+                _ = try await client.batchCommit(files: localFiles, message: "Markdown update for era \(mdEra.paddedNumber)")
+            } catch {
+                print("Markdown update failed: \(error.localizedDescription)")
+            }
+            eraNumber += 1
         }
     }
     

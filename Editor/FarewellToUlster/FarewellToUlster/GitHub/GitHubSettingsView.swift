@@ -36,7 +36,7 @@ struct GitHubSettingsView: View {
 
     private func save() {
         do {
-            try GitHubKeychain.save(token: tokenInput)
+            try iCloudKeychain.save(token: tokenInput)
             savedMessage = "Token saved"
             tokenInput = ""  // clear the field, don't leave it sitting in view state
         } catch {

@@ -1,5 +1,5 @@
 //
-//  GitHubCommitterError.swift
+//  GitHubCommitError.swift
 //  FarewellToUlster
 //
 //  Created by Michael Scott on 25/07/2026.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum GitHubCommitterError: LocalizedError {
+enum GitHubCommitError: LocalizedError {
     case noToken
     case requestFailed(Int, String)
 

@@ -14,7 +14,7 @@ struct GitHubCommitter {
     
     private func authorizedRequest(url: URL, method: String) throws -> URLRequest {
         guard let token = try iCloudKeychain.load() else {
-            throw GitHubCommitterError.noToken
+            throw GitHubCommitError.noToken
         }
         
         var request = URLRequest(url: url)
@@ -53,7 +53,7 @@ struct GitHubCommitter {
         let statusCode = (response as? HTTPURLResponse)?.statusCode ?? -1
         guard (200...299).contains(statusCode) else {
             let errorBody = String(data: data, encoding: .utf8) ?? "unknown"
-            throw GitHubCommitterError.requestFailed(statusCode, errorBody)
+            throw GitHubCommitError.requestFailed(statusCode, errorBody)
         }
     }
 }

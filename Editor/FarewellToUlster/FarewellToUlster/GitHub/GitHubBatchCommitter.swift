@@ -16,7 +16,7 @@ struct GitHubBatchCommitter {
 
     private func request(_ path: String, method: String = "GET", body: Data? = nil) throws -> URLRequest {
         guard let token = try iCloudKeychain.load() else {
-            throw GitHubCommitterError.noToken
+            throw GitHubCommitError.noToken
         }
         
         var req = URLRequest(url: URL(string: "\(baseURL)\(path)")!)
