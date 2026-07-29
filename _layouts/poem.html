@@ -1,0 +1,14 @@
+---
+layout: page
+---
+<article class="poem">
+  {% if page.image %}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="era-image">
+  {% endif %}
+
+  <div class="poem-content">
+    {{ content }}
+  </div>
+  
+  {% include prev-next.html collection=page.collection %}
+</article>
