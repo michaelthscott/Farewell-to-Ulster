@@ -3,9 +3,14 @@ layout: default
 ---
 <article class="post">
   <header class="post-header">
-    {% if page.layout == "poem" %}
+    {% if page.layout == "era" %}
+      <p class="breadcrumb"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+    {% elsif page.layout == "poem" %}
       {% assign era = site.Eras | where: "series", page.collection | first %}
-      <p class="breadcrumb"><a href="{{ era.url | relative_url }}">{{ era.title }}</a></p>
+      <p class="breadcrumb">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a> /
+        <a href="{{ era.url | relative_url }}">{{ era.title }}</a>
+      </p>
     {% endif %}
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
