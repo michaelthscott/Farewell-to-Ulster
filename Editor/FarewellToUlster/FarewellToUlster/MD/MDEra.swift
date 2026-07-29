@@ -28,9 +28,6 @@ title: \(title)
 series: Era\(paddedNumber)
 ---
 \(text)
-
-{% include series-list.html collection="Era\(paddedNumber)" %}
-
 """
     }
     
