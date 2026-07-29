@@ -5,12 +5,10 @@ layout: page
   {% if page.image %}
     <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="era-image">
   {% endif %}
-
   <div class="era-content">
     {{ content }}
   </div>
   
   {% include series-list.html collection=page.series %}
-
   {% include prev-next.html collection=page.collection %}
 </article>

@@ -2,13 +2,19 @@
 layout: default
 ---
 <article class="post">
-
   <header class="post-header">
+    {% if page.layout == "era" %}
+      <nav class="breadcrumb"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></nav>
+    {% elsif page.layout == "poem" %}
+      {% assign era = site.Eras | where: "series", page.collection | first %}
+      <nav class="breadcrumb">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a> /
+        <a href="{{ era.url | relative_url }}">{{ era.title }}</a>
+      </nav>
+    {% endif %}
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
-
   <div class="post-content">
     {{ content }}
   </div>
-
 </article>

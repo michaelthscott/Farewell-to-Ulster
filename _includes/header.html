@@ -1,22 +1,8 @@
 <header>
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    {% if page.layout == "home" %}
     <div class="wrapper">
         <h1>{{ site.title }}</h1>
     </div>
+    {% endif %}
 </header>
-
-<script>
-  const menuToggle = document.getElementById('menu-toggle');
-  const navMenu = document.getElementById('nav-menu');
-  const navLinks = navMenu.querySelectorAll('a');
-
-  menuToggle.addEventListener('click', function() {
-    navMenu.classList.toggle('open');
-  });
-
-  navLinks.forEach(link => {
-    link.addEventListener('click', function() {
-      navMenu.classList.remove('open');
-    });
-  });
-</script>
