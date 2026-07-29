@@ -25,9 +25,12 @@ struct MDEra {
 ---
 layout: era
 title: \(title)
-collection: Era\(paddedNumber)
+series: Era\(paddedNumber)
 ---
 \(text)
+
+{% include series-list.html collection="Era\(paddedNumber)" %}
+
 """
     }
     
