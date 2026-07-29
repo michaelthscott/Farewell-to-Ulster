@@ -189,9 +189,9 @@ struct BookTab: View {
         }
 
         var eraNumber: Int = 1
+        var localFiles: [LocalFile] = []
 
         for era in eras.sorted() {
-            var localFiles: [LocalFile] = []
             let mdEra = MDEra(number: eraNumber, title: era.title, text: era.text)
             print("Era: \(mdEra.path) \(mdEra.title)")
             localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
@@ -203,13 +203,13 @@ struct BookTab: View {
                 localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
                 poemNumber += 1
             }
-            let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
-            do {
-                _ = try await client.batchCommit(files: localFiles, message: "Markdown update for era \(mdEra.paddedNumber)")
-            } catch {
-                print("Markdown update failed: \(error.localizedDescription)")
-            }
             eraNumber += 1
+        }
+        let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
+        do {
+            _ = try await client.batchCommit(files: localFiles, message: "Markdown update from Editor")
+        } catch {
+            print("Markdown update failed: \(error.localizedDescription)")
         }
     }
     
