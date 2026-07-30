@@ -171,12 +171,13 @@ struct BookTab: View {
         
         do {
             let data = try document.snapshot(contentType: jsonFile.contentType)
-            let committer = GitHubCommitter(owner: "michaelthscott", repo: "Farewell-to-Ulster")
-            try await committer.commitFile(
-                path: "Editor/FarewellToUlster/FarewellToUlster/Assets.xcassets/Farewell-to-Ulster.dataset/Farewell-to-Ulster.json",
-                content: String(data: data, encoding: .utf8)!,
-                message: "Commit from editor app"
-                )
+            let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
+            do {
+                let localFile = LocalFile(path: "Editor/FarewellToUlster/FarewellToUlster/Assets.xcassets/Farewell-to-Ulster.dataset/Farewell-to-Ulster.json", content: data)
+                _ = try await client.batchCommit(files: [localFile], message: "JSON update from Editor")
+            } catch {
+                print("JSON update failed: \(error.localizedDescription)")
+            }
         } catch  {
             print("Commit failed: \(error.localizedDescription)")
             return
@@ -193,13 +194,11 @@ struct BookTab: View {
 
         for era in eras.sorted() {
             let mdEra = MDEra(number: eraNumber, title: era.title, text: era.text)
-            print("Era: \(mdEra.path) \(mdEra.title)")
             localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
             guard let poems = era.poems else { continue }
             var poemNumber = 1
             for poem in poems.vectorSorted() {
                 let mdPoem = MDPoem(eraPaddedNumber: mdEra.paddedNumber, number: poemNumber, title: poem.title, text: poem.text)
-                print("Poem:: \(mdPoem.path) \(mdPoem.title)")
                 localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
                 poemNumber += 1
             }
@@ -213,16 +212,6 @@ struct BookTab: View {
         }
     }
     
-    private func saveJSON() {
-        guard let jsonFile = JSONFile(modelContext: modelContext) else {
-            return
-        }
-        document = jsonFile.document
-        contentType = jsonFile.contentType
-        defaultFileName = jsonFile.fileName
-        showExporter = true
-    }
-
     private func exportPDF() async {
         guard let books = try? modelContext.fetch(FetchDescriptor<Book>()),
               let book = books.first else {

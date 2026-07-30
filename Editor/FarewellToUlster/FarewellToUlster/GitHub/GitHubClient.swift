@@ -39,8 +39,7 @@ struct GitHubClient {
         for file in files {
             let localSHA = Self.gitBlobSHA1(for: file.content)
             if remoteBlobs[file.path] == localSHA {
-                print("Skipping \(file.path) — no changes")
-                continue // unchanged — skip entirely, no blob upload needed
+                continue
             }
             let blobSHA = try await createBlob(content: file.content)
             changedEntries.append(.init(path: file.path, sha: blobSHA))
