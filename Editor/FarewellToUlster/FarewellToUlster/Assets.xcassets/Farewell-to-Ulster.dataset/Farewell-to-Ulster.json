@@ -1899,7 +1899,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0097",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "52D99FE1-9CF4-4DBD-86F2-199EC85D9193",
         "BCFF7E65-2944-4526-B82A-851A9C95D343",
@@ -4656,7 +4656,7 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0307",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0A8379D5-F722-439D-A0FF-B9373C070FAD"
       ],
@@ -5299,7 +5299,7 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0358",
       "scratchpad" : "climb the stairs\nhands and knees\nclimb the stairs\nrun on up\nhands and knees\nturn to the right\nsolid banister\n\nclimbing the stairs\nclimb the stairs\nclimb on up\nscamper up\nscamper on up\nhalf way up\nthe landing\non the landing\nnot the upstairs landing\nthe little landing on the stairs\n\nscamper on up",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1",
         "805C994F-34A7-4351-BD62-97454B8B00A9",
@@ -6884,7 +6884,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0483",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
@@ -7501,8 +7501,8 @@
       "subjectUUIDs" : [
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "sticky beech leaf\nshiny and green",
-      "title" : "Cocoon",
+      "text" : "sticky beech leaf\nshiny and green\nstealthy hideout\nI won't disturb ",
+      "title" : "Shelter",
       "uuid" : "DF0CAA04-83F8-40C5-859A-1BC967A072EC"
     },
     {
@@ -9992,7 +9992,7 @@
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0734",
       "scratchpad" : "your Sunday best\nis put to test\ncareful what you wear\n\nhymnal howling",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1291394B-42B9-4035-9CE4-3B99CEE779C4"
       ],
