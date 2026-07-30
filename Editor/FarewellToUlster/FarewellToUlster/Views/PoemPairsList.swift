@@ -35,7 +35,6 @@ struct PoemPairsList: View {
 #Preview {
     @Previewable @State var navigation = Navigation()
     @Previewable @State var previewer = Previewer()
-    let poems = previewer.poems
     let pairs = PoemSimilarity(threshold: 0.5).similarPoemPairs(poems: previewer.poems.sorted())
     PoemPairsList(pairs: pairs)
 }
