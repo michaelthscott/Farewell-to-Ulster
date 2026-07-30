@@ -9347,11 +9347,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0680",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "natural repellent\nkeeps the midges off\nlittle bottle by the back door",
+      "text" : "natural repellent\nkeeps midges off\n\nlemon smell bottle\nby the back door",
       "title" : "Citronella",
       "uuid" : "4229F6E9-C42D-40E6-98F6-ECFB9ADBC5AC"
     },
