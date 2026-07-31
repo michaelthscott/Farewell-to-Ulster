@@ -3017,11 +3017,11 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0182",
       "scratchpad" : "white frosted grass\nand hard mud\ncross lit fields in winter\n\nwish i was home\nby the radiator\n\nbagsy the radiator",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "7CA50585-8727-4BBD-BEF4-936ADADE9402"
       ],
-      "text" : "white frosted grass\nrock hard mud\nslant lit fields in winter\n\nwish I was home\nby the radiator",
+      "text" : "white frosted grass\nrock hard mud\nslant lit fields in winter\n\nwish I was home\nwith my friend \nthe radiator",
       "title" : "Cold",
       "uuid" : "AAF6DFD1-0791-44C0-ADF0-33D92AD09B12"
     },
@@ -11548,11 +11548,11 @@
       "category" : "narrative",
       "eraUUID" : "7F184646-54B0-4D5A-ACC1-7150517DCFD0",
       "fileOrder" : "0864",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EECAB2E4-D977-4D06-84F1-E233C4B34013"
       ],
-      "text" : "young folks doze\nclip clops knows home\nskirts the shore of\nInnisfree",
+      "text" : "young folks doze\nclip clops knows home\nskirts the shore of Innisfree",
       "title" : "Pony cart",
       "uuid" : "22913026-8F6F-42E0-84EC-0F45CAA46E2A"
     },
