@@ -11548,11 +11548,11 @@
       "category" : "narrative",
       "eraUUID" : "7F184646-54B0-4D5A-ACC1-7150517DCFD0",
       "fileOrder" : "0864",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EECAB2E4-D977-4D06-84F1-E233C4B34013"
       ],
-      "text" : "young folks doze\nclip clops knows home\nskirts the shore of\nInnisfree",
+      "text" : "young folks doze\nclip clops knows home\nskirts the shore of Innisfree",
       "title" : "Pony cart",
       "uuid" : "22913026-8F6F-42E0-84EC-0F45CAA46E2A"
     },
