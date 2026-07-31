@@ -20,8 +20,7 @@ struct BookTab: View {
     @State private var document: Document?
     @State private var contentType: UTType = .pdf
     @State private var defaultFileName: String = "Untitled"
-    @State private var isCommittingJSON: Bool = false
-    @State private var isCommittingMarkdown: Bool = false
+    @State private var isCommittingUpdate: Bool = false
 
     var body: some View {
         @Bindable var navigation = navigation
@@ -75,21 +74,12 @@ struct BookTab: View {
                     Menu {
                         Button(action: {
                             Task {
-                                isCommittingJSON = true
-                                await commitJSON()
-                                isCommittingJSON = false
+                                isCommittingUpdate = true
+                                await commitUpdate()
+                                isCommittingUpdate = false
                             }
                         }) {
-                            Label("Commit JSON", systemImage: "square.and.arrow.down")
-                        }
-                        Button(action: {
-                            Task {
-                                isCommittingMarkdown = true
-                                await commitMarkdown()
-                                isCommittingMarkdown = false
-                            }
-                        }) {
-                            Label("Commit Markdown", systemImage: "square.and.arrow.down")
+                            Label("Commit update", systemImage: "square.and.arrow.down")
                         }
                         Button(action: {
                             Task {
@@ -104,17 +94,9 @@ struct BookTab: View {
                 }
             }
             .overlay {
-                if isCommittingJSON {
+                if isCommittingUpdate {
                     Color.black.opacity(0.3).ignoresSafeArea()
-                    ProgressView("Committing JSON …")
-                        .padding(24)
-                        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
-                }
-            }
-            .overlay {
-                if isCommittingMarkdown {
-                    Color.black.opacity(0.3).ignoresSafeArea()
-                    ProgressView("Committing Markdown …")
+                    ProgressView("Committing update …")
                         .padding(24)
                         .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
                 }
@@ -160,37 +142,27 @@ struct BookTab: View {
         
         return pages
     }
-
-    private func commitJSON() async {
+    
+    private func commitUpdate() async {
         guard let jsonFile = JSONFile(modelContext: modelContext) else {
             print("Failed to get JSON file")
             return
         }
 
-        let document = jsonFile.document
-        
-        do {
-            let data = try document.snapshot(contentType: jsonFile.contentType)
-            let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
-            do {
-                let localFile = LocalFile(path: "Editor/FarewellToUlster/FarewellToUlster/Assets.xcassets/Farewell-to-Ulster.dataset/Farewell-to-Ulster.json", content: data)
-                _ = try await client.batchCommit(files: [localFile], message: "JSON update from Editor")
-            } catch {
-                print("JSON update failed: \(error.localizedDescription)")
-            }
-        } catch  {
-            print("Commit failed: \(error.localizedDescription)")
-            return
-        }
-    }
-    
-    private func commitMarkdown() async {
         guard let eras = try? modelContext.fetch(FetchDescriptor<Era>()) else {
+            print("Failed to get eras")
             return
         }
 
+        guard let data = try? jsonFile.document.snapshot(contentType: jsonFile.contentType) else {
+            return
+        }
+        
+        let localFile = LocalFile(path: "Editor/FarewellToUlster/FarewellToUlster/Assets.xcassets/Farewell-to-Ulster.dataset/Farewell-to-Ulster.json",
+                                  content: data)
+        
+        var localFiles: [LocalFile] = [localFile]
         var eraNumber: Int = 1
-        var localFiles: [LocalFile] = []
 
         for era in eras.sorted() {
             let mdEra = MDEra(number: eraNumber, title: era.title, text: era.text)
@@ -206,9 +178,9 @@ struct BookTab: View {
         }
         let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
         do {
-            _ = try await client.batchCommit(files: localFiles, message: "Markdown update from Editor")
+            _ = try await client.batchCommit(files: localFiles, message: "Update from Editor")
         } catch {
-            print("Markdown update failed: \(error.localizedDescription)")
+            print("Update failed: \(error.localizedDescription)")
         }
     }
     
