@@ -9,6 +9,7 @@ import Foundation
 
 /// Initialised with an array of indexes which indicate which positions in the vector are significant. 
 struct SortVector {
+    // These need to be in ascending order so that the < will work.
     let sortIndexes: [Int]
 }
 

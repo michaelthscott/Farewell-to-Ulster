@@ -57,13 +57,16 @@ nonisolated final class Poem: Titled, FileOrdered, SortOrderable {
         return events.sorted()
     }
     
+    // These are sorted by name.
     var sortedSubjects: [Subject] {
         guard let subjects else { return [] }
         return subjects.sorted()
     }
     
     var sortVector: SortVector {
-        SortVector(sortIndexes: sortedSubjects.map((\.sortIndex)))
+        guard let subjects else { return SortVector(sortIndexes: []) }
+        // The sortindexes need to be sorted in ascending order so that the SortVector < will work.
+        return SortVector(sortIndexes: subjects.map(\.sortIndex).sorted(by: <))
     }
 }
 
