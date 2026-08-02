@@ -791,11 +791,11 @@
       "category" : "ironic",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0014",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "56A2CE97-A6A1-45AF-A85F-7A2D46504AB9"
       ],
-      "text" : "Chris is driving\nwith his friends\ni'm in the back\n\nsomehow congratulated on my\nsense of humour\n\nthat strategy naturally worked",
+      "text" : "Chris is driving\nwith his friends\ni'm in the back\n\nsomehow \ncongratulated \non my sense of humour\n\nthat strategy naturally worked",
       "title" : "Command",
       "uuid" : "C75A0061-C996-4226-B7F9-5A92D4FA14F9"
     },
@@ -1983,11 +1983,11 @@
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0103",
       "scratchpad" : "she's tall and she's pretty\nmarried as a sister would be\n\nand the pavement joins us in two",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D1A854F1-CF5A-437A-956B-9367580C7F74"
       ],
-      "text" : "tall patient quiet\nlong dark hair\nmarried\n\nwalking side by side\npatient with me talking\npavement joins us into two\n\nRupert Stanley to the junction \nof the Malone and Lisburn Road \n\ntwo tall gentle walkers before parting\nwith what was never said or was it\n\ngave it that almost special flavour",
+      "text" : "tall placid quiet\nlong dark hair\nmarried\n\nwalking side by side\npatient with my talking\npavement decides us two\n\nRupert Stanley to Y junction \nof Malone and Lisburn roads \n\ngentle pair of walkers parting\nwith what never said or was it",
       "title" : "Companion",
       "uuid" : "13765889-9F50-47E5-AE5E-DDF0C59E54B8"
     },
@@ -8681,11 +8681,11 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0625",
       "scratchpad" : "second highest in the Mournes",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "FD27B4E1-20DF-4086-B49A-B2A28CCF9AB3"
       ],
-      "text" : "we're almost at the top\nbut the top is receding\n\nalmost there almost there\nwe’re laughing \n\nhow can a mountain top \nretreat\n\n",
+      "text" : "we're almost at the top\nbut the top is receding\n\nalmost there almost there\nwe’re laughing \n\nhow can a mountain \nretreat\n\n",
       "title" : "Commedagh",
       "uuid" : "0F1888C6-AE7F-410B-ACC6-F12F5D22526A"
     },
@@ -9541,11 +9541,11 @@
       "category" : "complaint",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0696",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1291394B-42B9-4035-9CE4-3B99CEE779C4"
       ],
-      "text" : "first Sunday of every month\nMummy goes to Communion\n\nspecial early thing at church\nbody and blood of Christ\n\nhow does Mummy actually \nbelieve in God",
+      "text" : "first Sunday of every month\nMummy goes to Communion\n\nspecial early thing at church\nfor body and blood of Christ\n\nhow can Mummy actually \nbelieve in God",
       "title" : "Communion",
       "uuid" : "4EC0A4D7-9D9E-4916-A954-3A6B93C0BC2B"
     },
