@@ -14,7 +14,7 @@ struct PoemPair {
     
     let poem1: Poem
     let poem2: Poem
-    let similarity: Double
+    let similarity: Float
 }
 
 extension PoemPair: Identifiable {
@@ -25,7 +25,7 @@ extension PoemPair: Identifiable {
 
 extension PoemPair: Comparable {
     static func < (lhs: PoemPair, rhs: PoemPair) -> Bool {
-        lhs.similarity < rhs.similarity
+        lhs.similarity > rhs.similarity
     }
 }
 

@@ -7,77 +7,112 @@
 
 import Foundation
 import NaturalLanguage
+import Accelerate
 
 protocol PoemSimilarityProtocol {
     static var sentenceEmbedding: NLEmbedding? { get }
-    var threshold: Double { get }
-    func similarity(_ poem1: Poem, _ poem2: Poem) -> Double
-    func similarPair(_ poem1: Poem, _ poem2: Poem) -> PoemPair?
+    var threshold: Float { get }
     func similarPoemPairs(poems: [Poem]) -> [PoemPair]
 }
 
 class PoemSimilarity: PoemSimilarityProtocol {
+    struct PoemEmbedding {
+        let poem: Poem
+        let vector: [Float]
+    }
+
     static let sentenceEmbedding = NLEmbedding.sentenceEmbedding(for: .english)
-    var threshold: Double = 0.0
-    private var similarityCache: [String: Double]
+    var threshold: Float
     
-    init(threshold: Double = 0.0) {
+    init(threshold: Float = 0.0) {
         self.threshold = threshold
-        self.similarityCache = [:]
     }
-    
-    func similarity(_ poem1: Poem, _ poem2: Poem) -> Double {
-        let key = PoemPair.pairIdentifier(poem1, poem2)
-        if let cached = similarityCache[key] { return cached }
-        guard let sentenceEmbedding = Self.sentenceEmbedding,
-              let vector1 = sentenceEmbedding.vector(for: poem1.text),
-              let vector2 = sentenceEmbedding.vector(for: poem2.text) else { return 0.0 }
-        let similarity = cosineSimilarity(a: vector1, b: vector2)
-        similarityCache[key] = similarity
-        return similarity
-    }
-    
-    func similarPair(_ poem1: Poem, _ poem2: Poem) -> PoemPair? {
-        let similarity = similarity(poem1, poem2)
-        if similarity < threshold { return nil }
-        return PoemPair(poem1: poem1, poem2: poem2, similarity: similarity)
-    }
-    
-    func similarPoemPairs(poems: [Poem]) -> [PoemPair] {
-        var pairs: [PoemPair] = []
         
-        for i in poems.indices {
-            for j in (i + 1)..<poems.count {
-                guard let pair = similarPair(poems[i], poems[j]) else { continue }
-                pairs.append(pair)
+    func similarPoemPairs(poems: [Poem]) -> [PoemPair] {
+        guard let embedding = Self.sentenceEmbedding else { return [] }
+        var embeddings: [PoemEmbedding] = []
+        embeddings.reserveCapacity(poems.count)
+        
+        // Embed each poem once, normalizing so cosine similarity reduces to a dot product later.
+        for poem in poems {
+            guard let vec = embedding.vector(for: poem.text) else { continue }
+            var floatVec = vec.map { Float($0) }
+
+            // Normalize each embedding to unit length so that later, cosine similarity
+            // between any two poems reduces to a plain dot product.
+            //
+            // cosine(A, B) = (A · B) / (‖A‖ × ‖B‖)
+            //
+            // If ‖A‖ = ‖B‖ = 1, the denominator becomes 1 and this simplifies to:
+            //
+            // cosine(A, B) = A · B
+            //
+            // That's what lets the pairwise comparison later become a single matrix
+            // multiply (vDSP_mmul only computes raw dot products) — normalizing once
+            // per poem here avoids having to divide by magnitudes on every one of the
+            // ~n²/2 pairwise comparisons.
+            var norm: Float = 0
+            vDSP_svesq(floatVec, 1, &norm, vDSP_Length(floatVec.count))
+            norm = sqrt(norm)
+            if norm > 0 {
+                var divisor = norm
+                vDSP_vsdiv(floatVec, 1, &divisor, &floatVec, 1, vDSP_Length(floatVec.count))
             }
+
+            embeddings.append(PoemEmbedding(poem: poem, vector: floatVec))
         }
 
-        return pairs.sorted()
-    }
+        let n = embeddings.count
+        let dim = embeddings[0].vector.count
+        
+        // Flatten into a single row-major [n x dim] buffer —
+        // vDSP/BLAS-style routines operate on flat contiguous memory, not arrays of arrays.
+        var flat = [Float](repeating: 0, count: n * dim)
+        for (i, e) in embeddings.enumerated() {
+            flat.replaceSubrange(i * dim ..< (i + 1) * dim, with: e.vector)
+        }
 
-    /// Dot Product
-    private func dot(_ a: [Double], _ b: [Double]) -> Double {
-        assert(a.count == b.count, "Vectors must have the same dimension")
-        let result = zip(a, b)
-            .map { $0 * $1 }
-            .reduce(0, +)
-
-        return result
-    }
-
-    /// Magnitude
-    private func mag(_ vector: [Double]) -> Double {
-        // Magnitude of the vector is the square root of the dot product of the vector with itself.
-        return sqrt(dot(vector, vector))
-    }
-
-    /// Returns the similarity between two vectors
-    ///
-    /// - Parameters:
-    ///     - a: The first vector
-    ///     - b: The second vector
-    public func cosineSimilarity(a: [Double], b: [Double]) -> Double {
-        return dot(a, b) / (mag(a) * mag(b))
+        // Compute every pairwise similarity at once: flat (n x dim) × flatᵀ (dim x n) → n x n.
+        // vDSP_mmul expects the second operand pre-transposed in memory (no transpose
+        // flag like BLAS has), so build that [dim x n] transpose of flat first.
+        var flatTransposed = [Float](repeating: 0, count: n * dim)
+        flat.withUnsafeBufferPointer { src in
+            flatTransposed.withUnsafeMutableBufferPointer { dst in
+                vDSP_mtrans(src.baseAddress!, 1, dst.baseAddress!, 1, vDSP_Length(dim), vDSP_Length(n))
+            }
+        }
+        
+        // Single matrix multiply computes every pairwise similarity at once —
+        // matrix[i * n + j] is the cosine similarity between poem i and poem j.
+        var matrix: [Float] = [Float](repeating: 0, count: n * n)
+        flat.withUnsafeBufferPointer { a in
+            flatTransposed.withUnsafeBufferPointer { b in
+                matrix.withUnsafeMutableBufferPointer { c in
+                    vDSP_mmul(
+                        a.baseAddress!, 1,
+                        b.baseAddress!, 1,
+                        c.baseAddress!, 1,
+                        vDSP_Length(n), vDSP_Length(n), vDSP_Length(dim)
+                    )
+                }
+            }
+        }
+        
+        var candidates: [PoemPair] = []
+        // Only scan the upper triangle (i < j) — matrix is symmetric, diagonal is self-similarity == 1
+        for i in 0..<n {
+            for j in (i + 1)..<n {
+                let sim = matrix[i * n + j]
+                if sim >= threshold {
+                    candidates.append(PoemPair(
+                        poem1: embeddings[i].poem,
+                        poem2: embeddings[j].poem,
+                        similarity: sim
+                    ))
+                }
+            }
+        }
+        
+        return candidates.sorted { $0.similarity > $1.similarity }
     }
 }

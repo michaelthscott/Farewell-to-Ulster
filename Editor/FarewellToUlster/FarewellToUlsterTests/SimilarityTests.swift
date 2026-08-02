@@ -11,14 +11,30 @@ import SwiftData
 
 struct SimilarityTests {
 
-    @Test func testFindSimilarPoemPairs() async throws {
+    @Test func testFindSimilarPoemPairsZeroThreshold() async throws {
         let storage = try #require(Storage.testStorage(with: "SmallBook"))
         let found = PoemSimilarity(threshold: 0.0).similarPoemPairs(poems: storage.poems.sorted())
-        #expect(found.count > 0)
-        #expect(found.first?.poem1.title == "Rosemary")
-        #expect(found.first?.poem2.title == "Sleeping leaves")
-        #expect(found.last?.poem1.title == "Azure twinkles")
-        #expect(found.last?.poem2.title == "Twilight")
+        #expect(found.count == 15)
+        #expect(found.first?.poem1.title == "Azure twinkles")
+        #expect(found.first?.poem2.title == "Twilight")
+        #expect(found.last?.poem1.title == "Rosemary")
+        #expect(found.last?.poem2.title == "Sleeping leaves")
+    }
+    
+    @Test func testFindSimilarPoemPairsMediumThreshold() async throws {
+        let storage = try #require(Storage.testStorage(with: "SmallBook"))
+        let found = PoemSimilarity(threshold: 0.5).similarPoemPairs(poems: storage.poems.sorted())
+        #expect(found.count == 2)
+        #expect(found.first?.poem1.title == "Azure twinkles")
+        #expect(found.first?.poem2.title == "Twilight")
+        #expect(found.last?.poem1.title == "Custard cake")
+        #expect(found.last?.poem2.title == "Sleeping leaves")
+    }
+
+    @Test func testFindSimilarPoemPairsHighThreshold() async throws {
+        let storage = try #require(Storage.testStorage(with: "SmallBook"))
+        let found = PoemSimilarity(threshold: 0.8).similarPoemPairs(poems: storage.poems.sorted())
+        #expect(found.count == 0)
     }
 
 }
