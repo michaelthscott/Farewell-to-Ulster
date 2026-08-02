@@ -35,11 +35,10 @@ struct SortingTests {
             MockPoem(id: 6, sortVector: SortVector(sortIndexes: [subjects[0], subjects[1], subjects[2]].map(\.sortIndex))),
             MockPoem(id: 7, sortVector: SortVector(sortIndexes: [subjects[0], subjects[1]].map(\.sortIndex))),
             MockPoem(id: 8, sortVector: SortVector(sortIndexes: [subjects[0]].map(\.sortIndex)))
-        ].shuffled()
-        
-        let sortedPoems = poems.vectorSorted()
-        // TODO: Is this what we want when sorting poems by their associated subjects?
-        #expect(sortedPoems.map(\.sortVector.string) == ["", "001", "01", "011", "1", "101", "11", "111"])
+        ]
+        let sortedPoems = poems.shuffled().vectorSorted()
+        #expect(sortedPoems.map(\.id) == [1, 2, 4, 3, 8, 5, 7, 6])
+        #expect(sortedPoems.map(\.sortVector.sortIndexes) == [[], [2], [1], [1, 2], [0], [0, 2], [0, 1], [0, 1, 2]])
     }
 
 }

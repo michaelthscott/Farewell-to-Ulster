@@ -10,24 +10,6 @@ import Foundation
 /// Initialised with an array of indexes which indicate which positions in the vector are significant. 
 struct SortVector {
     let sortIndexes: [Int]
-        
-    var string: String {
-        guard let maxSortIndex = sortIndexes.max() else {
-            return ""
-        }
-        let length = maxSortIndex + 1
-        var array: [String] = Array(repeating: "0", count: length)
-        for sortIndex in sortIndexes {
-            // TODO: For now just avoid any out of bounds error.
-            if sortIndex < length {
-                array[sortIndex] = "1"
-            } else {
-                // TODO: Maybe throw an error.
-                print("Sort index out of bounds: \(sortIndex)")
-            }
-        }
-        return array.joined()
-    }
 }
 
 extension SortVector: Comparable {
@@ -36,6 +18,21 @@ extension SortVector: Comparable {
     }
     
     static func < (lhs: SortVector, rhs: SortVector) -> Bool {
-        lhs.string < rhs.string
+        let l = lhs.sortIndexes
+        let r = rhs.sortIndexes
+        var i = 0, j = 0
+        // Walk both sorted index lists together. Since a smaller index means a
+        // higher-priority subject, the first list whose next subject index is
+        // smaller is the one that "wins" — it has a higher-priority subject that
+        // the other side doesn't have at this point. If the next indices match,
+        // both sides share that subject, so move on and compare the next ones.
+        while i < l.count && j < r.count {
+            if l[i] == r[j] {
+                i += 1; j += 1
+            } else {
+                return l[i] > r[j]
+            }
+        }
+        return l.count < r.count
     }
 }
