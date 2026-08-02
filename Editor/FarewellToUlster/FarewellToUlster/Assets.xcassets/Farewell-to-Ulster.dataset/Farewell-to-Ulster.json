@@ -5326,12 +5326,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0360",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "the chinese bells\n\nthree\ndark painted\nhalf spheres\n\nrehung\n\non a coloured woven cord",
-      "title" : "Collecting things",
+      "text" : "three\ndark painted\nhalf spheres\n\nstack inside \neach other\n\nrehung\n\non a coloured woven cord",
+      "title" : "the chinese bells",
       "uuid" : "48CBF82C-EFD7-4F87-9C7C-45C40FA26AA9"
     },
     {
@@ -7200,11 +7200,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0508",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F4EEE959-EC1D-4839-95DE-574EB410524F"
       ],
-      "text" : "cheap things\nnot made to last \npoor quality paper\nread them fast\n\nEagle yes\nBeano Dandy no\n\nblack and white colour world\nspeech bubble strips\n\nlater to graduate to Marvel’s real tales\nbut already surpassed",
+      "text" : "cheap things\nnot made to last \npoor quality paper\nread them fast\n\nget Eagle yes every week\nDan Dare against The Mekon\nbut no Beano no Beano no\nnot Dandy either \n\nblack and white colour world\nscan speech bubble strips\n\nlater to dabble in\nMarvel's real tales\nalready surpassed",
       "title" : "Comics",
       "uuid" : "6056ABC9-B8CC-4B51-8314-96051354F9FA"
     },
@@ -7525,7 +7525,7 @@
       "category" : "lyric",
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0534",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "13613B9B-E678-491E-95E3-761B9585EF44",
         "F4EEE959-EC1D-4839-95DE-574EB410524F"
@@ -9601,11 +9601,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0701",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42"
       ],
-      "text" : "big light blue comb you know\nin mummy's drawer",
+      "text" : "big light blue comb you know\nkept in mummy's drawer\nbest for our long hair ",
       "title" : "Comb",
       "uuid" : "B058DE79-F2AC-439C-944D-1003E799B044"
     },
