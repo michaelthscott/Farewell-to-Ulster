@@ -3216,11 +3216,11 @@
         "0BBF5BDE-2F4E-4B88-ADFA-0D1532CCEA40"
       ],
       "fileOrder" : "0197",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
-      "text" : "square red book\nsix years in white\ndematerialization of the art object\n\nideas events recorded\ndetailed documentation\nphotographs\npale black and white\nLucy Lippard\n1973\nthe context the manner\n\nleaving behind\na sculpture\n\nline of sticks and\ntorn grass\n\nwalking back later\nwith Heather\nto find it",
+      "text" : "square red book\nsix years in white\ndematerialization of the art object\n\nideas events recorded\ndetailed documentation\nphotographs\npale black and white\n\n1973\nLucy Lippard\nthe context the manner\n\nleaving behind\nit's a sculpture\n\nline of sticks and\ntorn grass\n\nwalking back later\nwith Heather\nto find it",
       "title" : "Conceptual Art",
       "uuid" : "660AA5FC-80FF-4B0E-A510-847248CF9B43"
     },
@@ -6950,11 +6950,11 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0488",
       "scratchpad" : "carefree run\nthrough the earth's shadows",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "where are you going\nneeds no excuse\nwhen you're emptying\nthe bucket that's under the sink\n\nit's a way to run through\nthe garden at night\ndown to the compost heap",
+      "text" : "where you going\nneeds no excuse\nwhen you're emptying\nthe bucket that's under the sink\n\nmy way to run through\nthe garden at night\ndown to the compost heap",
       "title" : "Compost",
       "uuid" : "D09234DC-FDF2-443C-9D6C-D5C1B6A1CDEA"
     },
@@ -7575,7 +7575,7 @@
       "category" : "descriptive",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0538",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "876C0503-2522-4DE9-97AB-A98F9660FA0D"
       ],
@@ -10591,11 +10591,11 @@
       "category" : "narrative",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0784",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42"
       ],
-      "text" : "she said he said\nI’d become \na Craig’s wife\n\nwhat's a Craig's wife\nI asked and she told me\nhe said she had become dull",
+      "text" : "he said\nI’d become \na Craig’s wife\n\nwhat's a Craig's wife\nI asked and she told me\nhe said she had become dull",
       "title" : "Complaint",
       "uuid" : "CE22892D-AB7E-4154-AE06-7349163BE176"
     },
