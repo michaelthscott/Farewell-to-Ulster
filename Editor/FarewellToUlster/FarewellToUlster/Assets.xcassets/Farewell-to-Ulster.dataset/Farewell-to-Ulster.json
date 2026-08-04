@@ -6772,11 +6772,11 @@
       "category" : "complaint",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0473",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "93DCA9D5-7457-4348-B1BD-A88E9AC4D5B7"
       ],
-      "text" : "hunter trapper\nred indian canoe\nhot pitch poured over linen\n\nmade up my curragh model\nupturned cutting beak prow\nhand pairs of razor slim oars\n\na coracle would just go\nround and round and \nI'd get nowhere\n\n\n\n",
+      "text" : "hunter trapper\nred indian canoe\npitch poured over linen\n\nmade up my curragh model\nupturned cutting wave prow\nrowlocks peg long slim oars\n\na coracle would just go\nround and round and \nI'd get nowhere\n\n\n\n",
       "title" : "Coracle",
       "uuid" : "45303437-4BAA-4496-AC72-4FEF65C49281"
     },
@@ -11020,11 +11020,11 @@
         "B25C3E23-327C-4B6B-A9D2-75D2E8DDC1B9"
       ],
       "fileOrder" : "0820",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "014473A3-C8A4-46D3-967C-9F0B79C03707"
       ],
-      "text" : "pet elephant \ncocky uniform\nsparkles chuckes smiles\ncheeky boy can be the star",
+      "text" : "pet elephant cocky uniform\nsparkles chuckles he smiles\ncheeky boy can be the star",
       "title" : "Corky",
       "uuid" : "69F56C74-8EB7-4A3A-8A54-AD1134FCF837"
     },
@@ -11059,12 +11059,12 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0824",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "Daddy fights big drips\nabsorbent strips\neach windowsill\n\nnever win \n\ndrips seep between \nglass and putty \nwood rots",
+      "text" : "Daddy fights big drips\nabsorbent strips on\neach windowsill\n\nnever wins\n\ndrips seep between \nglass and putty \nwood rots",
       "title" : "Condensation",
       "uuid" : "F8582EBB-8589-45D8-AB6B-F91D749F62C6"
     },
@@ -11695,7 +11695,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0876",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "9924A588-F82D-4241-87C0-2435F61CD7FB",
         "C37628AB-D572-4377-97C5-919D4D584C96"
