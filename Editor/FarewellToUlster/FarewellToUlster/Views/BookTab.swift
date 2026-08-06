@@ -23,124 +23,47 @@ struct BookTab: View {
     @State private var isCommittingUpdate: Bool = false
 
     var body: some View {
-        @Bindable var navigation = navigation
-        NavigationStack {
-            TabView(selection: $navigation.pageSelection) {
-                ForEach(pages) { page in
-                    switch page.type {
-                    case .book(let book):
-                        PageView {
-                            VStack(alignment: .center) {
-                                Text(book.title)
-                                    .font(.largeTitle)
-                                    .padding([.bottom], 2)
-                                Text(book.author)
-                                    .font(.body)
-                            }
+        BookView()
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Menu {
+                    Button(action: {
+                        Task {
+                            isCommittingUpdate = true
+                            await commitUpdate()
+                            isCommittingUpdate = false
                         }
-                    case .era(let book, let era):
-                        PageView(header: book.title, footer: "\(page.number)") {
-                            VStack(alignment: .center) {
-                                Text(era.title)
-                                    .font(.title)
-                                    .padding([.bottom], 4)
-                                Text(era.text)
-                                    .font(.body).italic()
-                            }
-                        }
-                    case .poem(let book, let era, let poem):
-                        PageView(header: "\(book.title): \(era.title)", footer: "\(page.number)") {
-                            VStack(alignment: .leading) {
-                                Text(poem.title)
-                                    .font(.title2)
-                                    .padding([.bottom], 6)
-                                Text(poem.text)
-                                    .font(.body)
-                            }
-                        }
-                        .onTapGesture {
-                            navigation.selectedTab = .poems
-                            navigation.poemsPath.append(Path.poem(poem))
-                        }
-                    case .empty:
-                        Text("No book")
+                    }) {
+                        Label("Commit update", systemImage: "square.and.arrow.down")
                     }
-                }
-                .padding()
-            }
-            .tabViewStyle(.page)
-            .toolbar {
-                ToolbarItem(placement: .primaryAction) {
-                    Menu {
-                        Button(action: {
-                            Task {
-                                isCommittingUpdate = true
-                                await commitUpdate()
-                                isCommittingUpdate = false
-                            }
-                        }) {
-                            Label("Commit update", systemImage: "square.and.arrow.down")
+                    Button(action: {
+                        Task {
+                            await exportPDF()
                         }
-                        Button(action: {
-                            Task {
-                                await exportPDF()
-                            }
-                        }) {
-                            Label("Export PDF", systemImage: "square.and.arrow.up")
-                        }
-                    } label: {
-                        Label("Export", systemImage: "ellipsis.circle")
+                    }) {
+                        Label("Export PDF", systemImage: "square.and.arrow.up")
                     }
-                }
-            }
-            .overlay {
-                if isCommittingUpdate {
-                    Color.black.opacity(0.3).ignoresSafeArea()
-                    ProgressView("Committing update …")
-                        .padding(24)
-                        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
-                }
-            }
-            .fileExporter(isPresented: $showExporter, document: document, contentType: contentType, defaultFilename: defaultFileName) { result in
-                switch result {
-                case .success(let url):
-                    print("Saved to \(url)")
-                case .failure(let error):
-                    print(error.localizedDescription)
+                } label: {
+                    Label("Export", systemImage: "ellipsis.circle")
                 }
             }
         }
-    }
-    
-    var pages: [Page] {
-        var pages: [Page] = []
-        guard let books = try? modelContext.fetch(FetchDescriptor<Book>()),
-              let book = books.first,
-              let eras = try? modelContext.fetch(FetchDescriptor<Era>()) else {
-            return pages
-        }
-        var pageNumber: Int = 0
-        var selectedEras: [Era] = []
-        
-        if let selectedEra = navigation.selectedEra {
-            selectedEras.append(selectedEra)
-        } else {
-            pageNumber += 1
-            pages.append(Page(type: .book(book), number: pageNumber))
-            selectedEras = eras.sorted()
-        }
-        
-        for era in selectedEras {
-            pageNumber += 1
-            pages.append(Page(type: .era(book, era), number: pageNumber))
-            guard let poems = era.poems else { continue }
-            for poem in poems.vectorSorted() {
-                pageNumber += 1
-                pages.append(Page(type: .poem(book, era, poem), number: pageNumber))
+        .overlay {
+            if isCommittingUpdate {
+                Color.black.opacity(0.3).ignoresSafeArea()
+                ProgressView("Committing update …")
+                    .padding(24)
+                    .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
             }
         }
-        
-        return pages
+        .fileExporter(isPresented: $showExporter, document: document, contentType: contentType, defaultFilename: defaultFileName) { result in
+            switch result {
+            case .success(let url):
+                print("Saved to \(url)")
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
     }
     
     private func commitUpdate() async {
@@ -196,6 +119,39 @@ struct BookTab: View {
         defaultFileName = book.title.replacingOccurrences(of: " ", with: "-") + ".pdf"
         showExporter = true
     }
+    
+    // TODO: This has been moved to BookView but is still used here to create the PDF.
+    var pages: [Page] {
+        var pages: [Page] = []
+        guard let books = try? modelContext.fetch(FetchDescriptor<Book>()),
+              let book = books.first,
+              let eras = try? modelContext.fetch(FetchDescriptor<Era>()) else {
+            return pages
+        }
+        var pageNumber: Int = 0
+        var selectedEras: [Era] = []
+        
+        if let selectedEra = navigation.selectedEra {
+            selectedEras.append(selectedEra)
+        } else {
+            pageNumber += 1
+            pages.append(Page(type: .book(book), number: pageNumber))
+            selectedEras = eras.sorted()
+        }
+        
+        for era in selectedEras {
+            pageNumber += 1
+            pages.append(Page(type: .era(book, era), number: pageNumber))
+            guard let poems = era.poems else { continue }
+            for poem in poems.vectorSorted() {
+                pageNumber += 1
+                pages.append(Page(type: .poem(book, era, poem), number: pageNumber))
+            }
+        }
+        
+        return pages
+    }
+
 }
 
 #Preview {
