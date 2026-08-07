@@ -2172,11 +2172,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0117",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5FA026D7-1400-439A-AEC0-242DFF0EC504"
       ],
-      "text" : "Timothy's on up ahead\nBarry as usual is last\n\ni'm the one in the middle\nneither too slow nor too fast",
+      "text" : "Timothy is on up ahead\nBarry as usual comes last\n\nI'm the one in the middle\nneither too slow or too fast",
       "title" : "Cycling",
       "uuid" : "C800944E-E994-4286-AAD3-8A61C7C09BB7"
     },
@@ -4904,11 +4904,11 @@
         "B4BA8355-B5E6-4370-B4FD-163169935321"
       ],
       "fileOrder" : "0326",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A41D626A-E773-4522-BA45-D920821234A2"
       ],
-      "text" : "Heysham to Hull\n\ncycling 60 miles in a day\n\nrealising I'm red\nin the campsite mirror\nonly the right side of my face\n\nHull Rotterdam\n\na bunch of us\ntrying to find our way\nout of the dock\n\nDutchman\nlong black hair\nhot damn he said\nin an American accent\n\nAmsterdam\n\ntunnel under the river\n\ncampsite night\nguitar strumming\nHouse of the Rising Sun\n\nStedelijk\n\noh my god\n\nAmerican shouts\nentering the room\nwith the Sunflowers\n\nArnhem\n\nGauguins from Moscow\nin the Kroller Muller\n\nsandunes\n\nstreet corner\nYaqui sorcerrer\nswivel paperpack stand\n\nLiege\n\nhalfway up the huge hill\nstop in the bar\norder Stella\n\nguided into Brussels\nand deposited in a back garder\nby two anonymous boys on bicycles\n\nstanding in Paris\nby a fountain\n\nthis priest comes up to me\nstarts talking in French\nsays he thought I\nmust be\nFrench\n\nI’m in a campsite\nout in\nRobinson\n\nthe long empty platform\nin and out\nlooking from the train\nwalking around\nthose suburbs of\nImpressionists\n\nthe day I went to Versailles\nsort of lost\nwalking along the edge\nof the dual carriageway\n\nsmall insignificant speck\ncan drift anywhere",
+      "text" : "Heysham to Hull\ncycle sixty miles\nrealising I'm red in \nthe campsite mirror\nwhole side of my face\n\nHull Rotterdam ferry\nbunch of us cyclists \ntrying to find our way \nout of the dock\n\nDutchman\nlong black hair\nexploded hot damn!\nin an American accent\n\nmake it to Amsterdam\ntunnel under the river\ncampsite night\nguitar strum\nthere is a\nhouse\n\nStedelijk\noh my god!\nAmerican shouts\nentering the room\nfull of Sunflowers\n\nKroller Muller amid sand dunes \nmany Gauguins from Moscow\nstreet corner Yaqui sorcerer\nin swivel paperpack stand\n\nsouth now towards Liege\nhalfway up a huge hill\nstopping in a bar\norder Stella\n\nguided into Brussels and\ndeposited in a back garden by\ntwo anonymous boys on bicycles\n\nstanding in Paris by a fountain\nthis priest comes up to me\nstarts talking in French\nsays he thought\nI must be\nFrench\n\nI’m in a campsite\nin out from Robinson\nthe long empty platform\nlook at Paris from the train\n\nalone walking around\nempty suburbs of\nImpressionists\n\nthe day I went to Versailles\nsort of lost along the edge\nof the dual carriageway\n\nsmall insignificant speck\ncan drift anywhere",
       "title" : "Cycle holiday",
       "uuid" : "1CF5560A-4600-4DAD-BC96-381ADDA848EC"
     },
@@ -8729,7 +8729,7 @@
       "category" : "ironic",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0629",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "7D78C4B9-0FC2-41A4-B0C7-E241A9170B72"
       ],
