@@ -15,6 +15,7 @@ import UniformTypeIdentifiers
 /// Display and edit the book title and author. Export the book as JSON and PDF.
 struct BookTab: View {
     @Environment(Navigation.self) private var navigation
+    @Environment(Storage.self) private var storage
     @Environment(\.modelContext) private var modelContext
     @State private var showExporter: Bool = false
     @State private var document: Document?
@@ -110,50 +111,14 @@ struct BookTab: View {
     }
     
     private func exportPDF() async {
-        guard let books = try? modelContext.fetch(FetchDescriptor<Book>()),
-              let book = books.first else {
-            return
-        }
+        guard let book = storage.book else { return }
         let renderer = PDFRenderer()
-        let data: Data = await renderer.render(pages: pages)
+        let data: Data = await renderer.render(pages: Pages(storage: storage).pages)
         document = Document(data: data)
         contentType = .pdf
         defaultFileName = book.title.replacingOccurrences(of: " ", with: "-") + ".pdf"
         showExporter = true
     }
-    
-    // TODO: This has been moved to BookView but is still used here to create the PDF.
-    var pages: [Page] {
-        var pages: [Page] = []
-        guard let books = try? modelContext.fetch(FetchDescriptor<Book>()),
-              let book = books.first,
-              let eras = try? modelContext.fetch(FetchDescriptor<Era>()) else {
-            return pages
-        }
-        var pageNumber: Int = 0
-        var selectedEras: [Era] = []
-        
-        if let selectedEra = navigation.selectedEra {
-            selectedEras.append(selectedEra)
-        } else {
-            pageNumber += 1
-            pages.append(Page(type: .book(book), number: pageNumber))
-            selectedEras = eras.sorted()
-        }
-        
-        for era in selectedEras {
-            pageNumber += 1
-            pages.append(Page(type: .era(book, era), number: pageNumber))
-            guard let poems = era.poems else { continue }
-            for poem in poems.vectorSorted() {
-                pageNumber += 1
-                pages.append(Page(type: .poem(book, era, poem), number: pageNumber))
-            }
-        }
-        
-        return pages
-    }
-
 }
 
 #Preview {
@@ -161,5 +126,6 @@ struct BookTab: View {
     @Previewable @State var previewer = Previewer()
     BookTab()
         .environment(navigation)
+        .environment(previewer.storage)
         .modelContainer(previewer.storage.container)
 }

@@ -10,7 +10,7 @@ import SwiftData
 
 struct BookView: View {
     @Environment(Navigation.self) private var navigation
-    @Environment(\.modelContext) private var modelContext
+    @Environment(Storage.self) private var storage
 
     var body: some View {
         @Bindable var navigation = navigation
@@ -61,34 +61,10 @@ struct BookView: View {
     }
     
     var pages: [Page] {
-        var pages: [Page] = []
-        guard let books = try? modelContext.fetch(FetchDescriptor<Book>()),
-              let book = books.first,
-              let eras = try? modelContext.fetch(FetchDescriptor<Era>()) else {
-            return pages
+        guard let era = navigation.selectedEra else {
+            return Pages(storage: storage).pages
         }
-        var pageNumber: Int = 0
-        var selectedEras: [Era] = []
-        
-        if let selectedEra = navigation.selectedEra {
-            selectedEras.append(selectedEra)
-        } else {
-            pageNumber += 1
-            pages.append(Page(type: .book(book), number: pageNumber))
-            selectedEras = eras.sorted()
-        }
-        
-        for era in selectedEras {
-            pageNumber += 1
-            pages.append(Page(type: .era(book, era), number: pageNumber))
-            guard let poems = era.poems else { continue }
-            for poem in poems.vectorSorted() {
-                pageNumber += 1
-                pages.append(Page(type: .poem(book, era, poem), number: pageNumber))
-            }
-        }
-        
-        return pages
+        return Pages(storage: storage).pages(for: era)
     }
 }
 
@@ -97,5 +73,6 @@ struct BookView: View {
     @Previewable @State var previewer = Previewer()
     BookView()
         .environment(navigation)
+        .environment(previewer.storage)
         .modelContainer(previewer.storage.container)
 }
