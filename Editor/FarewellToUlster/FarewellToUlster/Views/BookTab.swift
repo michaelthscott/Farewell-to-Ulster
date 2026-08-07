@@ -23,46 +23,48 @@ struct BookTab: View {
     @State private var isCommittingUpdate: Bool = false
 
     var body: some View {
-        BookView()
-        .toolbar {
-            ToolbarItem(placement: .primaryAction) {
-                Menu {
-                    Button(action: {
-                        Task {
-                            isCommittingUpdate = true
-                            await commitUpdate()
-                            isCommittingUpdate = false
+        NavigationStack {
+            BookView()
+                .toolbar {
+                    ToolbarItem(placement: .primaryAction) {
+                        Menu {
+                            Button(action: {
+                                Task {
+                                    isCommittingUpdate = true
+                                    await commitUpdate()
+                                    isCommittingUpdate = false
+                                }
+                            }) {
+                                Label("Commit update", systemImage: "square.and.arrow.down")
+                            }
+                            Button(action: {
+                                Task {
+                                    await exportPDF()
+                                }
+                            }) {
+                                Label("Export PDF", systemImage: "square.and.arrow.up")
+                            }
+                        } label: {
+                            Label("Export", systemImage: "ellipsis.circle")
                         }
-                    }) {
-                        Label("Commit update", systemImage: "square.and.arrow.down")
                     }
-                    Button(action: {
-                        Task {
-                            await exportPDF()
-                        }
-                    }) {
-                        Label("Export PDF", systemImage: "square.and.arrow.up")
-                    }
-                } label: {
-                    Label("Export", systemImage: "ellipsis.circle")
                 }
-            }
-        }
-        .overlay {
-            if isCommittingUpdate {
-                Color.black.opacity(0.3).ignoresSafeArea()
-                ProgressView("Committing update …")
-                    .padding(24)
-                    .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
-            }
-        }
-        .fileExporter(isPresented: $showExporter, document: document, contentType: contentType, defaultFilename: defaultFileName) { result in
-            switch result {
-            case .success(let url):
-                print("Saved to \(url)")
-            case .failure(let error):
-                print(error.localizedDescription)
-            }
+                .overlay {
+                    if isCommittingUpdate {
+                        Color.black.opacity(0.3).ignoresSafeArea()
+                        ProgressView("Committing update …")
+                            .padding(24)
+                            .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
+                    }
+                }
+                .fileExporter(isPresented: $showExporter, document: document, contentType: contentType, defaultFilename: defaultFileName) { result in
+                    switch result {
+                    case .success(let url):
+                        print("Saved to \(url)")
+                    case .failure(let error):
+                        print(error.localizedDescription)
+                    }
+                }
         }
     }
     
