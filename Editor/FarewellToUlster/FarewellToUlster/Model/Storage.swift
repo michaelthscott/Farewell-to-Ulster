@@ -15,7 +15,7 @@ enum StorageError: Error {
 }
 
 /// SwiftData storage that is initialised from JSON data.
-final class Storage {
+@Observable final class Storage {
     let container: ModelContainer
     
     init(isStoredInMemoryOnly: Bool = false, assetName: String = "Farewell-to-Ulster", bundle: Bundle = Bundle.main) throws {
@@ -48,7 +48,7 @@ final class Storage {
         
         let book = jsonBook.book
         container.mainContext.insert(book)
-
+        
         for jsonEra in jsonBook.eras {
             let era = jsonEra.era
             container.mainContext.insert(era)
@@ -102,5 +102,29 @@ final class Storage {
             }
             container.mainContext.insert(poem)
         }
+    }
+    
+    var subjects: [Subject] {
+        let descriptor = FetchDescriptor<Subject>()
+        guard let subjects = try? container.mainContext.fetch(descriptor) else { return [Subject]() }
+        return subjects.sorted()
+    }
+    
+    var eras: [Era] {
+        let descriptor = FetchDescriptor<Era>()
+        guard let eras = try? container.mainContext.fetch(descriptor) else { return [Era]() }
+        return eras.sorted()
+    }
+    
+    var poems: [Poem] {
+        let descriptor = FetchDescriptor<Poem>()
+        guard let poems = try? container.mainContext.fetch(descriptor) else { return [Poem]() }
+        return poems.sorted()
+    }
+    
+    var book: Book? {
+        let descriptor = FetchDescriptor<Book>()
+        let books = try? container.mainContext.fetch(descriptor)
+        return books?.first
     }
 }
