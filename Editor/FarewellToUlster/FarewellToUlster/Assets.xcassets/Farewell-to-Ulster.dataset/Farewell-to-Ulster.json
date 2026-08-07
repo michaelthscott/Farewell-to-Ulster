@@ -4085,11 +4085,11 @@
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0263",
       "scratchpad" : "feeding wagglers\nteasing tagglers\n",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42"
       ],
-      "text" : "mother marching boys along\nleading stragglers left right",
+      "text" : "mother marching boys along\nleading stragglers left n right",
       "title" : "Crocodile",
       "uuid" : "10A0D629-FC29-4153-883A-D7E99F849332"
     },
@@ -7239,11 +7239,11 @@
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0511",
       "scratchpad" : "huge blubbering puddles of tears\nand whining and crying\nchest heavin in huge shaking\nsighs\nwhys\nwhy me why can't i\ni don't want\nit hurts",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "52D99FE1-9CF4-4DBD-86F2-199EC85D9193"
       ],
-      "text" : "the tears\nthe real tears\nfalling between sobs",
+      "text" : "the tears\nthe real tears\ncrash between sobs",
       "title" : "Crying",
       "uuid" : "68C2B5D0-8B24-4AA9-9334-DF02A1DF2F14"
     },
@@ -7457,7 +7457,7 @@
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0529",
       "scratchpad" : "pull a leg off\npull a wing off",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "188EDF96-FA3A-461D-A705-CB3064D8E84E",
         "52D99FE1-9CF4-4DBD-86F2-199EC85D9193",
@@ -7471,13 +7471,13 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0530",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "3D152F18-8220-4347-BFC6-1D95C6BB59E7",
         "57CD1810-6E41-424B-9F18-1582FB8010FF"
       ],
-      "text" : "chrome tail cream maker\nwe pump saltless butter into milk\n\ngold foil President\nit's French saltless butter\nyou can only get it in Sawyers\ndown the side of the Bank Buildings",
+      "text" : "chrome tail cream maker\npump saltless butter\ninto warm milk\n\ngold foil President\nit's French saltless butter\nyou can only get it in Sawyers\ndown the side of the Bank Buildings",
       "title" : "Cream",
       "uuid" : "C66C9212-C4D7-45A0-9D22-D0D9259632FE"
     },
@@ -8542,11 +8542,11 @@
       "category" : "complaint",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0614",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "81ACB528-558A-4AD8-86FC-1F899B24EB5C"
       ],
-      "text" : "yes what\nyes please",
+      "text" : "yes what?\nyes please",
       "title" : "Correction",
       "uuid" : "44EC1E1C-AB6C-40B5-95A4-D493957F14E7"
     },
@@ -10103,11 +10103,11 @@
       "category" : "complaint",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0743",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "97A84508-5497-4D1B-8564-742ED298ECC2"
       ],
-      "text" : "empty space\nsuch a disgrace\nbillions dumb rocks in orbit",
+      "text" : "empty space such a disgrace\nbillions of dumb rocks in orbit",
       "title" : "Cosmos",
       "uuid" : "CB3EAB8F-B471-4196-B358-0DBBB5A0C359"
     },
@@ -11273,12 +11273,12 @@
       "category" : "lyric",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0841",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5FA026D7-1400-439A-AEC0-242DFF0EC504",
         "937498DF-E340-49CA-8134-82ED96E503EB"
       ],
-      "text" : "Flymo fumes and cut grass\nbuzzing like a bee\nSummer's never over\ncycling is free",
+      "text" : "Flymo fumes and cut grass\nSummer's never lasts\nbuzzing like a bee\ncycling is free",
       "title" : "Country boy",
       "uuid" : "1338060F-AF31-4CC3-8689-30B2C292E5BC"
     },
