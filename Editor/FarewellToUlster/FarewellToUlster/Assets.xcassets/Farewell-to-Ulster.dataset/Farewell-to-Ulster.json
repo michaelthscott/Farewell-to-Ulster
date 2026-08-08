@@ -5768,12 +5768,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0394",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "Daddy's got a clematis\nlonely on the wall",
+      "text" : "Daddy's clematis\nlonely on the wall",
       "title" : "Daddy's clematis",
       "uuid" : "7CD0DF9B-A6EE-4FDD-A94F-EB2F5893652D"
     },
