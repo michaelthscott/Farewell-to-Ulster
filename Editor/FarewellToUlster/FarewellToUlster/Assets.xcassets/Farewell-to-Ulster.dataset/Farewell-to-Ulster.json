@@ -1038,12 +1038,12 @@
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0033",
       "scratchpad" : "with the handle of a knife",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5B51317A-87C9-4321-888F-419461AFEDF4",
         "E22ED538-0F68-4AFC-A2C4-C30B6D3651A3"
       ],
-      "text" : "Grandpa Scott's moustache\nwhite bristly and wide\n\nright in the middle of his face\ncurls up half hides his Harold smile\n\nGranny Scott's buck teeth\nnot so much you'd notice\n\nshe raps his knuckles\nwith the back of a spoon\n\nstop fidgeting",
+      "text" : "Grandpa Scott's moustache\nwhite bristly and wide\n\nright in the middle of his face\ncurls up half hides his Harold smile\n\nGranny Scott's buck teeth\nnot so much you'd notice\n\nshe raps his knuckles\nwith the back of a spoon\n\nstop fidgeting!",
       "title" : "Daddy’s parents",
       "uuid" : "00662B20-ADFB-4166-9DEF-65A15DE0D0FE"
     },
@@ -2861,11 +2861,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0170",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "silken flounce\ntightened band around my neck\n\ndapper puff\npoking out of an open necked shirt\n\nit's my cravat\n",
+      "text" : "silken flounce\ntightened band \naround my neck\n\na dapper puff\npoking out of an \nopen necked shirt\n\nit's my cravat now\n",
       "title" : "Daddy's old cravat",
       "uuid" : "7F52A651-DA27-4F98-8F74-91A477EBEAE0"
     },
@@ -4631,11 +4631,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0305",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
-      "text" : "here it comes\n\nbig\nPhaidon\nbook\n\ncoming down\nholding it in my hand",
+      "text" : "here it comes\n\nbig\nPhaidon\nbook\n\ncoming down\nin my right hand",
       "title" : "Daddy’s art books",
       "uuid" : "CD1B8658-747B-4F80-B53C-9D7C31F0BFE5"
     },
@@ -6506,7 +6506,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0452",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
