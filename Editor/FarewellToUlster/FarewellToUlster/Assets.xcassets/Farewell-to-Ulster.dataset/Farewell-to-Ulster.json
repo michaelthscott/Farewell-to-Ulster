@@ -2580,12 +2580,12 @@
       "category" : "descriptive",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0148",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7"
       ],
-      "text" : "I like the way he soaks\nsheets of Arches in the bath\n\nI like the way he let his hair grow\nafter fights about the length of mine\n\nbrushes are fussy\npalette knife is free\n\nsinking under the 6 o'clock\nthe 9 o'clock \nthe 10 o'clock news\n\nit's nice when he smiles\nespecially now with the missing tooth",
+      "text" : "I like the way he soaks his\nsheets of Arches in the bath\n\nI like the way he let his hair grow\nafter fights about the length of mine\n\nbrushes are fussy\npalette knife is free\n\nsinking under \nthe 6 o'clock\nthe 9 o'clock \nthe 10 o'clock news\n\nit's nice when he smiles\nespecially now with the missing tooth",
       "title" : "Daddy’s reprieve",
       "uuid" : "87CC8A96-32B2-4284-9C4D-8E3A89DAFC8F"
     },
@@ -5795,11 +5795,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0396",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "8C429591-F326-40EB-9B3D-2ED1ED5706B7"
       ],
-      "text" : "dug the sides\nthey collapsed\nmade a dam\nthree as one\nbuilders\nbursters\ndone",
+      "text" : "dug the sides\nthey collapsed\nmaking a dam\nthree as one\nwe builders\nbursters\ndone",
       "title" : "Dam busters",
       "uuid" : "31FA7EFD-2E59-467F-8CCC-EADFE19BC16B"
     },
