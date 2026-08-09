@@ -12779,6 +12779,20 @@
       "sortIndex" : 149,
       "title" : "France",
       "uuid" : "A42AF1D0-0ACB-4675-AC88-5546EB7AEB71"
+    },
+    {
+      "category" : "animal",
+      "fileOrder" : "0152",
+      "sortIndex" : 150,
+      "title" : "dog",
+      "uuid" : "203F0155-E7E7-4912-BE99-F6705C8C806E"
+    },
+    {
+      "category" : "animal",
+      "fileOrder" : "0153",
+      "sortIndex" : 151,
+      "title" : "horse",
+      "uuid" : "ECD80AE2-C940-4965-BB20-3144BD880D96"
     }
   ],
   "title" : "Farewell to Ulster"
