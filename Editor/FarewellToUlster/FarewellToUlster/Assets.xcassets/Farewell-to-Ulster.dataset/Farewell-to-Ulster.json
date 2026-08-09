@@ -12783,14 +12783,14 @@
     {
       "category" : "animal",
       "fileOrder" : "0152",
-      "sortIndex" : 150,
+      "sortIndex" : 151,
       "title" : "dog",
       "uuid" : "203F0155-E7E7-4912-BE99-F6705C8C806E"
     },
     {
       "category" : "animal",
       "fileOrder" : "0153",
-      "sortIndex" : 151,
+      "sortIndex" : 150,
       "title" : "horse",
       "uuid" : "ECD80AE2-C940-4965-BB20-3144BD880D96"
     }
