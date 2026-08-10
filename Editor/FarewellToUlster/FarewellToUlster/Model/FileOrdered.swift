@@ -28,16 +28,17 @@ enum FileOrderedError: Error, CustomStringConvertible {
     }
 }
 
-extension ModelContext {
+// ErasTab, EventsTab, SubjectsTab and PoemsTab all call modelContext.insertOrdered(newEra)
+extension Storage {
     func insertOrdered<T: FileOrdered>(_ model: T) throws {
         let identifier = model.persistentModelID
-        let existing: T? = registeredModel(for: identifier)
+        let existing: T? = container.mainContext.registeredModel(for: identifier)
         guard existing == nil else {
             throw FileOrderedError.alreadyExists
         }
         let fetchDescriptor = FetchDescriptor<T>()
         do {
-            if let last = try fetch(fetchDescriptor).sorted(by: { $0.fileOrder < $1.fileOrder }).last {
+            if let last = try container.mainContext.fetch(fetchDescriptor).sorted(by: { $0.fileOrder < $1.fileOrder }).last {
                 if let number = Int(last.fileOrder) {
                     model.fileOrder = String(format: "%04d", number + 1)
                 } else {
@@ -46,9 +47,9 @@ extension ModelContext {
             } else {
                 model.fileOrder = "0001"
             }
-            insert(model)
-            if hasChanges {
-                try save()
+            container.mainContext.insert(model)
+            if container.mainContext.hasChanges {
+                try container.mainContext.save()
             }
         } catch {
             throw FileOrderedError.insertFailed

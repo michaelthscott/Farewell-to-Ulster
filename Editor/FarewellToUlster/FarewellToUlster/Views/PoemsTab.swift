@@ -11,8 +11,7 @@ import SwiftData
 /// Displays the poems. If an era, evemt of subject is selected then the list will be filtered to match the selection. The poems can be searched by status or text.
 struct PoemsTab: View {
     @Environment(Navigation.self) private var navigation
-    @Environment(\.modelContext) private var modelContext
-    @Query(sort: \Poem.title) private var poems: [Poem]
+    @Environment(Storage.self) private var storage
     @State private var searchText = ""
     @State private var allTokens: [PoemSearchToken] = PoemSearchToken.allCases
     @State private var currentTokens: [PoemSearchToken] = []
@@ -59,37 +58,37 @@ struct PoemsTab: View {
     }
     
     func overUsed(title: String) -> Bool {
-        poems.filter { $0.title == title }.count > 1
+        storage.poems.filter { $0.title == title }.count > 1
     }
 
     private func filteredPoems(token: PoemSearchToken?) -> [Poem] {
-        guard let token else { return poems }
+        guard let token else { return storage.poems }
         switch token {
         case .status(let status):
-            return poems.filter { poem in
+            return storage.poems.filter { poem in
                 guard let poemStatus = poem.status else { return false }
                 return poemStatus == status
             }
         case .category(let category):
-            return poems.filter { poem in
+            return storage.poems.filter { poem in
                 guard let poemCategory = poem.category else { return false }
                 return poemCategory == category
             }
         case .uncategorised:
-            return poems.filter { poem in
+            return storage.poems.filter { poem in
                 poem.isCategorised == false
             }
         case .noSubjects:
-            return poems.filter { poem in
+            return storage.poems.filter { poem in
                 guard let subjects = poem.subjects else { return true }
                 return subjects.isEmpty
             }
         case .duplicateTitle:
-            return poems.filter { poem in
+            return storage.poems.filter { poem in
                 overUsed(title: poem.title)
             }
         case .firstLineTitle:
-            return poems.filter { poem in
+            return storage.poems.filter { poem in
                 poem.titleIsFirstLine
             }
         }
@@ -126,15 +125,15 @@ struct PoemsTab: View {
             let newPoem = Poem()
             newPoem.status = .undevelopedIdea
             do {
-                try modelContext.insertOrdered(newPoem)
+                try storage.insertOrdered(newPoem)
                 navigation.poemsPath.append(Path.poem(newPoem))
             } catch let error as FileOrderedError {
                 // If the model is new and in an unsaved state, the context simply discards it.
-                modelContext.delete(newPoem)
+                storage.delete(newPoem)
                 addFailed = true
                 addError = error.description
             } catch {
-                modelContext.delete(newPoem)
+                storage.delete(newPoem)
                 addFailed = true
                 addError = "Unknown"
             }
@@ -147,5 +146,5 @@ struct PoemsTab: View {
     @Previewable @State var previewer = Previewer()
     return PoemsTab()
         .environment(navigation)
-        .modelContainer(previewer.storage.container)
+        .environment(previewer.storage)
 }

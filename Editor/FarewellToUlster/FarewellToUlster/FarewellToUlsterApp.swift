@@ -18,7 +18,6 @@ struct FarewellToUlsterApp: App {
         WindowGroup {
             if let storage {
                 ContentView()
-                    .modelContainer(storage.container)
                     .environment(navigation)
                     .environment(storage)
             } else if let message {

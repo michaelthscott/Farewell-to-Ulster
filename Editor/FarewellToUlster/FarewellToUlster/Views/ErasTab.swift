@@ -11,8 +11,7 @@ import SwiftData
 /// Display the eras. One era can be selected.
 struct ErasTab: View {
     @Environment(Navigation.self) private var navigation
-    @Environment(\.modelContext) private var modelContext
-    @Query(sort: \Era.period.start) private var eras: [Era]
+    @Environment(Storage.self) private var storage
     @State private var addFailed: Bool = false
     @State private var addError: String = ""
     @State private var searchText = ""
@@ -68,8 +67,8 @@ struct ErasTab: View {
     }
     
     var selectedEras: [Era] {
-        guard !searchText.isEmpty else { return eras }
-        return eras.filter { era in
+        guard !searchText.isEmpty else { return storage.eras }
+        return storage.eras.filter { era in
             era.title.localizedCaseInsensitiveContains(searchText)
         }
     }
@@ -78,15 +77,15 @@ struct ErasTab: View {
         withAnimation {
             let newEra = Era()
             do {
-                try modelContext.insertOrdered(newEra)
+                try storage.insertOrdered(newEra)
                 navigation.erasPath.append(Path.era(newEra))
             } catch let error as FileOrderedError {
                 // If the model is new and in an unsaved state, the context simply discards it.
-                modelContext.delete(newEra)
+                storage.delete(newEra)
                 addFailed = true
                 addError = error.description
             } catch {
-                modelContext.delete(newEra)
+                storage.delete(newEra)
                 addFailed = true
                 addError = "Unknown"
             }
@@ -99,5 +98,5 @@ struct ErasTab: View {
     @Previewable @State var previewer = Previewer()
     ErasTab()
         .environment(navigation)
-        .modelContainer(previewer.storage.container)
+        .environment(previewer.storage)
 }

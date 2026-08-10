@@ -74,5 +74,4 @@ struct BookView: View {
     BookView()
         .environment(navigation)
         .environment(previewer.storage)
-        .modelContainer(previewer.storage.container)
 }

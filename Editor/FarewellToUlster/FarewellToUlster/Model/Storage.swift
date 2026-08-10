@@ -116,6 +116,12 @@ enum StorageError: Error {
         return eras.sorted()
     }
     
+    var events: [Event] {
+        let descriptor = FetchDescriptor<Event>()
+        guard let events = try? container.mainContext.fetch(descriptor) else { return [Event]() }
+        return events.sorted()
+    }
+    
     var poems: [Poem] {
         let descriptor = FetchDescriptor<Poem>()
         guard let poems = try? container.mainContext.fetch(descriptor) else { return [Poem]() }
@@ -126,5 +132,12 @@ enum StorageError: Error {
         let descriptor = FetchDescriptor<Book>()
         let books = try? container.mainContext.fetch(descriptor)
         return books?.first
+    }
+}
+
+// EditorDelete calls delete(item) in the delete button's action.
+extension Storage {
+    func delete(_ model: any PersistentModel) {
+        container.mainContext.delete(model)
     }
 }

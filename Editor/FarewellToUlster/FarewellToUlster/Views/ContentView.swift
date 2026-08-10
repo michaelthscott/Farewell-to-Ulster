@@ -11,7 +11,7 @@ import SwiftData
 /// Display and select eras, events and subjects, to filter the poems.
 struct ContentView: View {
     @Environment(Navigation.self) private var navigation
-    @Environment(\.modelContext) private var modelContext
+    @Environment(Storage.self) private var storage
 
     var body: some View {
         @Bindable var navigation = navigation
@@ -49,5 +49,5 @@ struct ContentView: View {
     @Previewable @State var previewer = Previewer()
     ContentView()
         .environment(navigation)
-        .modelContainer(previewer.storage.container)
+        .environment(previewer.storage)
 }

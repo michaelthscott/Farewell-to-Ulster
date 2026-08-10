@@ -11,8 +11,7 @@ import SwiftData
 /// Display the events. If an era is selected then only the events within that era will be displayed.
 struct EventsTab: View {
     @Environment(Navigation.self) private var navigation
-    @Environment(\.modelContext) private var modelContext
-    @Query(sort: \Event.period.start) private var events: [Event]
+    @Environment(Storage.self) private var storage
     @State private var addFailed: Bool = false
     @State private var addError: String = ""
     @State private var searchText = ""
@@ -75,8 +74,8 @@ struct EventsTab: View {
     }
     
     var filteredEvents: [Event] {
-        guard let selectedEra = navigation.selectedEra else { return events }
-        return events.filter { event in
+        guard let selectedEra = navigation.selectedEra else { return storage.events }
+        return storage.events.filter { event in
             selectedEra.period.contains(event.period.start)
         }
     }
@@ -85,15 +84,15 @@ struct EventsTab: View {
         withAnimation {
             let newEvent = Event()
             do {
-                try modelContext.insertOrdered(newEvent)
+                try storage.insertOrdered(newEvent)
                 navigation.eventsPath.append(Path.event(newEvent))
             } catch let error as FileOrderedError {
                 // If the model is new and in an unsaved state, the context simply discards it.
-                modelContext.delete(newEvent)
+                storage.delete(newEvent)
                 addFailed = true
                 addError = error.description
             } catch {
-                modelContext.delete(newEvent)
+                storage.delete(newEvent)
                 addFailed = true
                 addError = "Unknown"
             }
@@ -106,5 +105,5 @@ struct EventsTab: View {
     @Previewable @State var previewer = Previewer()
     EventsTab()
         .environment(navigation)
-        .modelContainer(previewer.storage.container)
+        .environment(previewer.storage)
 }

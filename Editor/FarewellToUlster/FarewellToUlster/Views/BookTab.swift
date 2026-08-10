@@ -16,7 +16,6 @@ import UniformTypeIdentifiers
 struct BookTab: View {
     @Environment(Navigation.self) private var navigation
     @Environment(Storage.self) private var storage
-    @Environment(\.modelContext) private var modelContext
     @State private var showExporter: Bool = false
     @State private var document: Document?
     @State private var contentType: UTType = .pdf
@@ -70,13 +69,8 @@ struct BookTab: View {
     }
     
     private func commitUpdate() async {
-        guard let jsonFile = JSONFile(modelContext: modelContext) else {
+        guard let jsonFile = JSONFile(storage: storage) else {
             print("Failed to get JSON file")
-            return
-        }
-
-        guard let eras = try? modelContext.fetch(FetchDescriptor<Era>()) else {
-            print("Failed to get eras")
             return
         }
 
@@ -90,7 +84,7 @@ struct BookTab: View {
         var localFiles: [LocalFile] = [localFile]
         var eraNumber: Int = 1
 
-        for era in eras.sorted() {
+        for era in storage.eras.sorted() {
             let mdEra = MDEra(number: eraNumber, title: era.title, text: era.text)
             localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
             guard let poems = era.poems else { continue }
@@ -127,5 +121,4 @@ struct BookTab: View {
     BookTab()
         .environment(navigation)
         .environment(previewer.storage)
-        .modelContainer(previewer.storage.container)
 }

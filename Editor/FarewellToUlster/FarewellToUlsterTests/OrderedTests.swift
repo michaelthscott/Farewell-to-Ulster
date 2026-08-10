@@ -18,7 +18,7 @@ class OrderedTests {
         let originalCount = try storage.container.mainContext.fetchCount(fetchDescriptor)
         #expect(originalCount ==  6)
         let newPoem = Poem()
-        try storage.container.mainContext.insertOrdered(newPoem)
+        try storage.insertOrdered(newPoem)
         let newCount = try storage.container.mainContext.fetchCount(fetchDescriptor)
         #expect(newCount ==  7)
         #expect(throws: Never.self) {
@@ -37,7 +37,7 @@ class OrderedTests {
             let originalCount = try storage.container.mainContext.fetchCount(fetchDescriptor)
             #expect(originalCount == 5)
             let newPoem = Poem()
-            try storage.container.mainContext.insertOrdered(newPoem)
+            try storage.insertOrdered(newPoem)
             let newCount = try storage.container.mainContext.fetchCount(fetchDescriptor)
             #expect(newCount ==  6)
             poems = try storage.container.mainContext.fetch(fetchDescriptor)
@@ -50,7 +50,7 @@ class OrderedTests {
         let storage = try #require(Storage.testStorage(with: "SmallBook"))
         #expect(throws: FileOrderedError.alreadyExists) {
             let poems = try storage.container.mainContext.fetch(fetchDescriptor)
-            try storage.container.mainContext.insertOrdered(poems[0])
+            try storage.insertOrdered(poems[0])
         }
     }
     
@@ -62,7 +62,7 @@ class OrderedTests {
         }
         let newPoem = Poem()
         #expect(throws: Never.self) {
-            try storage.container.mainContext.insertOrdered(newPoem)
+            try storage.insertOrdered(newPoem)
         }
         #expect(newPoem.fileOrder == "0001")
     }

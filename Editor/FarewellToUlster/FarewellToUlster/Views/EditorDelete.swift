@@ -11,7 +11,7 @@ import SwiftData
 /// Delete button for an editor.
 struct EditorDelete: ToolbarContent {
     @Environment(Navigation.self) private var navigation
-    @Environment(\.modelContext) private var modelContext
+    @Environment(Storage.self) private var storage
     @Environment(\.dismiss) private var dismiss
     @State private var confirmDelete: Bool = false
     let item: any PersistentModel
@@ -34,7 +34,7 @@ struct EditorDelete: ToolbarContent {
                 Button("Delete", role: .destructive) {
                     withAnimation {
                         navigation.resetNavigationPath(for: item)
-                        modelContext.delete(item)
+                        storage.delete(item)
                         if let action {
                             action()
                         }
@@ -61,5 +61,5 @@ struct EditorDelete: ToolbarContent {
     }
     .frame(width: 400, height: 200)
     .environment(navigation)
-    .modelContainer(previewer.storage.container)
+    .environment(previewer.storage)
 }

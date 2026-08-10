@@ -12,7 +12,7 @@ import UniformTypeIdentifiers
 /// Display and edit a subject.
 struct SubjectEditor: View {
     @Environment(Navigation.self) private var navigation
-    @Environment(\.modelContext) private var modelContext
+    @Environment(Storage.self) private var storage
     let subject: Subject
     @State private var editedTitle = ""
     @State private var selectedCategory: SubjectCategory?
@@ -53,7 +53,7 @@ struct SubjectEditor: View {
             }
             EditorDelete(item: subject) {
                 do {
-                    try modelContext.reindexSubjects()
+                    try storage.reindexSubjects()
                 } catch {
                     print(error.localizedDescription)
                 }
@@ -79,6 +79,7 @@ struct SubjectEditor: View {
             .navigationDestination(for: Path.self) { path in
                 DestinationView(path: path)
             }
+            .environment(previewer.storage)
             .environment(navigation)
     }
 }

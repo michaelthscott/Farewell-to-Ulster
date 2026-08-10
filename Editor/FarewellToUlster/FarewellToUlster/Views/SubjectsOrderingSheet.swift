@@ -9,16 +9,17 @@ import SwiftUI
 import SwiftData
 
 struct SubjectsOrderingSheet: View {
+    @Environment(Storage.self) private var storage
     @Environment(\.editMode) var editMode
     @Environment(\.dismiss) private var dismiss
-    @Query(sort: \Subject.sortIndex, order: .forward) private var subjectsSorted: [Subject]
     @State private var subjects: [Subject] = []
-        
+    @State private var initialSortedSubjects: [Subject] = []
+
     var body: some View {
         VStack(spacing: 0) {
             HStack {
                 Button(action: {
-                    _subjects.wrappedValue = subjectsSorted
+                    _subjects.wrappedValue = initialSortedSubjects
                     dismiss()
                 }, label: {
                     Text("Cancel")
@@ -47,7 +48,8 @@ struct SubjectsOrderingSheet: View {
         }
         .onAppear() {
             editMode?.wrappedValue = .active
-            subjects = subjectsSorted
+            initialSortedSubjects = storage.subjects.sorted(using: [SortDescriptor(\.sortIndex)])
+            subjects = initialSortedSubjects
         }
     }
 }
@@ -55,5 +57,5 @@ struct SubjectsOrderingSheet: View {
 #Preview {
     @Previewable @State var previewer = Previewer()
     SubjectsOrderingSheet()
-        .modelContainer(previewer.storage.container)
+        .environment(previewer.storage)
 }

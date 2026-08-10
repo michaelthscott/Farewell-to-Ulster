@@ -11,9 +11,8 @@ import SwiftData
 /// Displays a list of subjects, which can be filtered by category.
 struct SubjectsTab: View {
     @Environment(Navigation.self) private var navigation
-    @Environment(\.modelContext) private var modelContext
+    @Environment(Storage.self) private var storage
     @Environment(\.dismiss) private var dismiss
-    @Query(sort: [SortDescriptor(\Subject.title, comparator: .localized)]) private var subjects: [Subject]
     @State private var selectedCategory: SubjectCategory?
     @State private var showOrdering: Bool = false
     @State private var addFailed: Bool = false
@@ -97,26 +96,26 @@ struct SubjectsTab: View {
     }
     
     var filteredSubjects: [Subject] {
-        guard let category = selectedCategory else { return subjects }
-        return subjects.filter({ $0.category == category })
+        guard let category = selectedCategory else { return storage.subjects }
+        return storage.subjects.filter({ $0.category == category })
     }
 
     private func addSubject() {
         withAnimation {
-            let index = subjects.count
+            let index = storage.subjects.count
             let newSubject = Subject()
             do {
-                try modelContext.insertOrdered(newSubject)
+                try storage.insertOrdered(newSubject)
                 newSubject.sortIndex = index
                 navigation.subjectsPath.append(Path.subject(newSubject))
                 
             } catch let error as FileOrderedError {
                 // If the model is new and in an unsaved state, the context simply discards it.
-                modelContext.delete(newSubject)
+                storage.delete(newSubject)
                 addFailed = true
                 addError = error.description
             } catch {
-                modelContext.delete(newSubject)
+                storage.delete(newSubject)
                 addFailed = true
                 addError = "Unknown"
             }
@@ -129,5 +128,5 @@ struct SubjectsTab: View {
     @Previewable @State var previewer = Previewer()
     SubjectsTab()
         .environment(navigation)
-        .modelContainer(previewer.storage.container)
+        .environment(previewer.storage)
 }

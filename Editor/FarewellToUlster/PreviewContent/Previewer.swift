@@ -13,9 +13,7 @@ struct Previewer {
     let storage = try! Storage(isStoredInMemoryOnly: true, assetName: "SampleData")
 
     var book: Book? {
-        let descriptor = FetchDescriptor<Book>()
-        let books = try? storage.container.mainContext.fetch(descriptor)
-        return books?.first
+        storage.book
     }
     
     var era: Era? {
@@ -57,14 +55,10 @@ struct Previewer {
     }
     
     var eras: [Era] {
-        let descriptor = FetchDescriptor<Era>()
-        guard let eras = try? storage.container.mainContext.fetch(descriptor) else { return [Era]() }
-        return eras.sorted()
+        storage.eras
     }
     
     var poems: [Poem] {
-        let descriptor = FetchDescriptor<Poem>()
-        guard let poems = try? storage.container.mainContext.fetch(descriptor) else { return [Poem]() }
-        return poems.sorted()
+        storage.poems
     }
 }

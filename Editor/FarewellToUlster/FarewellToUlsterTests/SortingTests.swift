@@ -10,6 +10,7 @@ import Foundation
 @testable import FarewellToUlster
 
 struct MockSubject: SortIndexable {
+    var id: Int
     var sortIndex: Int
 }
 
@@ -24,7 +25,7 @@ struct MockPoem: SortOrderable & Identifiable & Equatable {
 struct SortingTests {
 
     @Test func testSort() async throws {
-        let subjects = [MockSubject(sortIndex: 0), MockSubject(sortIndex: 1), MockSubject(sortIndex: 2)]
+        let subjects = [MockSubject(id: 1, sortIndex: 0), MockSubject(id: 2, sortIndex: 1), MockSubject(id: 3, sortIndex: 2)]
         
         let poems = [
             MockPoem(id: 1, sortVector: SortVector(sortIndexes: [])),
@@ -41,4 +42,16 @@ struct SortingTests {
         #expect(sortedPoems.map(\.sortVector.sortIndexes) == [[], [2], [1], [1, 2], [0], [0, 2], [0, 1], [0, 1, 2]])
     }
 
+    // TODO: This will need to be updated if we make reindexing a consequence of subject deletion.
+    @Test func testDeleteSubject() async throws {
+        let storage = try #require(Storage.testStorage(with: "SmallBook"))
+        #expect(storage.subjects.count == 3)
+        #expect(storage.subjects.indexSorted().map { "\($0.title):\($0.sortIndex)"} == ["Thinking:0", "The Horizon:1", "Pussycat:2"])
+        #expect(storage.subjects[1].title == "The Horizon")
+        storage.delete(storage.subjects[1])
+        #expect(storage.subjects.count == 2)
+        #expect(storage.subjects.indexSorted().map { "\($0.title):\($0.sortIndex)"} == ["Thinking:0", "Pussycat:2"])
+        try? storage.reindexSubjects()
+        #expect(storage.subjects.indexSorted().map { "\($0.title):\($0.sortIndex)"} == ["Thinking:0", "Pussycat:1"])
+    }
 }

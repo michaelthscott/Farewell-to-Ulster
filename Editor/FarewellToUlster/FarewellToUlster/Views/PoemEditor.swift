@@ -11,11 +11,8 @@ import UniformTypeIdentifiers
 
 /// Display and edit a poem.
 struct PoemEditor: View {
-    @Environment(\.modelContext) private var modelContext
+    @Environment(Storage.self) private var storage
     let poem: Poem
-    @Query(sort: \Era.period.start) private var eras: [Era]
-    @Query(sort: \Event.period.start) private var events: [Event]
-    @Query(sort: [SortDescriptor(\Subject.title, comparator: .localized)]) private var subjects: [Subject]
     @State private var editedTitle = ""
     @State private var editedText = ""
     @State private var editedScratchpad = ""
@@ -41,15 +38,15 @@ struct PoemEditor: View {
                                 .foregroundColor(.secondary)
                                 .tag(Optional<Era>(nil))
                         }
-                        ForEach(eras) { era in
+                        ForEach(storage.eras) { era in
                             Text(era.title).tag(Optional(era))
                         }
                     }
                     .labelsHidden()
                 }
             }
-            ItemsPicker<Event>(items: events, selection: $selectedEvents)
-            ItemsPicker<Subject>(items: subjects, selection: $selectedSubjects)
+            ItemsPicker<Event>(items: storage.events, selection: $selectedEvents)
+            ItemsPicker<Subject>(items: storage.subjects, selection: $selectedSubjects)
             Section("Category") {
                 Picker("Category", selection: $selectedCategory) {
                     if selectedCategory == nil {
@@ -124,7 +121,7 @@ struct PoemEditor: View {
             .navigationDestination(for: Path.self) { path in
                 DestinationView(path: path)
             }
-            .modelContext(previewer.storage.container.mainContext)
+            .environment(previewer.storage)
             .environment(navigation)
     }
 }

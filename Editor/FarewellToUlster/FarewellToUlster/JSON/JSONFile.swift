@@ -12,18 +12,12 @@ import UniformTypeIdentifiers
 struct JSONFile {
     let jsonBook: JSONBook
     
-    init?(modelContext: ModelContext) {
-        guard let books = try? modelContext.fetch(FetchDescriptor<Book>()),
-              let book = books.first,
-              let eras = try? modelContext.fetch(FetchDescriptor<Era>()),
-              let events = try? modelContext.fetch(FetchDescriptor<Event>()),
-              let subjects = try? modelContext.fetch(FetchDescriptor<Subject>()),
-              let poems = try? modelContext.fetch(FetchDescriptor<Poem>()) else {
-            return nil
-        }
-        self.init(book: book, eras: eras, events: events, subjects: subjects, poems: poems)
+    init?(storage: Storage) {
+        guard let book = storage.book else { return nil }
+        self.init(book: book, eras: storage.eras, events: storage.events, subjects: storage.subjects, poems: storage.poems)
     }
     
+
     init(book: Book, eras: [Era], events: [Event], subjects: [Subject], poems: [Poem]) {
         let sortedEras = eras.map { era in
             let formatter = ISO8601DateFormatter()
