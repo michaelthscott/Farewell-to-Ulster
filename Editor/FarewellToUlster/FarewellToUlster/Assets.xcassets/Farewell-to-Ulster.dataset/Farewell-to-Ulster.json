@@ -2695,7 +2695,7 @@
       "category" : "descriptive",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0157",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "3ADE30B6-AB2C-418E-B713-A001C2D36EEC"
       ],
@@ -4239,12 +4239,12 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0275",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5FA026D7-1400-439A-AEC0-242DFF0EC504",
         "99465199-F33A-4A5C-B74E-D6663C55D30A"
       ],
-      "text" : "snapped dandilion head\noozes invisible ink\nmilky doodle stain inside of my arm",
+      "text" : "snap dandilion head\noozes invisible ink\nmilky doodle stain \ninside of my arm",
       "title" : "Dandilion",
       "uuid" : "9E1A50FC-C262-4134-AE6C-327615F70437"
     },
@@ -4252,7 +4252,7 @@
       "category" : "narrative",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0276",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "AFD01569-9BE3-4CDF-85CC-A080A26514B2",
         "C1031204-4082-4E21-81EB-699EE5F5818C"
@@ -5521,7 +5521,7 @@
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0375",
       "scratchpad" : "stitches gone at the to\nheels worn got to go\n\nthis is suede\nno polishing\nlittle gold wire brush",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6643ED8B-5E85-40B2-B9B9-2913DACAA915",
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
@@ -5914,12 +5914,12 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0405",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0764142C-6140-412D-9E14-D0AB2BE58E87"
       ],
       "text" : "Anderson and McAuleys\nRobinson Cleavers\nBank Buildings\n\ngrey felt ended bullets\nride air tubes overhead\nthey pull the receipt out\nthrough a round end hole",
-      "title" : "Department store",
+      "title" : "Department stores",
       "uuid" : "0231847A-438F-40BF-82F7-5F954446CE7D"
     },
     {
@@ -7329,11 +7329,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0518",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "937498DF-E340-49CA-8134-82ED96E503EB"
       ],
-      "text" : "the air can tell I'm dreaming\nas it puts grass seed in my hair\n\nswimming through\njust sitting here\nsmells upon the air",
+      "text" : "the air can tell I'm dreaming\nputs grass seeds in my hair\n\nswimming through\njust sitting here\nsmells upon the air",
       "title" : "Day dreaming",
       "uuid" : "C86D3A7F-AE6F-4514-A641-2A4FFF8D064D"
     },
@@ -11408,7 +11408,7 @@
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0852",
       "scratchpad" : "weakly revealing a lack of initiative\n\nwrapped in his own self satisfaction",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "1291394B-42B9-4035-9CE4-3B99CEE779C4"
