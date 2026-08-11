@@ -9163,11 +9163,13 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0665",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
-        "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
+        "01D182F4-777F-455D-833C-7993AC66EC42",
+        "D2B90C69-8D8B-4812-85BF-5717D55ADC26",
+        "F3372F7B-039C-44D9-A84A-A84277184548"
       ],
-      "text" : "definitely something different\nhere in Zurich",
+      "text" : "definitely something different\nhere in Zurich visiting Mum's\nInternational Girl Guide Camp\nfriend Agi with her boyish hair ",
       "title" : "Detective",
       "uuid" : "025B8F32-1775-4876-8626-28BF4C22E26C"
     },
