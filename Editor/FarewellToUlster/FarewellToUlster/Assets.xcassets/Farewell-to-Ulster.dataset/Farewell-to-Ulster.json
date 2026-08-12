@@ -3321,11 +3321,11 @@
       "category" : "complaint",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0205",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1291394B-42B9-4035-9CE4-3B99CEE779C4"
       ],
-      "text" : "child's disappointment in Christianity\nmy mother believes in all that rubbish",
+      "text" : "child's disappointment in Christianity\ndoes my mother believe that rubbish",
       "title" : "Disappointed",
       "uuid" : "3B4F0537-6B23-47E9-9A66-BACB1FAF0D87"
     },
@@ -7089,11 +7089,11 @@
       "category" : "descriptive",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0499",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "3ADE30B6-AB2C-418E-B713-A001C2D36EEC"
       ],
-      "text" : "what do I look like\nshe said with girlish glee\ndo I look like a dragon",
+      "text" : "what do I look like\nsaid with girlish glee\ndo I look like a dragon",
       "title" : "Different",
       "uuid" : "726C6D70-412C-4575-B67E-EAF7696785AC"
     },
@@ -7613,11 +7613,11 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0541",
       "scratchpad" : "slow tearing sound\ngrass roots\nlose their grip\non the ground",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "cut the sod off\ndo it with a spade\n\nthat's right\nwith your foot\ndig it in under\n\nthere's a slow tearing sound\nas the grass roots\nlose their grip on the ground\n\nyou can sometimes find\na shard of pottery",
+      "text" : "do it with a spade\ncut the sod off\nthat's right\nwith your foot\ndig it in and under\n\nthere's a slow tearing sound\nas exposed grass roots\nlose their grip on the ground\n\nyou can sometimes find\na shard of pottery",
       "title" : "Digging",
       "uuid" : "BA6AFC73-E8ED-40C5-A983-84EF5DB2EA5C"
     },
@@ -8438,12 +8438,12 @@
         "8EA14638-054C-47C9-9B6E-8EB554F6EC95"
       ],
       "fileOrder" : "0606",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26",
         "F8280D42-533E-4D4F-A6B9-9A2A4CF1F051"
       ],
-      "text" : "Drumbo Road\nspeak to Simms in my head\nthere's room for another one\nPicasso's dead",
+      "text" : "Picasso's dead\nSimms in my head\nstuck on Drumbo Road \nmake room for another one\n",
       "title" : "Distant friend",
       "uuid" : "FEAD1E0B-D92B-48ED-B55E-C46825BBD821"
     },
@@ -9555,11 +9555,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0697",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "E48F317A-4D91-45AE-9EEC-5B364517D3F1"
       ],
-      "text" : "they're coming down from Divis Flats\nhunched in denim top buttoned\nhands in jeans pockets\nmonkey boots\nhard men",
+      "text" : "they're coming down from Divis Flats\nhunched in top buttoned denim\nhands in pockets jeans\nmonkey boots\nhard men",
       "title" : "Divis",
       "uuid" : "D41AFD88-FB98-4953-9BA8-4F032594B499"
     },
@@ -9860,7 +9860,7 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0722",
-      "status" : "getting started",
+      "status" : "duplicate",
       "subjectUUIDs" : [
         "D0A143CA-8080-4954-9C77-F1D22931F2D5"
       ],
@@ -9909,11 +9909,11 @@
       "category" : "lament",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0726",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
-      "text" : "fridge died Daddy sighed\nthere’s always something next",
+      "text" : "fridge died \nDaddy cried\nthere's always \nsomething next!",
       "title" : "Dispair",
       "uuid" : "F0E53ACE-814A-4577-B2A7-DBAB944F6540"
     },
@@ -10798,11 +10798,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0802",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2500E8D7-9B12-40B6-BD54-9475EF8F696F"
       ],
-      "text" : "old compendium \nbook\ntake a look \ndiagrams of lines\ncreases crossing palms of the hand",
+      "text" : "old compendium book\ntake a look \ndiagrams of lines\ncreases crossing palms of the hand",
       "title" : "Diagrams",
       "uuid" : "FD48C0D4-AE9D-4FBB-9866-31C587A92CC3"
     },
