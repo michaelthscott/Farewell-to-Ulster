@@ -2115,13 +2115,13 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0113",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "225287A2-9657-4AD7-A82C-08EF2CB184D4",
         "8ED11B87-901F-44F0-ADC3-F4DE88EFBA87"
       ],
-      "text" : "they live in a valley\nthe river is raging\nthe image is grainy\nstruggling world\nfar away",
-      "title" : "Documentary",
+      "text" : "they live in a valley\nwhere river is raging\nwhere image is grainy\nof struggling world",
+      "title" : "Film society",
       "uuid" : "437B597E-C1B5-4DEB-832F-9B636CC0ECEC"
     },
     {
@@ -4581,12 +4581,12 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0301",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "the whole house and garden is mine \nfor a while\n\nnot that I really think of ownership \nas such\n\nmore just a lucky break\nthat leaves the whole house \nand garden\nmine\nfor a while",
+      "text" : "whole house garden \nare mine for a while\n\nnot that I think of ownership \n\njust my lucky break\nthat it's all mine \nfor a while",
       "title" : "Domain",
       "uuid" : "6C0831B8-4078-4B47-8EA7-71C2AB737531"
     },
@@ -5635,13 +5635,13 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0384",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "6643ED8B-5E85-40B2-B9B9-2913DACAA915"
       ],
-      "text" : "my father pulls very slowly\non the left side of his moustache\n\nit's getting longer down the sides\nalmost Viva Zapata\n\nand his sideburns become more muttonchop\n\nthere's the short comb he keeps\nto lay down the silver wing behind his ear\n\nbushy hairy\n\nnot bohemian\nartistic",
-      "title" : "DIY barber",
+      "text" : "my father pulls very slowly\nthe left side of his moustache\n\nit's getting longer at the sides\nit's almost a Viva Zapata!\n\nslowly his sideburns \nbecame muttonchop\n\nkeeps a short comb \nto lay down the silver \nwing behind his ear\n\nnot bohemian\nartistic",
+      "title" : "bushy hairy",
       "uuid" : "D90EC2F7-D0CC-4FA6-A9E3-AFCD4C70DF8C"
     },
     {
@@ -8489,12 +8489,12 @@
       "category" : "lyric",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0610",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26",
         "D99D600E-BC3A-4F79-9EBE-72B91600E03D"
       ],
-      "text" : "Doctor Mabin\nDoctor Hool\n\ngot a fever\ndays off school",
+      "text" : "Doctor Mabin\nDoctor Hool\n\ngot a fever\nget off school",
       "title" : "Doctors",
       "uuid" : "E8A6CC6A-1F02-438B-8CC9-15CC9399B799"
     },
@@ -10055,11 +10055,11 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0739",
       "scratchpad" : "lock no key",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
-      "text" : "Dad keeps important things\nin the deed box\n\nshoebox sixe\nwith a lay flat handle \nchipped gloss black\nwith gold paint lines\na key and a lock\n\nhe also has a carrying case\nwith drop in folders\nthings filed away \nsome newspaper clippings\n",
+      "text" : "Dad keeps important things\nstored in the deed box\n\nabout shoebox sixe\nwith a lay-flat handle \nchipped gloss black\nand gold paint lines\nsmall key for the lock\n\nhe also has a carrying case\nwith drop-in hanging folders\nhere things are filed away \nnewspaper clippings\n",
       "title" : "Documents",
       "uuid" : "01F0BF14-905C-44A7-8E8A-9EBFB88CD899"
     },
