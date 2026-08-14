@@ -3137,7 +3137,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0191",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "CC8212D7-61E1-45E1-A321-C65C54485C51"
       ],
@@ -3851,11 +3851,11 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0246",
       "scratchpad" : "Plymouth Brethern",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F56657FC-2FE4-4CCC-8DAD-367780E34440"
       ],
-      "text" : "pasty faced\nwhite bread\nMother's Pride\nsandwiches",
+      "text" : "pasty faced\nwhite bread\nMother's Pride\nfor sandwiches",
       "title" : "Dough",
       "uuid" : "574782F1-AAE1-4553-8C12-ADB3602B9DE7"
     },
@@ -6494,11 +6494,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0451",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
-      "text" : "I can draw\nwith my pencil\nshade with B4\n\nI can open\nthe little short blade\nof the penknife\nI now think of as mine\nand sharpen the end\nto a point\n\nHB 2B 4B\n\nnew sheet\nmy drawing pad\nempty white what",
+      "text" : "I can draw\nwith my pencil\nshade with 4B\n\nopen the little short blade\nof the my penknife and \nsharpen the end\nto a point\n\nHB 2B 4B\n\nnew sheet\nmy drawing pad\nempty white what",
       "title" : "Drawing",
       "uuid" : "5977A811-9DBB-4511-8DAB-3F498A3AC124"
     },
@@ -9218,8 +9218,8 @@
       "subjectUUIDs" : [
         "A10113ED-E8BE-4A5C-B100-D2D33EDD313E"
       ],
-      "text" : "Timothy and me\nhe's a man now\nboth in a hole digging\ndown by the foundations\nfixing something with the family house",
-      "title" : "Drain",
+      "text" : "he's a man now\nboth in a hole digging\ndown by the foundations\nfixing our family house drain ",
+      "title" : "Timothy and me",
       "uuid" : "053750B9-7407-4924-8536-515F09C2AC62"
     },
     {
