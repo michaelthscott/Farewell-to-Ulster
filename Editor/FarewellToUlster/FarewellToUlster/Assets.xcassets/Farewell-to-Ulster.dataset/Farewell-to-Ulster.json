@@ -3099,7 +3099,7 @@
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C5018569-1A28-4BF3-9D97-7ED6F1768BC7"
       ],
-      "text" : "stripped off naked counting strokes\nworking through the colour supplement\ndownstairs toilet forgot to lock the door Grandpa looked said nothing",
+      "text" : "stripped off naked counting strokes\nworking through the colour supplement\ndownstairs toilet forgot to lock the door Grandpa looked in said nothing",
       "title" : "Caught",
       "uuid" : "3BD26243-C896-45FA-B446-9EBC9339ED8A"
     },
@@ -8451,11 +8451,11 @@
       "category" : "ironic",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0607",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "66C661EB-14B7-404A-BBDD-AA96573A6B19"
       ],
-      "text" : "some people\nactually get to play\nstrip poker",
+      "text" : "some people\nactually get to \nplay strip poker",
       "title" : "Grown up games",
       "uuid" : "2651F185-F4D0-4E59-81F6-1104E707C77F"
     },
@@ -9055,11 +9055,11 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0656",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "66C661EB-14B7-404A-BBDD-AA96573A6B19"
       ],
-      "text" : "we sat there\nand I knew\nexactly what I shouldn't do",
+      "text" : "we sat there\nand I knew\nexactly what \nI shouldn't do",
       "title" : "Guest",
       "uuid" : "DB17CD42-2E21-4259-82D0-200CA2037D91"
     },
