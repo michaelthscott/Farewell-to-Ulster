@@ -3904,13 +3904,13 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0250",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "05DC0326-A952-462C-955A-05B48779EE8E",
         "57CD1810-6E41-424B-9F18-1582FB8010FF"
       ],
-      "text" : "tiger cubs tumble in the backseat\n\nsuntanned arm \nreaches from the front \nto say stop\n\nyou're distracting your father \nwhile he's driving\n\nI-spy with my little eye something beginning with\n\nautoroute turns into autobahn\n\nthere's yoghurt \nnew cheese\nand apfelsaft\n\nwhite lines float in the sunshine",
-      "title" : "Driving through Europe",
+      "text" : "tiger cubs squabble\ntumble endlessly\non the backseat\n\nsuntanned arm \nreaches back\nto say stop\n\nyou're distracting \nyour father while \nhe is driving us\n\nI-spy with my little eye \nsomething beginning \nwith now let me see\n\nautoroute turns \ninto autobahn\nmotorways \n\nyoghurt \nnew cheese\nand apfelsaft\n\nwhite lines float \nin the sunshine\nnose on glass",
+      "title" : "Driving Europe",
       "uuid" : "A4690F73-E262-4B79-878F-706EAC179E1E"
     },
     {
@@ -5585,7 +5585,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0380",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "BCFF7E65-2944-4526-B82A-851A9C95D343"
@@ -7817,7 +7817,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0557",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1BA4097C-8DAE-4180-AD39-96EF1C1091D1",
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
