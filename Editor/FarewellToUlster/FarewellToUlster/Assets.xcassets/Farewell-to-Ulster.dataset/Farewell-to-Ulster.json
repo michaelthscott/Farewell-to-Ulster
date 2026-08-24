@@ -1568,7 +1568,7 @@
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0073",
       "scratchpad" : "i've been trying to study on a rug in the sun\nsleeping watching clouds in the sky\nto make room for Granny i'm sleeping in my tent\nat the bottom of the garden under my talisman\n\ntext book note book\nScience and Maths\nHistory Geography\nScience and Maths\nkings and queens\nbattles\nScience and Maths\nno use\ncan't remember it all\n\nFerdinand under his tree\n\nunder a cork tree\ncame a bumble bee\ngave Ferdinand a sting",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6DAEFA40-3546-4CB9-BC1F-D7C1F93333C5",
         "E50C9D23-6BA1-4378-A11D-97EE8481A021"
@@ -2034,13 +2034,13 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0107",
       "scratchpad" : "Ballyaughlis crossroads",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "122E5A86-FB23-4F7B-9E3A-EE494FBD39C7",
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7",
         "D0A143CA-8080-4954-9C77-F1D22931F2D5"
       ],
-      "text" : "flat grey gable of the Homestead\nbottom of the Drumbo Road\n\nold boulder built into the corner of it\nechos solid trunks \ngrass bank wire and field\n\nskip sprint keep eye out for cars\nthe camber the texture the tarmac\nfine gravel along the edge of road\n\nfoot after foot\nlaboured pace or funny walk\nswinging leather satchel from straps\n\nthere's less traffic on the Drumbo Road\n\nwalking up between steep grass banks\ngashed earth where some mad geezer\nmust've had to swerve\n\nGauguin in Brittany\npainted hedgerows like that\ntangle bramble tweedy textured clumps\n\nand down there \nEddy Bell's vegetable garden all laid out\ni've painted some cottage pictures\nalways seen from certain angles\nnever entered\n\nremember the side field flooded\nthat was great\nskimming the ice on the ice\n\nand now on this final flat bit\nour buttercup yellow gate appears\n\nfoot after heel to toe foot\ndawdling",
+      "text" : "flat grey gable of the Homestead\nbottom of the Drumbo Road\n\nold boulder built into the corner of it\nechos solid trunks \ngrass bank wire and field\n\nskip sprint keep eye out for cars\nthe camber the texture the tarmac\nfine gravel along the edge of road\n\nfoot after foot\nlaboured pace or funny walk\nswinging leather satchel from straps\n\nthere's less traffic on the Drumbo Road\n\nwalking up between steep grass banks\ngashed earth where some mad geezer\nmust've had to swerve\n\nGauguin in Brittany\npainted hedgerows like that\ntangle bramble tweedy textured clumps\n\nand down there \nEddy Bell's vegetable garden all laid out\nI've painted some cottage pictures\nalways seen from certain angles\nnever entered\n\nremember the side field flooded\nthat was great\nskimming the ice on the ice\n\nand now on this final flat bit\nour buttercup yellow gate appears\n\nfoot after heel to toe foot\ndawdling",
       "title" : "Drumbo Road",
       "uuid" : "6DC4F3B9-F6AE-45D4-BD8D-C0F169FA3BCC"
     },
@@ -4515,7 +4515,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0296",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "937498DF-E340-49CA-8134-82ED96E503EB"
       ],
@@ -8607,11 +8607,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0619",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A67D28A4-6D11-4B43-912D-8707A657E567"
       ],
-      "text" : "a schoolboy \ncan tie a feather \nto the top of a tree\n\na shaman \ncan tie a feather\nto the top of a tree\n\ndancing with the wind\nagainst the twilight sky",
+      "text" : "a schoolboy \ncan tie a feather \nto the top of a tree\n\na shaman \ncan tie a feather\nto the top of a tree\n\na feather\ndancing with the wind\nagainst the twilight sky",
       "title" : "Early world",
       "uuid" : "81B47E44-EAC1-48E9-8361-6F4A89F065BE"
     },
@@ -9031,7 +9031,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0654",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "160CB9BF-7680-4F40-A253-3259DB5A5A62"
       ],
@@ -9616,7 +9616,7 @@
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0702",
       "scratchpad" : "down in the underground world\nvats of boiling oil\nslim prince flits from torture to torture\n\nprinceling elf\nsure of himself\nleaps over fire\ninto boiling oil\n",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C084DF66-00B8-475E-BBC3-1B14329CDD3E"
       ],
@@ -9921,7 +9921,7 @@
       "category" : "complaint",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0727",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6CC819B6-62BA-4535-9C54-5A30ADD4960F"
       ],
@@ -10945,7 +10945,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0814",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2500E8D7-9B12-40B6-BD54-9475EF8F696F"
       ],
