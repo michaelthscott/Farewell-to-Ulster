@@ -4899,7 +4899,7 @@
     },
     {
       "category" : "narrative",
-      "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
+      "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "eventUUIDs" : [
         "B4BA8355-B5E6-4370-B4FD-163169935321"
       ],
@@ -6735,12 +6735,12 @@
         "D82EBAC8-C0E4-4DF3-9D2A-481622D749EA"
       ],
       "fileOrder" : "0470",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5B51317A-87C9-4321-888F-419461AFEDF4",
         "C1031204-4082-4E21-81EB-699EE5F5818C"
       ],
-      "text" : "death came\nin a yellow face\ncalled grandpa in the bed",
+      "text" : "death came\nwith a yellow face\ncalled grandpa in the bed",
       "title" : "Encounter",
       "uuid" : "545F77A9-63FC-4BB1-9312-9ECC31CD09EC"
     },
