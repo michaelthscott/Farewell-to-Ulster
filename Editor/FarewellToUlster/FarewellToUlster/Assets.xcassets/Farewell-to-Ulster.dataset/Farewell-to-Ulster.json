@@ -8111,12 +8111,12 @@
       "category" : "descriptive",
       "eraUUID" : "E86C3877-3815-42AE-BEBF-3787BDB69C56",
       "fileOrder" : "0581",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "160CB9BF-7680-4F40-A253-3259DB5A5A62",
         "F530FAE0-F126-447E-9C12-17C4CA78FD69"
       ],
-      "text" : "I know I'm a conclusion\nthe leaf on the family tree",
+      "text" : "I know I'm a conclusion\na leaf on the family tree",
       "title" : "End result",
       "uuid" : "AC186FEA-575A-4A02-BA3E-3FF9209B3A65"
     },
