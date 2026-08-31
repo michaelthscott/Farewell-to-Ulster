@@ -3634,7 +3634,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0229",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9"
       ],
@@ -7703,11 +7703,11 @@
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0548",
       "scratchpad" : "fold diagonal\nmake a square\nfold corners in\nfold corners in again\nopen like a flower\nfingers and thumbs in\nwrite fortunes in",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "9AA45080-C30E-4FB4-AC35-5F5EEA4F0B8B"
       ],
-      "text" : "pencilled on\nfolded paper\ncolours numbers\ntwo fingers with thumbs\ncompute the fortune teller",
+      "text" : "pencil on\nfolded paper\ncolours numbers\ntwo fingers and thumbs\ncompute the fortune teller",
       "title" : "Ephemera",
       "uuid" : "16A515DA-D6E3-4A77-A124-FC2340010175"
     },
@@ -8306,7 +8306,7 @@
       "category" : "narrative",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0596",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0764142C-6140-412D-9E14-D0AB2BE58E87",
         "805C994F-34A7-4351-BD62-97454B8B00A9"
@@ -9567,11 +9567,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0698",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "E48F317A-4D91-45AE-9EEC-5B364517D3F1"
       ],
-      "text" : "your father's not happy\nabout you cycling up\nto Andersonstown",
+      "text" : "your father's not happy\nabout you cycling up\nto Andersonstown\n\ntall girl likes me\nwe're snogging",
       "title" : "Enemy territory",
       "uuid" : "17B85F66-8F61-44AC-9B09-46B663B361FD"
     },
@@ -10129,11 +10129,11 @@
       "category" : "complaint",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0745",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "160CB9BF-7680-4F40-A253-3259DB5A5A62"
       ],
-      "text" : "difference between\nthe Barretts and ourselves\nBarretts are better\n\nmusical Quakers \nversus\nGirl Guides Sunday painting",
+      "text" : "difference between the\nBarretts and ourselves\nBarretts are better\n\nmusical Quakers versus\nGirl Guides Sunday painting",
       "title" : "Evaluation",
       "uuid" : "071434B2-AC65-4273-B247-07F1125002D7"
     },
@@ -10605,11 +10605,11 @@
       "category" : "ironic",
       "eraUUID" : "1C745966-0505-45CF-AA28-EA09E3144F12",
       "fileOrder" : "0785",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "160CB9BF-7680-4F40-A253-3259DB5A5A62"
       ],
-      "text" : "house formed from necessity\nbabies from babies again",
+      "text" : "house formed from necessity\nyes babies from babies again",
       "title" : "Endless breed cycle",
       "uuid" : "F5D5EC96-FC99-4EAB-A5DA-D05E252C63E4"
     },
@@ -10849,7 +10849,7 @@
       "category" : "complaint",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0806",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "05DC0326-A952-462C-955A-05B48779EE8E"
       ],
