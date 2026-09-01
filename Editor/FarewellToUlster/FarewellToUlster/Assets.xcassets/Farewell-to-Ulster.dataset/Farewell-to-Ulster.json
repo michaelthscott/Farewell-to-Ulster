@@ -3638,8 +3638,8 @@
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9"
       ],
-      "text" : "White Island\ndevil goat",
-      "title" : "Erne",
+      "text" : "dropped me off at the jetty \nalone to do some fishing\n\ndevil goat appears\n\nI retreat to the ruin\nclamber to the top\n\nwatch it relentlessly\nhead butt the wall\n\nmenacing\npersistent\n\nlike an enemy from school\n\n",
+      "title" : "White Island",
       "uuid" : "ED1B4816-9CC3-4344-93BF-77B405221884"
     },
     {
@@ -4760,12 +4760,12 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0315",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A3B84883-01BD-46E9-97C4-7A963E947410",
         "F8C2CB36-6367-4BBF-A1FB-9409E4D3901B"
       ],
-      "text" : "under wet leaves\ngiant beech trees\nfamiliar unfamiliar road\n\nwe are local boys\nnot the only local boys\n\nbetween Ballyaughlis and Ballylesson\nthe turn off up to the Barretts\nthe other road Lover's Lane\nthe back way up to Drumbo\n\nthe familiar unfamiliar road\ngiant beech trees\nbeyond the Glen\nbald soil\n\ngiant big house trees\nbig house farm fields\nnever entered big house gates\n\nbig house families\n\nsymmetrical big grey house\nporch facia\ncurving drive\n\nold money\ndon't approach",
+      "text" : "under wet leaves\ngiant beech trees\nfamiliar unfamiliar road\n\nwe are local boys\nnot the only local boys\n\nbetween Ballyaughlis and Ballylesson\nthe turn off up to the Barretts\nthe other road Lover's Lane\nthe back way up to Drumbo\n\nthe familiar unfamiliar road\ngiant beech trees\nbeyond the Glen\nbald soil\n\ngiant big house trees\nbig house farm fields\n\nnever entered \nbig house gates\n\nbig house families\n\nsymmetrical big grey house\nporch facia curving drive\n\nold money\ndon't approach",
       "title" : "Exploring",
       "uuid" : "36F17479-35FC-4AB5-8714-48674C64BF0C"
     },
@@ -4941,7 +4941,7 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0329",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6D87E02A-A247-4394-B411-F16067F44E70",
         "C37628AB-D572-4377-97C5-919D4D584C96"
@@ -9067,7 +9067,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0657",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D17D11E5-8A88-4EAC-BB93-2CEA027C849A"
       ],
@@ -9667,11 +9667,11 @@
       "category" : "complaint",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0706",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "7CA50585-8727-4BBD-BEF4-936ADADE9402"
       ],
-      "text" : "all out on a walk\nSunday afternoon\n\nI wish I could sit at home and\n\nread\nmy\nbook",
+      "text" : "we're all out on a walk\nSunday afternoon\n\nI wish I could \nsit at home \nand\n\nread\nmy\nbook",
       "title" : "Exercise",
       "uuid" : "A683136C-98BE-4FC7-BE8B-91391AC377D4"
     },
