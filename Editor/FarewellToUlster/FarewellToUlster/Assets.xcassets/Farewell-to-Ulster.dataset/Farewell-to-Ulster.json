@@ -869,7 +869,7 @@
         "D0BD8D1A-BAE8-4F9F-AF8A-ABE299B51A2E"
       ],
       "fileOrder" : "0020",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2E667939-4314-420D-89FF-4FC512542ACB"
       ],
@@ -6684,7 +6684,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0466",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
@@ -8982,7 +8982,7 @@
       "category" : "lament",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0650",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EECAB2E4-D977-4D06-84F1-E233C4B34013"
       ],
