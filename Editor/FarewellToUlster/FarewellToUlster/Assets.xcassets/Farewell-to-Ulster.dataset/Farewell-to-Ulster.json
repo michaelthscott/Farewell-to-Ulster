@@ -3516,7 +3516,7 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0220",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F8C2CB36-6367-4BBF-A1FB-9409E4D3901B"
       ],
@@ -5218,12 +5218,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0351",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "9AA45080-C30E-4FB4-AC35-5F5EEA4F0B8B",
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "red handled screwdriver\nwith a ratchet",
+      "text" : "red handled screwdriver\nwith a switch on ratchet",
       "title" : "Familiar tool",
       "uuid" : "46EA2058-CE6E-4FA5-8393-CCC5B65CF513"
     },
@@ -8409,13 +8409,13 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0604",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "BCFF7E65-2944-4526-B82A-851A9C95D343"
       ],
-      "text" : "Daddy's got a new car\nwhite Vauxhall\n\nDaddy chose a Saab\nSaab's are Swedish\nsafe and well designed\n\nsports car racing car\ntoy car vintage car\nMummy's little Mini\n\nwe never had a station waggon\nI've never seen a Lamborgini\n\nthe Deux Chevaux\njumped sideways\nover the hedge\n\nrust",
+      "text" : "Daddy got a new car\na white Vauxhall\n\nDaddy chose a Saab\nSaab's are Swedish\nsafe well designed\n\nsports car racing car\ntoy car vintage car\nMum's little Mini\n\nwe never had a station waggon\nI've never seen a Lamborgini\n\nthe Deux Chevaux\njumped sideways\nover the hedge\n\nrust",
       "title" : "Family car",
       "uuid" : "6A248FCB-BF61-4747-B1E0-5EC475EF087E"
     },
@@ -10677,7 +10677,7 @@
       "category" : "lament",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0791",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42"
       ],
@@ -11251,7 +11251,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0839",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
       ],
