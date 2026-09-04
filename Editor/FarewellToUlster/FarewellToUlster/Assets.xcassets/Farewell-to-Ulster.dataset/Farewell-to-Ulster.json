@@ -4412,7 +4412,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0288",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
@@ -4489,13 +4489,13 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0294",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "BCFF7E65-2944-4526-B82A-851A9C95D343"
       ],
-      "text" : "Daddy drives\nMummy passes back \npeeled a piece of apple\n\nwho's next\nhomemade orange juice",
+      "text" : "Daddy drives\nMummy passes back \n\npeeled a piece of apple\nwho's next\n\nhomemade orange juice",
       "title" : "Family outing",
       "uuid" : "D8F5ECEC-1484-4AF0-B090-901967784B87"
     },
@@ -5194,7 +5194,7 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0349",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D0A143CA-8080-4954-9C77-F1D22931F2D5"
       ],
@@ -8254,12 +8254,12 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0592",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "DF60532B-2D74-456D-A491-51F62F4C3695"
       ],
-      "text" : "Mummy's father's game\nset up in the living room\nnever played\ncoffee table ornament\n\nall the plausible things\nwe could do\nbut don't\nthat form a ballast\nfor the gravity\nthat holds us\nsatellites to the family house",
+      "text" : "Mummy's father's game\nset up in the living room\nbut never played just a\ncoffee table ornament\n\nall the plausible things\nwe could do but don't\nthat form the ballast for \na gravity that holds us\nsatellites to this house",
       "title" : "Family house",
       "uuid" : "2890EB35-4A0B-4AB8-85DA-1A03E873DEEB"
     },
@@ -10396,7 +10396,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0767",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "FD5A1206-49FB-4652-8D06-63C87EF99B75"
       ],
