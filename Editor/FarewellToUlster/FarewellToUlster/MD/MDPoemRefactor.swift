@@ -28,7 +28,7 @@ struct MDPoemRefactor {
     var markdown: String {
         """
 ---
-layout: poem
+layout: poem-refactor
 title: \(title)
 ---
 \(markdownText)

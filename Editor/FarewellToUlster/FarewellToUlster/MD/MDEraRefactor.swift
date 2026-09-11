@@ -23,7 +23,7 @@ struct MDEraRefactor {
     var markdown: String {
         """
 ---
-layout: era
+layout: era-refactor
 title: \(title)
 ---
 \(text)
