@@ -2,23 +2,71 @@
 //  MDPoem.swift
 //  FarewellToUlster
 //
-//  Created by Michael Scott on 28/07/2026.
+//  Created by Michael Scott on 11/09/2026.
 //
 
 import Foundation
 
 struct MDPoem {
     let eraPaddedNumber: String
-    let number: Int
+    let eraTitle: String
+    let number: String
     let title: String
     let text: String
-    
+    let previousNumber: String?
+    let previousTitle: String?
+    let nextNumber: String?
+    let nextTitle: String?
+
     var paddedNumber: String {
-        String(format: "%03d", number)
+        number
     }
     
     var path: String {
-        "_Era\(eraPaddedNumber)/\(paddedNumber).md"
+        "_Poems/\(paddedNumber).md"
+    }
+    
+    var url: String {
+        "/Farewell-to-Ulster/Poems/\(paddedNumber).html"
+    }
+    
+    var breadcrumb: String {
+        """
+<nav class="breadcrumb">
+<a href="/Farewell-to-Ulster/">Farewell to Ulster</a> /
+<a href="/Farewell-to-Ulster/Eras/\(eraPaddedNumber).html">\(eraTitle)</a>
+</nav>
+"""
+    }
+    
+    var heading: String {
+        """
+<header class="post-header">
+<h1 class="post-title">\(title)</h1>
+</header>
+"""
+    }
+    
+    var previousNext: String {
+        """
+<nav class="prev-next">
+\(previousLink)
+\(nextLink)
+</nav>
+"""
+    }
+    var previousLink: String {
+        guard let previousNumber, let previousTitle else {
+            return "<span></span>"
+        }
+        return "<a class=\"prev\" href=\"/Farewell-to-Ulster/Poems/\(previousNumber).html\">← \(previousTitle)</a>"
+    }
+    
+    var nextLink: String {
+        guard let nextNumber, let nextTitle else {
+            return "<span></span>"
+        }
+        return "<a class=\"prev\" href=\"/Farewell-to-Ulster/Poems/\(nextNumber).html\">\(nextTitle) →</a>"
     }
     
     var markdownText: String {
@@ -30,9 +78,14 @@ struct MDPoem {
 ---
 layout: poem
 title: \(title)
-series: Era\(eraPaddedNumber)
 ---
+\(breadcrumb)
+
+\(heading)
+
 \(markdownText)
+
+\(previousNext)
 """
     }
     

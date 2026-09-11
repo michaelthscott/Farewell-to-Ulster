@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-refactor
 ---
 <article class="poem">
   {% if page.image %}
@@ -8,6 +8,4 @@ layout: page
   <div class="poem-content">
     {{ content }}
   </div>
-  
-  {% include prev-next.html collection=page.collection %}
 </article>

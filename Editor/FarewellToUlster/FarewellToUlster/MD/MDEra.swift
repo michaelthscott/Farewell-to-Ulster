@@ -2,22 +2,49 @@
 //  MDEra.swift
 //  FarewellToUlster
 //
-//  Created by Michael Scott on 28/07/2026.
+//  Created by Michael Scott on 11/09/2026.
 //
 
 import Foundation
 
 struct MDEra {
-    let number: Int
+    let number: String
     let title: String
     let text: String
+    let poems: [MDPoem]
     
     var paddedNumber: String {
-        String(format: "%02d", number)
+        number
     }
     
     var path: String {
         "_Eras/\(paddedNumber).md"
+    }
+    
+    var breadcrumb: String {
+        """
+<nav class="breadcrumb">
+<a href="/Farewell-to-Ulster/">Farewell to Ulster</a> /
+<a href=""></a>
+</nav>
+"""
+    }
+    
+    var heading: String {
+        """
+<header class="post-header">
+<h1 class="post-title">\(title)</h1>
+</header>
+"""
+    }
+
+    var list: String {
+        var list: [String] = ["<ul>"]
+        for poem in poems {
+            list.append("<li><a href=\"\(poem.url)\">\(poem.title)</a></li>")
+        }
+        list.append("</ul>")
+        return list.joined(separator: "\n")
     }
     
     var markdown: String {
@@ -25,9 +52,14 @@ struct MDEra {
 ---
 layout: era
 title: \(title)
-series: Era\(paddedNumber)
 ---
+\(breadcrumb)
+
+\(heading)
+
 \(text)
+
+\(list)
 """
     }
     

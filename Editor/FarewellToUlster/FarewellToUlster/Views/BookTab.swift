@@ -39,15 +39,6 @@ struct BookTab: View {
                             }
                             Button(action: {
                                 Task {
-                                    isCommittingUpdate = true
-                                    await commitRefactorUpdate()
-                                    isCommittingUpdate = false
-                                }
-                            }) {
-                                Label("Commit refactor update", systemImage: "square.and.arrow.down")
-                            }
-                            Button(action: {
-                                Task {
                                     await exportPDF()
                                 }
                             }) {
@@ -91,45 +82,9 @@ struct BookTab: View {
                                   content: data)
         
         var localFiles: [LocalFile] = [localFile]
-        var eraNumber: Int = 1
-
-        for era in storage.eras.sorted() {
-            let mdEra = MDEra(number: eraNumber, title: era.title, text: era.text)
-            localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
-            guard let poems = era.poems else { continue }
-            var poemNumber = 1
-            for poem in poems.vectorSorted() {
-                let mdPoem = MDPoem(eraPaddedNumber: mdEra.paddedNumber, number: poemNumber, title: poem.title, text: poem.text)
-                localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
-                poemNumber += 1
-            }
-            eraNumber += 1
-        }
         let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
         do {
-            _ = try await client.batchCommit(files: localFiles, message: "Update from Editor")
-        } catch {
-            print("Update failed: \(error.localizedDescription)")
-        }
-    }
-    
-    private func commitRefactorUpdate() async {
-        guard let jsonFile = JSONFile(storage: storage) else {
-            print("Failed to get JSON file")
-            return
-        }
-
-        guard let data = try? jsonFile.document.snapshot(contentType: jsonFile.contentType) else {
-            return
-        }
-        
-        let localFile = LocalFile(path: "Editor/FarewellToUlster/FarewellToUlster/Assets.xcassets/Farewell-to-Ulster.dataset/Farewell-to-Ulster.json",
-                                  content: data)
-        
-        var localFiles: [LocalFile] = [localFile]
-        let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
-        do {
-            _ = try await client.batchCommit(files: localFiles, message: "JSON file from Editor")
+            _ = try await client.batchCommit(files: localFiles, message: "Editor update for JSON file")
         } catch {
             print("Update failed: \(error.localizedDescription)")
         }
@@ -138,9 +93,9 @@ struct BookTab: View {
             guard let poems = era.poems else { continue }
             localFiles = []
             let sortedPoems = poems.vectorSorted()
-            var mdPoems = [MDPoemRefactor]()
+            var mdPoems = [MDPoem]()
             if sortedPoems.count == 1 {
-                let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                let mdPoem = MDPoem(eraPaddedNumber: era.fileOrder,
                                             eraTitle: era.title,
                                             number: sortedPoems[0].fileOrder,
                                             title: sortedPoems[0].title,
@@ -154,7 +109,7 @@ struct BookTab: View {
                 for index in sortedPoems.indices {
                     switch index {
                     case 0:
-                        let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                        let mdPoem = MDPoem(eraPaddedNumber: era.fileOrder,
                                                     eraTitle: era.title,
                                                     number: sortedPoems[index].fileOrder,
                                                     title: sortedPoems[index].title,
@@ -165,7 +120,7 @@ struct BookTab: View {
                                                     nextTitle: sortedPoems[index + 1].title)
                         mdPoems.append(mdPoem)
                     case sortedPoems.count - 1:
-                        let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                        let mdPoem = MDPoem(eraPaddedNumber: era.fileOrder,
                                                     eraTitle: era.title,
                                                     number: sortedPoems[index].fileOrder,
                                                     title: sortedPoems[index].title,
@@ -176,7 +131,7 @@ struct BookTab: View {
                                                     nextTitle: nil)
                         mdPoems.append(mdPoem)
                     default:
-                        let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                        let mdPoem = MDPoem(eraPaddedNumber: era.fileOrder,
                                                     eraTitle: era.title,
                                                     number: sortedPoems[index].fileOrder,
                                                     title: sortedPoems[index].title,
@@ -189,13 +144,13 @@ struct BookTab: View {
                     }
                 }
             }
-            let mdEra = MDEraRefactor(number: era.fileOrder, title: era.title, text: era.text, poems: mdPoems)
+            let mdEra = MDEra(number: era.fileOrder, title: era.title, text: era.text, poems: mdPoems)
             localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
             for mdPoem in mdEra.poems {
                 localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
             }
             do {
-                _ = try await client.batchCommit(files: localFiles, message: "Refactor update from Editor for era \(mdEra.title)")
+                _ = try await client.batchCommit(files: localFiles, message: "Editor update for era: \(mdEra.title)")
             } catch {
                 print("Update failed: \(error.localizedDescription)")
             }
