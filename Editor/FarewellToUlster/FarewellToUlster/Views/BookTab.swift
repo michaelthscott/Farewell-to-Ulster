@@ -39,6 +39,15 @@ struct BookTab: View {
                             }
                             Button(action: {
                                 Task {
+                                    isCommittingUpdate = true
+                                    await commitRefactorUpdate()
+                                    isCommittingUpdate = false
+                                }
+                            }) {
+                                Label("Commit refactor update", systemImage: "square.and.arrow.down")
+                            }
+                            Button(action: {
+                                Task {
                                     await exportPDF()
                                 }
                             }) {
@@ -86,16 +95,12 @@ struct BookTab: View {
 
         for era in storage.eras.sorted() {
             let mdEra = MDEra(number: eraNumber, title: era.title, text: era.text)
-            let mdEraRefactor = MDEraRefactor(number: eraNumber, title: era.title, text: era.text)
             localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
-            localFiles.append(LocalFile(path: mdEraRefactor.path, content: mdEraRefactor.data))
             guard let poems = era.poems else { continue }
             var poemNumber = 1
             for poem in poems.vectorSorted() {
                 let mdPoem = MDPoem(eraPaddedNumber: mdEra.paddedNumber, number: poemNumber, title: poem.title, text: poem.text)
-                let mdPoemRefactor = MDPoemRefactor(eraPaddedNumber: mdEra.paddedNumber, number: poemNumber, title: poem.title, text: poem.text)
                 localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
-                localFiles.append(LocalFile(path: mdPoemRefactor.path, content: mdPoemRefactor.data))
                 poemNumber += 1
             }
             eraNumber += 1
@@ -108,6 +113,42 @@ struct BookTab: View {
         }
     }
     
+    private func commitRefactorUpdate() async {
+        guard let jsonFile = JSONFile(storage: storage) else {
+            print("Failed to get JSON file")
+            return
+        }
+
+        guard let data = try? jsonFile.document.snapshot(contentType: jsonFile.contentType) else {
+            return
+        }
+        
+        let localFile = LocalFile(path: "Editor/FarewellToUlster/FarewellToUlster/Assets.xcassets/Farewell-to-Ulster.dataset/Farewell-to-Ulster.json",
+                                  content: data)
+        
+        var localFiles: [LocalFile] = [localFile]
+        var eraNumber: Int = 1
+
+        for era in storage.eras.sorted() {
+            let mdEra = MDEraRefactor(number: era.fileOrder, title: era.title, text: era.text)
+            localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
+            guard let poems = era.poems else { continue }
+            var poemNumber = 1
+            for poem in poems.vectorSorted() {
+                let mdPoem = MDPoemRefactor(eraPaddedNumber: mdEra.paddedNumber, number: poem.fileOrder, title: poem.title, text: poem.text)
+                localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
+                poemNumber += 1
+            }
+            eraNumber += 1
+        }
+        let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
+        do {
+            _ = try await client.batchCommit(files: localFiles, message: "Refactor update from Editor")
+        } catch {
+            print("Update failed: \(error.localizedDescription)")
+        }
+    }
+
     private func exportPDF() async {
         guard let book = storage.book else { return }
         let renderer = PDFRenderer()

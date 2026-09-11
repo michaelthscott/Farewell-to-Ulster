@@ -9,12 +9,12 @@ import Foundation
 
 struct MDPoemRefactor {
     let eraPaddedNumber: String
-    let number: Int
+    let number: String
     let title: String
     let text: String
     
     var paddedNumber: String {
-        String(format: "%04d", number)
+        number
     }
     
     var path: String {
