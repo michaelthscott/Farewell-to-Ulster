@@ -128,8 +128,16 @@ struct BookTab: View {
         
         var localFiles: [LocalFile] = [localFile]
 
+        let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
+        do {
+            _ = try await client.batchCommit(files: localFiles, message: "JSON file from Editor")
+        } catch {
+            print("Update failed: \(error.localizedDescription)")
+        }
+
         for era in storage.eras.sorted() {
             guard let poems = era.poems else { continue }
+            localFiles = []
             let sortedPoems = poems.vectorSorted()
             var mdPoems = [MDPoemRefactor]()
             if sortedPoems.count == 1 {
@@ -183,12 +191,11 @@ struct BookTab: View {
             for mdPoem in mdEra.poems {
                 localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
             }
-        }
-        let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
-        do {
-            _ = try await client.batchCommit(files: localFiles, message: "Refactor update from Editor")
-        } catch {
-            print("Update failed: \(error.localizedDescription)")
+            do {
+                _ = try await client.batchCommit(files: localFiles, message: "Refactor update from Editor for era \(mdEra.title)")
+            } catch {
+                print("Update failed: \(error.localizedDescription)")
+            }
         }
     }
 
