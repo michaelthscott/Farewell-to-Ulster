@@ -3,9 +3,11 @@ description: Growing up in Northern Ireland
 author: Michael T. H. Scott
 theme: minima
 collections:
-  Eras:
-    output: true
+  ErasRefactor:
+    output: false
   Poems:
+    output: false
+  Eras:
     output: true
   Era01:
     output: true
