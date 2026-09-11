@@ -141,6 +141,7 @@ struct BookTab: View {
             var mdPoems = [MDPoemRefactor]()
             if sortedPoems.count == 1 {
                 let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                            eraTitle: era.title,
                                             number: sortedPoems[0].fileOrder,
                                             title: sortedPoems[0].title,
                                             text: sortedPoems[0].text,
@@ -154,6 +155,7 @@ struct BookTab: View {
                     switch index {
                     case 0:
                         let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                                    eraTitle: era.title,
                                                     number: sortedPoems[index].fileOrder,
                                                     title: sortedPoems[index].title,
                                                     text: sortedPoems[index].text,
@@ -164,6 +166,7 @@ struct BookTab: View {
                         mdPoems.append(mdPoem)
                     case sortedPoems.count - 1:
                         let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                                    eraTitle: era.title,
                                                     number: sortedPoems[index].fileOrder,
                                                     title: sortedPoems[index].title,
                                                     text: sortedPoems[index].text,
@@ -174,6 +177,7 @@ struct BookTab: View {
                         mdPoems.append(mdPoem)
                     default:
                         let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                                    eraTitle: era.title,
                                                     number: sortedPoems[index].fileOrder,
                                                     title: sortedPoems[index].title,
                                                     text: sortedPoems[index].text,

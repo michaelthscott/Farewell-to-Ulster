@@ -21,6 +21,15 @@ struct MDEraRefactor {
         "_ErasRefactor/\(paddedNumber).md"
     }
     
+    var breadcrumb: String {
+        """
+      <nav class="breadcrumb">
+        <a href="/Farewell-to-Ulster/">Farewell to Ulster</a> /
+        <a href=""></a>
+      </nav>
+"""
+    }
+    
     var list: String {
         var list: [String] = ["<ul>"]
         for poem in poems {
@@ -36,10 +45,9 @@ struct MDEraRefactor {
 layout: era-refactor
 title: \(title)
 ---
+\(breadcrumb)
 \(text)
-
 \(list)
-
 """
     }
     

@@ -9,6 +9,7 @@ import Foundation
 
 struct MDPoemRefactor {
     let eraPaddedNumber: String
+    let eraTitle: String
     let number: String
     let title: String
     let text: String
@@ -29,6 +30,23 @@ struct MDPoemRefactor {
         "/Farewell-to-Ulster/Poems/\(paddedNumber).html"
     }
     
+    var breadcrumb: String {
+        """
+      <nav class="breadcrumb">
+        <a href="/Farewell-to-Ulster/">Farewell to Ulster</a> /
+        <a href="/Farewell-to-Ulster/\(eraPaddedNumber).html">\(eraTitle)</a>
+      </nav>
+"""
+    }
+    
+    var previousNext: String {
+        """
+<nav class="prev-next">
+    \(previousLink)
+    \(nextLink)
+</nav>
+"""
+    }
     var previousLink: String {
         guard let previousNumber, let previousTitle else {
             return "<span></span>"
@@ -53,12 +71,9 @@ struct MDPoemRefactor {
 layout: poem-refactor
 title: \(title)
 ---
+\(breadcrumb)
 \(markdownText)
-
-<nav class="prev-next">
-\(previousLink)
-\(nextLink)
-</nav>
+\(previousNext)
 """
     }
     
