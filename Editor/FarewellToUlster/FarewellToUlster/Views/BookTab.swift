@@ -132,38 +132,50 @@ struct BookTab: View {
             guard let poems = era.poems else { continue }
             let sortedPoems = poems.vectorSorted()
             var mdPoems = [MDPoemRefactor]()
-            for index in sortedPoems.indices {
-                switch index {
-                case 0:
-                    let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
-                                                number: sortedPoems[index].fileOrder,
-                                                title: sortedPoems[index].title,
-                                                text: sortedPoems[index].text,
-                                                previousNumber: nil,
-                                                previousTitle: nil,
-                                                nextNumber: sortedPoems[index + 1].fileOrder,
-                                                nextTitle: sortedPoems[index + 1].title)
-                    mdPoems.append(mdPoem)
-                case sortedPoems.count - 1:
-                    let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
-                                                number: sortedPoems[index].fileOrder,
-                                                title: sortedPoems[index].title,
-                                                text: sortedPoems[index].text,
-                                                previousNumber: sortedPoems[index - 1].fileOrder,
-                                                previousTitle: sortedPoems[index - 1].title,
-                                                nextNumber: nil,
-                                                nextTitle: nil)
-                    mdPoems.append(mdPoem)
-                default:
-                    let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
-                                                number: sortedPoems[index].fileOrder,
-                                                title: sortedPoems[index].title,
-                                                text: sortedPoems[index].text,
-                                                previousNumber: sortedPoems[index - 1].fileOrder,
-                                                previousTitle: sortedPoems[index - 1].title,
-                                                nextNumber: sortedPoems[index + 1].fileOrder,
-                                                nextTitle: sortedPoems[index + 1].title)
-                    mdPoems.append(mdPoem)
+            if sortedPoems.count == 1 {
+                let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                            number: sortedPoems[0].fileOrder,
+                                            title: sortedPoems[0].title,
+                                            text: sortedPoems[0].text,
+                                            previousNumber: nil,
+                                            previousTitle: nil,
+                                            nextNumber: nil,
+                                            nextTitle: nil)
+                mdPoems.append(mdPoem)
+            } else {
+                for index in sortedPoems.indices {
+                    switch index {
+                    case 0:
+                        let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                                    number: sortedPoems[index].fileOrder,
+                                                    title: sortedPoems[index].title,
+                                                    text: sortedPoems[index].text,
+                                                    previousNumber: nil,
+                                                    previousTitle: nil,
+                                                    nextNumber: sortedPoems[index + 1].fileOrder,
+                                                    nextTitle: sortedPoems[index + 1].title)
+                        mdPoems.append(mdPoem)
+                    case sortedPoems.count - 1:
+                        let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                                    number: sortedPoems[index].fileOrder,
+                                                    title: sortedPoems[index].title,
+                                                    text: sortedPoems[index].text,
+                                                    previousNumber: sortedPoems[index - 1].fileOrder,
+                                                    previousTitle: sortedPoems[index - 1].title,
+                                                    nextNumber: nil,
+                                                    nextTitle: nil)
+                        mdPoems.append(mdPoem)
+                    default:
+                        let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                                    number: sortedPoems[index].fileOrder,
+                                                    title: sortedPoems[index].title,
+                                                    text: sortedPoems[index].text,
+                                                    previousNumber: sortedPoems[index - 1].fileOrder,
+                                                    previousTitle: sortedPoems[index - 1].title,
+                                                    nextNumber: sortedPoems[index + 1].fileOrder,
+                                                    nextTitle: sortedPoems[index + 1].title)
+                        mdPoems.append(mdPoem)
+                    }
                 }
             }
             let mdEra = MDEraRefactor(number: era.fileOrder, title: era.title, text: era.text, poems: mdPoems)
