@@ -33,14 +33,14 @@ struct MDPoemRefactor {
         guard let previousNumber, let previousTitle else {
             return "<span></span>"
         }
-        return "<a class=\"prev\" href=\"/Farewell-to-Ulster/Poems/\(previousNumber).html\">\(previousTitle)</a>"
+        return "<a class=\"prev\" href=\"/Farewell-to-Ulster/Poems/\(previousNumber).html\">← \(previousTitle)</a>"
     }
     
     var nextLink: String {
         guard let nextNumber, let nextTitle else {
             return "<span></span>"
         }
-        return "<a class=\"prev\" href=\"/Farewell-to-Ulster/Poems/\(nextNumber).html\">\(nextTitle)</a>"
+        return "<a class=\"prev\" href=\"/Farewell-to-Ulster/Poems/\(nextNumber).html\">\(nextTitle) →</a>"
     }
     
     var markdownText: String {
