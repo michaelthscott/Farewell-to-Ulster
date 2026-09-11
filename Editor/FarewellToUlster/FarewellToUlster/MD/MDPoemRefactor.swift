@@ -21,6 +21,10 @@ struct MDPoemRefactor {
         "_Poems/\(paddedNumber).md"
     }
     
+    var url: String {
+        "/Farewell-to-Ulster/Poems/\(paddedNumber).html"
+    }
+    
     var markdownText: String {
         convertToMarkdown(text)
     }

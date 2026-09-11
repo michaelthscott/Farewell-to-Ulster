@@ -127,19 +127,17 @@ struct BookTab: View {
                                   content: data)
         
         var localFiles: [LocalFile] = [localFile]
-        var eraNumber: Int = 1
 
         for era in storage.eras.sorted() {
-            let mdEra = MDEraRefactor(number: era.fileOrder, title: era.title, text: era.text)
-            localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
             guard let poems = era.poems else { continue }
-            var poemNumber = 1
-            for poem in poems.vectorSorted() {
-                let mdPoem = MDPoemRefactor(eraPaddedNumber: mdEra.paddedNumber, number: poem.fileOrder, title: poem.title, text: poem.text)
-                localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
-                poemNumber += 1
+            let mdPoems = poems.vectorSorted().map { poem in
+                MDPoemRefactor(eraPaddedNumber: era.fileOrder, number: poem.fileOrder, title: poem.title, text: poem.text)
             }
-            eraNumber += 1
+            let mdEra = MDEraRefactor(number: era.fileOrder, title: era.title, text: era.text, poems: mdPoems)
+            localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
+            for mdPoem in mdEra.poems {
+                localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
+            }
         }
         let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
         do {
