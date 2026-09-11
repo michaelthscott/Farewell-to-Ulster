@@ -6,7 +6,7 @@ layout: default
     {% if page.layout == "era" %}
       <nav class="breadcrumb"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></nav>
     {% elsif page.layout == "poem" %}
-      {% assign era = site.Eras | where: "series", page.collection | first %}
+      {% assign era = site.ErasRefactor | where: "series", page.collection | first %}
       <nav class="breadcrumb">
         <a href="{{ '/' | relative_url }}">{{ site.title }}</a> /
         <a href="{{ era.url | relative_url }}">{{ era.title }}</a>
