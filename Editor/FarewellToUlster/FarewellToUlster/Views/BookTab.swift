@@ -86,12 +86,16 @@ struct BookTab: View {
 
         for era in storage.eras.sorted() {
             let mdEra = MDEra(number: eraNumber, title: era.title, text: era.text)
+            let mdEraRefactor = MDEraRefactor(number: eraNumber, title: era.title, text: era.text)
             localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
+            localFiles.append(LocalFile(path: mdEraRefactor.path, content: mdEraRefactor.data))
             guard let poems = era.poems else { continue }
             var poemNumber = 1
             for poem in poems.vectorSorted() {
                 let mdPoem = MDPoem(eraPaddedNumber: mdEra.paddedNumber, number: poemNumber, title: poem.title, text: poem.text)
+                let mdPoemRefactor = MDPoemRefactor(eraPaddedNumber: mdEra.paddedNumber, number: poemNumber, title: poem.title, text: poem.text)
                 localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
+                localFiles.append(LocalFile(path: mdPoemRefactor.path, content: mdPoemRefactor.data))
                 poemNumber += 1
             }
             eraNumber += 1

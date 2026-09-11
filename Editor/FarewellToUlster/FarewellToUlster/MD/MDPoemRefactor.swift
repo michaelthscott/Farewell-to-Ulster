@@ -1,24 +1,24 @@
 //
-//  MDPoem.swift
+//  MDPoemRefactor.swift
 //  FarewellToUlster
 //
-//  Created by Michael Scott on 28/07/2026.
+//  Created by Michael Scott on 11/09/2026.
 //
 
 import Foundation
 
-struct MDPoem {
+struct MDPoemRefactor {
     let eraPaddedNumber: String
     let number: Int
     let title: String
     let text: String
     
     var paddedNumber: String {
-        String(format: "%03d", number)
+        String(format: "%04d", number)
     }
     
     var path: String {
-        "_Era\(eraPaddedNumber)/\(paddedNumber).md"
+        "_Poems/\(paddedNumber).md"
     }
     
     var markdownText: String {
@@ -30,7 +30,6 @@ struct MDPoem {
 ---
 layout: poem
 title: \(title)
-series: Era\(eraPaddedNumber)
 ---
 \(markdownText)
 """
