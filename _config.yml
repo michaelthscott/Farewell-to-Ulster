@@ -4,9 +4,9 @@ author: Michael T. H. Scott
 theme: minima
 collections:
   ErasRefactor:
-    output: false
+    output: true
   Poems:
-    output: false
+    output: true
   Eras:
     output: true
   Era01:
