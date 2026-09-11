@@ -5,6 +5,8 @@ theme: minima
 collections:
   Eras:
     output: true
+  Poems:
+    output: true
   Era01:
     output: true
   Era02:
