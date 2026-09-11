@@ -23,10 +23,10 @@ struct MDEraRefactor {
     
     var breadcrumb: String {
         """
-      <nav class="breadcrumb">
-        <a href="/Farewell-to-Ulster/">Farewell to Ulster</a> /
-        <a href=""></a>
-      </nav>
+<nav class="breadcrumb">
+<a href="/Farewell-to-Ulster/">Farewell to Ulster</a> /
+<a href=""></a>
+</nav>
 """
     }
     
@@ -46,7 +46,9 @@ layout: era-refactor
 title: \(title)
 ---
 \(breadcrumb)
+
 \(text)
+
 \(list)
 """
     }

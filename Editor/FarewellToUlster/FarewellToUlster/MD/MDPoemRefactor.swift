@@ -32,18 +32,18 @@ struct MDPoemRefactor {
     
     var breadcrumb: String {
         """
-      <nav class="breadcrumb">
-        <a href="/Farewell-to-Ulster/">Farewell to Ulster</a> /
-        <a href="/Farewell-to-Ulster/\(eraPaddedNumber).html">\(eraTitle)</a>
-      </nav>
+<nav class="breadcrumb">
+<a href="/Farewell-to-Ulster/">Farewell to Ulster</a> /
+<a href="/Farewell-to-Ulster/ErasRefactor/\(eraPaddedNumber).html">\(eraTitle)</a>
+</nav>
 """
     }
     
     var previousNext: String {
         """
 <nav class="prev-next">
-    \(previousLink)
-    \(nextLink)
+\(previousLink)
+\(nextLink)
 </nav>
 """
     }
@@ -72,7 +72,9 @@ layout: poem-refactor
 title: \(title)
 ---
 \(breadcrumb)
+
 \(markdownText)
+
 \(previousNext)
 """
     }
