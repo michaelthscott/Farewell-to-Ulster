@@ -12,7 +12,11 @@ struct MDPoemRefactor {
     let number: String
     let title: String
     let text: String
-    
+    let previousNumber: String?
+    let previousTitle: String?
+    let nextNumber: String?
+    let nextTitle: String?
+
     var paddedNumber: String {
         number
     }
@@ -23,6 +27,20 @@ struct MDPoemRefactor {
     
     var url: String {
         "/Farewell-to-Ulster/Poems/\(paddedNumber).html"
+    }
+    
+    var previousLink: String {
+        guard let previousNumber, let previousTitle else {
+            return "<span></span>"
+        }
+        return "<a class=\"prev\" href=\"/Farewell-to-Ulster/Poems/\(previousNumber).html\">\(previousTitle)</a>"
+    }
+    
+    var nextLink: String {
+        guard let nextNumber, let nextTitle else {
+            return "<span></span>"
+        }
+        return "<a class=\"prev\" href=\"/Farewell-to-Ulster/Poems/\(nextNumber).html\">\(nextTitle)</a>"
     }
     
     var markdownText: String {
@@ -36,6 +54,11 @@ layout: poem-refactor
 title: \(title)
 ---
 \(markdownText)
+
+<nav class="prev-next">
+\(previousLink)
+\(nextLink)
+</nav>
 """
     }
     

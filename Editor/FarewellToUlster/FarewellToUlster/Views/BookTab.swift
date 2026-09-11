@@ -130,8 +130,41 @@ struct BookTab: View {
 
         for era in storage.eras.sorted() {
             guard let poems = era.poems else { continue }
-            let mdPoems = poems.vectorSorted().map { poem in
-                MDPoemRefactor(eraPaddedNumber: era.fileOrder, number: poem.fileOrder, title: poem.title, text: poem.text)
+            let sortedPoems = poems.vectorSorted()
+            var mdPoems = [MDPoemRefactor]()
+            for index in sortedPoems.indices {
+                switch index {
+                case 0:
+                    let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                                number: sortedPoems[index].fileOrder,
+                                                title: sortedPoems[index].title,
+                                                text: sortedPoems[index].text,
+                                                previousNumber: nil,
+                                                previousTitle: nil,
+                                                nextNumber: sortedPoems[index + 1].fileOrder,
+                                                nextTitle: sortedPoems[index + 1].title)
+                    mdPoems.append(mdPoem)
+                case sortedPoems.count - 1:
+                    let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                                number: sortedPoems[index].fileOrder,
+                                                title: sortedPoems[index].title,
+                                                text: sortedPoems[index].text,
+                                                previousNumber: sortedPoems[index - 1].fileOrder,
+                                                previousTitle: sortedPoems[index - 1].title,
+                                                nextNumber: nil,
+                                                nextTitle: nil)
+                    mdPoems.append(mdPoem)
+                default:
+                    let mdPoem = MDPoemRefactor(eraPaddedNumber: era.fileOrder,
+                                                number: sortedPoems[index].fileOrder,
+                                                title: sortedPoems[index].title,
+                                                text: sortedPoems[index].text,
+                                                previousNumber: sortedPoems[index - 1].fileOrder,
+                                                previousTitle: sortedPoems[index - 1].title,
+                                                nextNumber: sortedPoems[index + 1].fileOrder,
+                                                nextTitle: sortedPoems[index + 1].title)
+                    mdPoems.append(mdPoem)
+                }
             }
             let mdEra = MDEraRefactor(number: era.fileOrder, title: era.title, text: era.text, poems: mdPoems)
             localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
