@@ -5,7 +5,3 @@ layout:	home
 
 {% include series-list.html collection="Eras" %}
 
-### Refactoring
-
-{% include series-list.html collection="ErasRefactor" %}
-
