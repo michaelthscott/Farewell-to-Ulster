@@ -30,6 +30,14 @@ struct MDEraRefactor {
 """
     }
     
+    var heading: String {
+        """
+<header class="post-header">
+<h1 class="post-title">\(title)</h1>
+</header>
+"""
+    }
+
     var list: String {
         var list: [String] = ["<ul>"]
         for poem in poems {
@@ -46,6 +54,8 @@ layout: era-refactor
 title: \(title)
 ---
 \(breadcrumb)
+
+\(heading)
 
 \(text)
 

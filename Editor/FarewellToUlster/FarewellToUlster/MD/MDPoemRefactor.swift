@@ -39,6 +39,14 @@ struct MDPoemRefactor {
 """
     }
     
+    var heading: String {
+        """
+<header class="post-header">
+<h1 class="post-title">\(title)</h1>
+</header>
+"""
+    }
+    
     var previousNext: String {
         """
 <nav class="prev-next">
@@ -72,6 +80,8 @@ layout: poem-refactor
 title: \(title)
 ---
 \(breadcrumb)
+
+\(heading)
 
 \(markdownText)
 
