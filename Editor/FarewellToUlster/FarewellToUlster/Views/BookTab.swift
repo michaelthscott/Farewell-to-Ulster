@@ -127,7 +127,6 @@ struct BookTab: View {
                                   content: data)
         
         var localFiles: [LocalFile] = [localFile]
-
         let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
         do {
             _ = try await client.batchCommit(files: localFiles, message: "JSON file from Editor")
