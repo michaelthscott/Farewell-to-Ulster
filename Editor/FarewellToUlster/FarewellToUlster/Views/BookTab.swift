@@ -91,66 +91,59 @@ struct BookTab: View {
 
         for era in storage.eras.sorted() {
             guard let poems = era.poems else { continue }
+            let eraInfo = MDInfo(title: era.title, number: era.fileOrder)
             localFiles = []
             let sortedPoems = poems.vectorSorted()
             var mdPoems = [MDPoem]()
             if sortedPoems.count == 1 {
-                let mdPoem = MDPoem(eraPaddedNumber: era.fileOrder,
-                                            eraTitle: era.title,
-                                            number: sortedPoems[0].fileOrder,
-                                            title: sortedPoems[0].title,
-                                            text: sortedPoems[0].text,
-                                            previousNumber: nil,
-                                            previousTitle: nil,
-                                            nextNumber: nil,
-                                            nextTitle: nil)
+                let mdPoem = MDPoem(eraInfo: eraInfo,
+                                    info: MDInfo(title: sortedPoems[0].title, number: sortedPoems[0].fileOrder),
+                                    text: sortedPoems[0].text,
+                                    previousNumber: nil,
+                                    previousTitle: nil,
+                                    nextNumber: nil,
+                                    nextTitle: nil)
                 mdPoems.append(mdPoem)
             } else {
                 for index in sortedPoems.indices {
                     switch index {
                     case 0:
-                        let mdPoem = MDPoem(eraPaddedNumber: era.fileOrder,
-                                                    eraTitle: era.title,
-                                                    number: sortedPoems[index].fileOrder,
-                                                    title: sortedPoems[index].title,
-                                                    text: sortedPoems[index].text,
-                                                    previousNumber: nil,
-                                                    previousTitle: nil,
-                                                    nextNumber: sortedPoems[index + 1].fileOrder,
-                                                    nextTitle: sortedPoems[index + 1].title)
+                        let mdPoem = MDPoem(eraInfo: eraInfo,
+                                            info: MDInfo(title: sortedPoems[index].title, number: sortedPoems[index].fileOrder),
+                                            text: sortedPoems[index].text,
+                                            previousNumber: nil,
+                                            previousTitle: nil,
+                                            nextNumber: sortedPoems[index + 1].fileOrder,
+                                            nextTitle: sortedPoems[index + 1].title)
                         mdPoems.append(mdPoem)
                     case sortedPoems.count - 1:
-                        let mdPoem = MDPoem(eraPaddedNumber: era.fileOrder,
-                                                    eraTitle: era.title,
-                                                    number: sortedPoems[index].fileOrder,
-                                                    title: sortedPoems[index].title,
-                                                    text: sortedPoems[index].text,
-                                                    previousNumber: sortedPoems[index - 1].fileOrder,
-                                                    previousTitle: sortedPoems[index - 1].title,
-                                                    nextNumber: nil,
-                                                    nextTitle: nil)
+                        let mdPoem = MDPoem(eraInfo: eraInfo,
+                                            info: MDInfo(title: sortedPoems[index].title, number: sortedPoems[index].fileOrder),
+                                            text: sortedPoems[index].text,
+                                            previousNumber: sortedPoems[index - 1].fileOrder,
+                                            previousTitle: sortedPoems[index - 1].title,
+                                            nextNumber: nil,
+                                            nextTitle: nil)
                         mdPoems.append(mdPoem)
                     default:
-                        let mdPoem = MDPoem(eraPaddedNumber: era.fileOrder,
-                                                    eraTitle: era.title,
-                                                    number: sortedPoems[index].fileOrder,
-                                                    title: sortedPoems[index].title,
-                                                    text: sortedPoems[index].text,
-                                                    previousNumber: sortedPoems[index - 1].fileOrder,
-                                                    previousTitle: sortedPoems[index - 1].title,
-                                                    nextNumber: sortedPoems[index + 1].fileOrder,
-                                                    nextTitle: sortedPoems[index + 1].title)
+                        let mdPoem = MDPoem(eraInfo: eraInfo,
+                                            info: MDInfo(title: sortedPoems[index].title, number: sortedPoems[index].fileOrder),
+                                            text: sortedPoems[index].text,
+                                            previousNumber: sortedPoems[index - 1].fileOrder,
+                                            previousTitle: sortedPoems[index - 1].title,
+                                            nextNumber: sortedPoems[index + 1].fileOrder,
+                                            nextTitle: sortedPoems[index + 1].title)
                         mdPoems.append(mdPoem)
                     }
                 }
             }
-            let mdEra = MDEra(number: era.fileOrder, title: era.title, text: era.text, poems: mdPoems)
+            let mdEra = MDEra(info: eraInfo, text: era.text, poems: mdPoems)
             localFiles.append(LocalFile(path: mdEra.path, content: mdEra.data))
             for mdPoem in mdEra.poems {
                 localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
             }
             do {
-                _ = try await client.batchCommit(files: localFiles, message: "Editor update for era: \(mdEra.title)")
+                _ = try await client.batchCommit(files: localFiles, message: "Editor update for era: \(mdEra.info.title)")
             } catch {
                 print("Update failed: \(error.localizedDescription)")
             }

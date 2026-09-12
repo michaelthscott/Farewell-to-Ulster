@@ -8,40 +8,26 @@
 import Foundation
 
 struct MDEra {
-    let number: String
-    let title: String
+    let info: MDInfo
     let text: String
     let poems: [MDPoem]
     
-    var paddedNumber: String {
-        number
-    }
-    
     var path: String {
-        "_Eras/\(paddedNumber).md"
+        "_Eras/\(info.number).md"
     }
     
     var breadcrumb: String {
-        """
-<nav class="breadcrumb">
-<a href="/Farewell-to-Ulster/">Farewell to Ulster</a> /
-<a href=""></a>
-</nav>
-"""
+        MDBreadcrumb().markdown
     }
     
     var heading: String {
-        """
-<header class="post-header">
-<h1 class="post-title">\(title)</h1>
-</header>
-"""
+        MDHeading(title: info.title).markdown
     }
 
     var list: String {
         var list: [String] = ["<ul>"]
         for poem in poems {
-            list.append("<li><a href=\"\(poem.url)\">\(poem.title)</a></li>")
+            list.append("<li>" + MDAnchor(type: .poem, number: poem.info.number, content: poem.info.title).markdown + "</li>")
         }
         list.append("</ul>")
         return list.joined(separator: "\n")
@@ -51,7 +37,7 @@ struct MDEra {
         """
 ---
 layout: era
-title: \(title)
+title: \(info.title)
 ---
 \(breadcrumb)
 

@@ -8,65 +8,45 @@
 import Foundation
 
 struct MDPoem {
-    let eraPaddedNumber: String
-    let eraTitle: String
-    let number: String
-    let title: String
+    let eraInfo: MDInfo
+    let info: MDInfo
     let text: String
     let previousNumber: String?
     let previousTitle: String?
     let nextNumber: String?
     let nextTitle: String?
 
-    var paddedNumber: String {
-        number
-    }
-    
     var path: String {
-        "_Poems/\(paddedNumber).md"
-    }
-    
-    var url: String {
-        "/Farewell-to-Ulster/Poems/\(paddedNumber).html"
+        "_Poems/\(info.number).md"
     }
     
     var breadcrumb: String {
-        """
-<nav class="breadcrumb">
-<a href="/Farewell-to-Ulster/">Farewell to Ulster</a> /
-<a href="/Farewell-to-Ulster/Eras/\(eraPaddedNumber).html">\(eraTitle)</a>
-</nav>
-"""
+        MDBreadcrumb(eraInfo: eraInfo).markdown
     }
     
     var heading: String {
-        """
-<header class="post-header">
-<h1 class="post-title">\(title)</h1>
-</header>
-"""
+        MDHeading(title: info.title).markdown
     }
     
     var previousNext: String {
-        """
-<nav class="prev-next">
+        MDElement(name: "nav", attributes: ["class": "prev-next"], content: """
 \(previousLink)
 \(nextLink)
-</nav>
-"""
+""", isMultiline: true).markdown
     }
+    
     var previousLink: String {
         guard let previousNumber, let previousTitle else {
-            return "<span></span>"
+            return MDElement(name: "span").markdown
         }
-        return "<a class=\"prev\" href=\"/Farewell-to-Ulster/Poems/\(previousNumber).html\">← \(previousTitle)</a>"
+        return MDAnchor(classValue: "prev", type: .poem, number: previousNumber, content: "← \(previousTitle)").markdown
     }
     
     var nextLink: String {
         guard let nextNumber, let nextTitle else {
-            return "<span></span>"
+            return MDElement(name: "span").markdown
         }
-        return "<a class=\"prev\" href=\"/Farewell-to-Ulster/Poems/\(nextNumber).html\">\(nextTitle) →</a>"
+        return MDAnchor(classValue: "next", type: .poem, number: nextNumber, content: "\(nextTitle) →").markdown
     }
     
     var markdownText: String {
@@ -77,7 +57,7 @@ struct MDPoem {
         """
 ---
 layout: poem
-title: \(title)
+title: \(info.title)
 ---
 \(breadcrumb)
 
