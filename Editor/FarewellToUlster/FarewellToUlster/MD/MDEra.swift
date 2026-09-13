@@ -25,12 +25,15 @@ struct MDEra {
     }
 
     var list: String {
-        var list: [String] = ["<ul>"]
-        for poem in poems {
-            list.append("<li>" + MDAnchor(type: .poem, number: poem.info.number, content: poem.info.title).markdown + "</li>")
+        html("ul") {
+            for poem in poems {
+                html("li", inline: true) {
+                    html("a", ["href": "/Farewell-to-Ulster/Poems/\(poem.info.number).html"], inline: true) {
+                        poem.info.title
+                    }
+                }
+            }
         }
-        list.append("</ul>")
-        return list.joined(separator: "\n")
     }
     
     var markdown: String {

@@ -10,14 +10,6 @@ import Testing
 
 struct MDTests {
 
-    @Test func testAnchor() async throws {
-        #expect(MDAnchor().markdown == "<a href=\"/Farewell-to-Ulster/\"></a>")
-        #expect(MDAnchor(content: "Title").markdown == "<a href=\"/Farewell-to-Ulster/\">Title</a>")
-        #expect(MDAnchor(number: "1234", content: "Title").markdown == "<a href=\"/Farewell-to-Ulster/1234.html\">Title</a>")
-        #expect(MDAnchor(type: .era, number: "1234", content: "Title").markdown == "<a href=\"/Farewell-to-Ulster/Eras/1234.html\">Title</a>")
-        #expect(MDAnchor(type: .poem, number: "1234", content: "Title").markdown == "<a href=\"/Farewell-to-Ulster/Poems/1234.html\">Title</a>")
-    }
-
     @Test func testBreadcrumb() async throws {
         #expect(MDBreadcrumb().markdown == """
 <nav class="breadcrumb">
@@ -41,17 +33,6 @@ struct MDTests {
 """)
     }
     
-    @Test func testElement() async throws {
-        #expect(MDElement(name: "XYZ", attributes: ["a": "A", "b": "B", "c": "C"], content: "Gobbledegook").markdown == """
-<XYZ a="A" b="B" c="C">Gobbledegook</XYZ>
-""")
-        #expect(MDElement(name: "XYZ", attributes: ["a": "A", "b": "B", "c": "C"], content: "Gobbledegook", isMultiline: true).markdown == """
-<XYZ a="A" b="B" c="C">
-Gobbledegook
-</XYZ>
-""")
-    }
-    
     @Test func testPoem() async throws {
         let poem = MDPoem(eraInfo: MDInfo(title: "Sometime", number: "0001"),
                           info: MDInfo(title: "Talking", number: "0002"),
@@ -60,6 +41,7 @@ Gobbledegook
                           previousTitle: "Previous One",
                           nextNumber: "0003",
                           nextTitle: "Next One")
+//        print(poem.markdown)
         #expect(poem.markdown == """
 ---
 layout: poem
@@ -93,7 +75,6 @@ Hello world
                           nextNumber: "0003",
                           nextTitle: "Next One")
         let era = MDEra(info: info, text: "Sometime is now", poems: [poem])
-        print(era.markdown)
         #expect(era.markdown == """
 ---
 layout: era

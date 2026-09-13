@@ -29,24 +29,23 @@ struct MDPoem {
     }
     
     var previousNext: String {
-        MDElement(name: "nav", attributes: ["class": "prev-next"], content: """
-\(previousLink)
-\(nextLink)
-""", isMultiline: true).markdown
-    }
-    
-    var previousLink: String {
-        guard let previousNumber, let previousTitle else {
-            return MDElement(name: "span").markdown
+        html("nav", ["class": "prev-next"]) {
+            if let previousNumber, let previousTitle {
+                html("a", ["class": "prev", "href": "/Farewell-to-Ulster/Poems/\(previousNumber).html"], inline: true) {
+                    "← \(previousTitle)"
+                }
+            } else {
+                html("span", inline: true) {}
+            }
+            
+            if let nextNumber, let nextTitle {
+                html("a", ["class": "next", "href": "/Farewell-to-Ulster/Poems/\(nextNumber).html"], inline: true) {
+                    "\(nextTitle) →"
+                }
+            } else {
+                html("span", inline: true) {}
+            }
         }
-        return MDAnchor(classValue: "prev", type: .poem, number: previousNumber, content: "← \(previousTitle)").markdown
-    }
-    
-    var nextLink: String {
-        guard let nextNumber, let nextTitle else {
-            return MDElement(name: "span").markdown
-        }
-        return MDAnchor(classValue: "next", type: .poem, number: nextNumber, content: "\(nextTitle) →").markdown
     }
     
     var markdownText: String {

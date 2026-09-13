@@ -11,7 +11,8 @@ struct MDHeading {
     let title: String
     
     var markdown: String {
-        let h1 = MDElement(name: "h1", attributes: ["class": "post-title"], content: title).markdown
-        return MDElement(name: "header", attributes: ["class": "post-header"], content: h1, isMultiline: true).markdown
+        html("header", ["class": "post-header"]) {
+            html("h1", ["class": "post-title"], inline: true) { title }
+        }
     }
 }
