@@ -4097,12 +4097,12 @@
       "category" : "complaint",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0264",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "876C0503-2522-4DE9-97AB-A98F9660FA0D",
         "E00EB215-3266-443B-96C5-A0F4B29AFE2E"
       ],
-      "text" : "Miss Stran's class\nis full of fear",
+      "text" : "Miss Stran's class\nis full of fear\nher thin\nlips\nmean\nold maid\ndry lessons dumb",
       "title" : "Fear",
       "uuid" : "45105C58-8D12-4FB7-8C18-FB21C095BF11"
     },
