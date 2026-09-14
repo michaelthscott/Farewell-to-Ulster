@@ -4097,12 +4097,12 @@
       "category" : "complaint",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0264",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "876C0503-2522-4DE9-97AB-A98F9660FA0D",
         "E00EB215-3266-443B-96C5-A0F4B29AFE2E"
       ],
-      "text" : "Miss Stran's class\nis full of fear",
+      "text" : "Miss Stran's class\nis full of fear\nher thin\nlips\nmean\nold maid\ndry lessons dumb",
       "title" : "Fear",
       "uuid" : "45105C58-8D12-4FB7-8C18-FB21C095BF11"
     },
@@ -9715,12 +9715,12 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0710",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "FD27B4E1-20DF-4086-B49A-B2A28CCF9AB3"
       ],
       "text" : "the plastic bag in the rucksack\nrustles up sandwiches tea flasks and\namazingly satisfying homemade biscuits",
-      "title" : "Feeding hungry",
+      "title" : "Feeding the hungry",
       "uuid" : "3AFFFC8A-3790-4E37-A53C-AFBEB298F648"
     },
     {
@@ -10249,7 +10249,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0755",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A4A0DEAD-52FA-4B26-B61C-B342CCA12F01"
       ],
