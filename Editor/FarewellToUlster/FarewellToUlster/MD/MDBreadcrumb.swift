@@ -20,7 +20,7 @@ struct MDBreadcrumb {
             if let eraInfo {
                 html("a", ["href": "/Farewell-to-Ulster/Eras/\(eraInfo.number).html"], inline: true) { eraInfo.title }
             } else {
-                html("a", ["href": "/Farewell-to-Ulster/"], inline: true) { }
+                html("a", ["href": ""], inline: true) { }
             }
         }
     }
