@@ -7,13 +7,6 @@
 
 import Foundation
 
-enum CursorType {
-    case first
-    case last
-    case only
-    case middle
-}
-
 struct Cursor {
     let previous: Poem?
     let current: Poem
@@ -44,7 +37,6 @@ struct Cursor {
 
 struct Neighbours: @MainActor RandomAccessCollection {
     let poems: [Poem]
-
     var startIndex: Int { poems.startIndex }
     var endIndex: Int { poems.endIndex }
 
