@@ -8,19 +8,15 @@
 import Foundation
 
 struct MDBreadcrumb {
-    let eraInfo: MDInfo?
+    let info: MDInfo
 
-    init(eraInfo: MDInfo? = nil) {
-        self.eraInfo = eraInfo
-    }
-    
     var markdown: String {
         html("nav", ["class": "breadcrumb"]) {
             html("a", ["href": "/Farewell-to-Ulster/"], inline: true) { "Farewell to Ulster" } + " /"
-            if let eraInfo {
-                html("a", ["href": "/Farewell-to-Ulster/Eras/\(eraInfo.number).html"], inline: true) { eraInfo.title }
+            if info.type == .era {
+                a(info: info)
             } else {
-                html("a", ["href": ""], inline: true) { }
+                a(info: .none)
             }
         }
     }

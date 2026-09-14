@@ -37,3 +37,21 @@ func html(
         ? "<\(tag)\(attrString)>\(body)</\(tag)>"
         : "<\(tag)\(attrString)>\n\(body)\n</\(tag)>"
 }
+
+func a(info: MDInfo = .none, classValue: String? = nil, @MDBuilder content: () -> String = { "" }) -> String {
+    var attributes: [String: String] = [:]
+    switch info.type {
+    case .none:
+        attributes["href"] = ""
+    case .site:
+        attributes["href"] = "\(info.type.path)"
+    default:
+        attributes["href"] = "\(info.type.path)\(info.number).html"
+    }
+    if let classValue {
+        attributes["class"] = classValue
+    }
+    return html("a", attributes, inline: true) {
+        info.title
+    }
+}

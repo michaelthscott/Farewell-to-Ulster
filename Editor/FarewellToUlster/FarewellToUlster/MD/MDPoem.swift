@@ -10,18 +10,16 @@ import Foundation
 struct MDPoem {
     let eraInfo: MDInfo
     let info: MDInfo
+    let previousInfo: MDInfo
+    let nextInfo: MDInfo
     let text: String
-    let previousNumber: String?
-    let previousTitle: String?
-    let nextNumber: String?
-    let nextTitle: String?
 
     var path: String {
         "_Poems/\(info.number).md"
     }
     
     var breadcrumb: String {
-        MDBreadcrumb(eraInfo: eraInfo).markdown
+        MDBreadcrumb(info: eraInfo).markdown
     }
     
     var heading: String {
@@ -30,17 +28,17 @@ struct MDPoem {
     
     var previousNext: String {
         html("nav", ["class": "prev-next"]) {
-            if let previousNumber, let previousTitle {
-                html("a", ["class": "prev", "href": "/Farewell-to-Ulster/Poems/\(previousNumber).html"], inline: true) {
-                    "← \(previousTitle)"
+            if previousInfo.type == .poem {
+                html("a", ["class": "prev", "href": "\(previousInfo.type.path)\(previousInfo.number).html"], inline: true) {
+                    "← \(previousInfo.title)"
                 }
             } else {
                 html("span", inline: true) {}
             }
             
-            if let nextNumber, let nextTitle {
-                html("a", ["class": "next", "href": "/Farewell-to-Ulster/Poems/\(nextNumber).html"], inline: true) {
-                    "\(nextTitle) →"
+            if nextInfo.type == .poem {
+                html("a", ["class": "next", "href": "\(nextInfo.type.path)\(nextInfo.number).html"], inline: true) {
+                    "\(nextInfo.title) →"
                 }
             } else {
                 html("span", inline: true) {}

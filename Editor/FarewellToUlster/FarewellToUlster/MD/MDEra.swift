@@ -17,7 +17,7 @@ struct MDEra {
     }
     
     var breadcrumb: String {
-        MDBreadcrumb().markdown
+        MDBreadcrumb(info: .none).markdown
     }
     
     var heading: String {

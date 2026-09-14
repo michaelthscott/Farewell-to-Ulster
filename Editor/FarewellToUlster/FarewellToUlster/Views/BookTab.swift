@@ -91,48 +91,40 @@ struct BookTab: View {
 
         for era in storage.eras.sorted() {
             guard let poems = era.poems else { continue }
-            let eraInfo = MDInfo(title: era.title, number: era.fileOrder)
+            let eraInfo: MDInfo = .era(title: era.title, number: era.fileOrder)
             localFiles = []
             let sortedPoems = poems.vectorSorted()
             var mdPoems = [MDPoem]()
             if sortedPoems.count == 1 {
                 let mdPoem = MDPoem(eraInfo: eraInfo,
-                                    info: MDInfo(title: sortedPoems[0].title, number: sortedPoems[0].fileOrder),
-                                    text: sortedPoems[0].text,
-                                    previousNumber: nil,
-                                    previousTitle: nil,
-                                    nextNumber: nil,
-                                    nextTitle: nil)
+                                    info: .poem(title: sortedPoems[0].title, number: sortedPoems[0].fileOrder),
+                                    previousInfo: .none,
+                                    nextInfo: .none,
+                                    text: sortedPoems[0].text)
                 mdPoems.append(mdPoem)
             } else {
                 for index in sortedPoems.indices {
                     switch index {
                     case 0:
                         let mdPoem = MDPoem(eraInfo: eraInfo,
-                                            info: MDInfo(title: sortedPoems[index].title, number: sortedPoems[index].fileOrder),
-                                            text: sortedPoems[index].text,
-                                            previousNumber: nil,
-                                            previousTitle: nil,
-                                            nextNumber: sortedPoems[index + 1].fileOrder,
-                                            nextTitle: sortedPoems[index + 1].title)
+                                            info: .poem(title: sortedPoems[index].title, number: sortedPoems[index].fileOrder),
+                                            previousInfo: .none,
+                                            nextInfo: .poem(title: sortedPoems[index + 1].title, number: sortedPoems[index + 1].fileOrder),
+                                            text: sortedPoems[index].text)
                         mdPoems.append(mdPoem)
                     case sortedPoems.count - 1:
                         let mdPoem = MDPoem(eraInfo: eraInfo,
-                                            info: MDInfo(title: sortedPoems[index].title, number: sortedPoems[index].fileOrder),
-                                            text: sortedPoems[index].text,
-                                            previousNumber: sortedPoems[index - 1].fileOrder,
-                                            previousTitle: sortedPoems[index - 1].title,
-                                            nextNumber: nil,
-                                            nextTitle: nil)
+                                            info: MDInfo(type: .poem, title: sortedPoems[index].title, number: sortedPoems[index].fileOrder),
+                                            previousInfo: .poem(title: sortedPoems[index - 1].title, number: sortedPoems[index - 1].fileOrder),
+                                            nextInfo: .none,
+                                            text: sortedPoems[index].text)
                         mdPoems.append(mdPoem)
                     default:
                         let mdPoem = MDPoem(eraInfo: eraInfo,
-                                            info: MDInfo(title: sortedPoems[index].title, number: sortedPoems[index].fileOrder),
-                                            text: sortedPoems[index].text,
-                                            previousNumber: sortedPoems[index - 1].fileOrder,
-                                            previousTitle: sortedPoems[index - 1].title,
-                                            nextNumber: sortedPoems[index + 1].fileOrder,
-                                            nextTitle: sortedPoems[index + 1].title)
+                                            info: .poem(title: sortedPoems[index].title, number: sortedPoems[index].fileOrder),
+                                            previousInfo: .poem(title: sortedPoems[index - 1].title, number: sortedPoems[index - 1].fileOrder),
+                                            nextInfo: .poem(title: sortedPoems[index + 1].title, number: sortedPoems[index + 1].fileOrder),
+                                            text: sortedPoems[index].text)
                         mdPoems.append(mdPoem)
                     }
                 }
