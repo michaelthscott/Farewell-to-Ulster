@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MDInfo {
+struct MDInfo: Equatable {
     static let none = MDInfo()
     static let site = MDInfo(type: .site, title: "Farewell to Ulster")
     static func era(title: String, number: String) -> MDInfo {

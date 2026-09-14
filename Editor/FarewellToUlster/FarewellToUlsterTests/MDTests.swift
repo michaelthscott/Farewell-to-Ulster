@@ -7,6 +7,7 @@
 
 import Testing
 @testable import FarewellToUlster
+import Foundation
 
 struct MDTests {
 
@@ -206,5 +207,22 @@ struct MDTests {
         <li><a href="/Farewell-to-Ulster/Poems/0002.html">Talking</a></li>
         </ul>
         """)
+    }
+    
+    @Test func testNeighbours() async throws {
+        let storage = try #require(Storage.testStorage(with: "SmallBook"))
+        let neighbours = storage.poems.sorted(using: KeyPathComparator(\Poem.fileOrder)).neighbours
+        
+        #expect(neighbours[neighbours.startIndex].previousInfo == .none)
+        #expect(neighbours[neighbours.startIndex].currentInfo.number == "0001")
+        #expect(neighbours[neighbours.startIndex].nextInfo.number == "0002")
+        
+        #expect(neighbours[2].previousInfo.number == "0002")
+        #expect(neighbours[2].currentInfo.number == "0003")
+        #expect(neighbours[2].nextInfo.number == "0004")
+        
+        #expect(neighbours[neighbours.endIndex - 1].previousInfo.number == "0005")
+        #expect(neighbours[neighbours.endIndex - 1].currentInfo.number == "0006")
+        #expect(neighbours[neighbours.endIndex - 1].nextInfo == .none)
     }
 }
