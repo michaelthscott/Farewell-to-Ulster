@@ -5611,11 +5611,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0382",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "shoe lace broke\nfrayed ends\n\ntie it\nskip a few holes\n\nshoe lace broke\n\nblack school shoes\nscuffed\n\noccasionally polished\ndented toe\n\ninside my shoe\nsweaty fluff",
+      "text" : "shoe lace broke\ntie frayed ends\nskip a few holes\n\nblack school shoe\ndented toe\nscuffed\n\noccasional polish\ninside my shoe\nsweaty fluff",
       "title" : "Feet",
       "uuid" : "3D813129-4D73-4B2C-BBC8-D19035A99FA5"
     },
