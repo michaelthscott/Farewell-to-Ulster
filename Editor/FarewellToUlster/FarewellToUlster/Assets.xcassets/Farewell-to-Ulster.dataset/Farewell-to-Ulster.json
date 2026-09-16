@@ -921,11 +921,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0024",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "67D1AC15-8A69-415E-B96E-CA7411894A1D"
       ],
-      "text" : "modern Tempo felt tip pen\ntwo hearts Paper Mate\ncurve together letters\nspelling Pink Floyd\nhomework not yet done",
+      "text" : "my modern felt tip pen\ntwo hearts Paper Mate\n\ncurve wavy letters\nspelling Pink Floyd\n\nhomework not yet done",
       "title" : "Felt tip",
       "uuid" : "35D77CD5-BC71-4865-8458-E552C58ADCE4"
     },
@@ -3934,11 +3934,12 @@
       "fileOrder" : "0252",
       "status" : "in progress",
       "subjectUUIDs" : [
+        "1BA4097C-8DAE-4180-AD39-96EF1C1091D1",
         "3ADE30B6-AB2C-418E-B713-A001C2D36EEC",
         "6DAEFA40-3546-4CB9-BC1F-D7C1F93333C5",
         "876C0503-2522-4DE9-97AB-A98F9660FA0D"
       ],
-      "text" : "uniform\nwall of Inst\nemits a skinny truant\n\ntieless white nylon shirt\nblack blazer grey trousers\nblack shoes grey socks\n\nold brown leather satchel\nwithout its straps\n\nGreat Victoria Street\nOdeon Opera House ABC\nempty foyer carpet hush\n\nget your motor running",
+      "text" : "uniform\nlow wall of Inst\nemits a skinny truant\n\ntieless white nylon shirt\nblack blazer grey trousers\nblack shoes grey socks\n\nold brown leather satchel\nwithout its straps\n\nGreat Victoria Street\nOdeon Opera House ABC\nempty foyer carpet hush\n\nget your motor running",
       "title" : "Easy Rider",
       "uuid" : "69C0F7A9-4668-44A4-83A0-0DC2039B6DA7"
     },
@@ -5611,11 +5612,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0382",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "shoe lace broke\nfrayed ends\n\ntie it\nskip a few holes\n\nshoe lace broke\n\nblack school shoes\nscuffed\n\noccasionally polished\ndented toe\n\ninside my shoe\nsweaty fluff",
+      "text" : "shoe lace broke\ntie frayed ends\nskip a few holes\n\nblack school shoes\nscuffed dented toe\nsweaty fluff inside \n\noccasionally polished",
       "title" : "Feet",
       "uuid" : "3D813129-4D73-4B2C-BBC8-D19035A99FA5"
     },
@@ -7745,7 +7746,7 @@
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
       "text" : "after work\nMr Noel gives \nMrs McClusky a lift\n\npicks me up too on the\ncorner of Donegal Road\n\nthey are polite close\nmade me wonder\nof course not",
-      "title" : "Innocense",
+      "title" : "Innocence",
       "uuid" : "A7B87F47-7D99-49C0-BBDE-A3C7759C3706"
     },
     {
