@@ -921,11 +921,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0024",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "67D1AC15-8A69-415E-B96E-CA7411894A1D"
       ],
-      "text" : "modern Tempo felt tip pen\ntwo hearts Paper Mate\ncurve together letters\nspelling Pink Floyd\nhomework not yet done",
+      "text" : "my modern felt tip pen\ntwo hearts Paper Mate\n\ncurve wavy letters\nspelling Pink Floyd\n\nhomework not yet done",
       "title" : "Felt tip",
       "uuid" : "35D77CD5-BC71-4865-8458-E552C58ADCE4"
     },
