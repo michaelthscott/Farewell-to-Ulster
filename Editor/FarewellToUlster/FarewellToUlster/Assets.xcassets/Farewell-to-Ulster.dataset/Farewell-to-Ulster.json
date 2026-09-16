@@ -921,12 +921,12 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0024",
-      "status" : "in progress",
+      "status" : "getting started",
       "subjectUUIDs" : [
         "67D1AC15-8A69-415E-B96E-CA7411894A1D"
       ],
-      "text" : "my modern felt tip pen\ntwo hearts Paper Mate\n\ncurve wavy letters\nit spells Pink Floyd\n\nhomework not yet done",
-      "title" : "Tempo",
+      "text" : "modern Tempo felt tip pen\ntwo hearts Paper Mate\ncurve together letters\nspelling Pink Floyd\nhomework not yet done",
+      "title" : "Felt tip",
       "uuid" : "35D77CD5-BC71-4865-8458-E552C58ADCE4"
     },
     {
@@ -5615,7 +5615,7 @@
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "shoe lace broke\ntie frayed ends\nskip a few holes\n\nblack school shoe\ndented toe\nscuffed\n\noccasional polish\ninside my shoe\nsweaty fluff",
+      "text" : "shoe lace broke\ntie frayed ends\nskip a few holes\n\nblack school shoes\nscuffed dented toe\nsweaty fluff inside \n\noccasionally polished",
       "title" : "Feet",
       "uuid" : "3D813129-4D73-4B2C-BBC8-D19035A99FA5"
     },
@@ -6180,13 +6180,13 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0427",
       "scratchpad" : "oh garden fence\nplease keep out the cows\nespecially that bull\ndumb and menacing\n\noh garden fence\nmark my residence\nprotect me from the cows and the bull\n\neasier to get over at the corner\nfrom the mound of the grass cutting dumpings\nor dip and slip under wire\nholding wire up for each other\n\ndown the garden fence\nmy stick sends echos rippling",
-      "status" : "in progress",
+      "status" : "getting started",
       "subjectUUIDs" : [
         "99465199-F33A-4A5C-B74E-D6663C55D30A",
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "\nwire into hole\nconcrete pole\n\nsave long grass\ntoo close to cut\n\nkicking chicken wire\ndodging under barbed wire\npicking at crinkly yellow lichen",
+      "text" : "concrete poles\nwire through the holes\nlong green grass\ntoo close for cutting\n\nkicking chicken wire\ndodging under barbed wire\npicking at the crinkly yellow lichen",
       "title" : "Fence",
       "uuid" : "4413E947-4D64-479A-94A8-CFE7E4F08B91"
     },
@@ -7175,11 +7175,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0506",
-      "status" : "in progress",
+      "status" : "getting started",
       "subjectUUIDs" : [
         "66C661EB-14B7-404A-BBDD-AA96573A6B19"
       ],
-      "text" : "the way she looks\nin the magazine\nshe's a she\nisn't she\nyes\noh yes\nshe's a she\nin the magazine\nthe way she looks",
+      "text" : "the way she looks\nin the magazine\nshe's a she\nisn't she\nyes\noh yes\nshe's a she",
       "title" : "Female",
       "uuid" : "92A6ACC7-8139-4065-BE48-2773B51FF8D1"
     },
