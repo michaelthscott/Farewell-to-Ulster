@@ -933,11 +933,11 @@
       "category" : "lyric",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0025",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "13613B9B-E678-491E-95E3-761B9585EF44"
       ],
-      "text" : "it comes every week\nscience folklore history\n\ntreasure of elfin faces\nslipped under threads \nto make a volume\n\nso I carefully pencil copy \na little pure white unicorn\n\nproud to get it right",
+      "text" : "it comes every week\nscience folklore history\n\ntreasure of elfin faces\nslipped under threads \nto make up a volume\n\nso I carefully pencil copy \na little pure white unicorn\n\nproud to get it right",
       "title" : "Finding Out",
       "uuid" : "6596D546-DBD9-4709-AD53-1ED3C719E6B7"
     },
@@ -1183,12 +1183,12 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0044",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7",
         "D17D11E5-8A88-4EAC-BB93-2CEA027C849A"
       ],
-      "text" : "is the surface of the river\ngreasy brown or lightest blue\n\nbetween opposite banks\nhigh and flat",
+      "text" : "is the surface of the river\ngreasy brown or sky blue\n\nbetween opposite banks\nhigh and flat it meanders ",
       "title" : "Fishing",
       "uuid" : "2744D0D6-F9A5-4603-A9CF-565D144AA016"
     },
@@ -1446,12 +1446,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0064",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D17D11E5-8A88-4EAC-BB93-2CEA027C849A"
       ],
-      "text" : "tinted nylon line\nbit with my teeth\n\nthreading the hook eye\n\nworms squirm\nearth in the jar\n\nmuddy fingers\nskewer their spasms",
-      "title" : "Fishing line",
+      "text" : "tinted nylon line\nbite on my teeth\n\nthreading\nhook eye\n\nworms squirm\nmud in the jar\n\ngrubby fingers\nskewer spasms",
+      "title" : "Bait",
       "uuid" : "C362E59D-A608-4B84-9A8D-9C032942BE5F"
     },
     {
@@ -3387,11 +3387,11 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0210",
       "scratchpad" : "and whip\nwhish it back out\nthe waxed line\nshooting from the palm\nline follows itself out\nand lands among the circles",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D17D11E5-8A88-4EAC-BB93-2CEA027C849A"
       ],
-      "text" : "rain spreading rings\nacross the flat black lake\n\nfish will be rising now\npull in the line\n\nstealthful finger tip\nand wrist looping \nfigures of eight\ncradled in my palm\n\nand then whish\nwhip back\nthe rod\n\nwrist again",
+      "text" : "rain spreading its rings\nacross a flat black lake\n\nfish will be rising now\nsteady pull in the line\n\nstealthful finger tip\nand wrist looping \n\nfigures of eight\ncradled in palm\n\nthen whish\nwhip back\nthe rod\n\nwrist again",
       "title" : "Fish",
       "uuid" : "2E487AF3-F1F1-43BA-B583-ECF17319BEE6"
     },
@@ -3466,7 +3466,7 @@
       "category" : "descriptive",
       "eraUUID" : "01686548-4384-46F3-A5CB-EDC2D83D34DB",
       "fileOrder" : "0216",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
@@ -3826,12 +3826,12 @@
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0244",
       "scratchpad" : "Grandpa Scott\nhas got a lot\nof tools \nin his garage",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5B51317A-87C9-4321-888F-419461AFEDF4"
       ],
-      "text" : "Mr Fix-it \nrolls of wire\nendless sorted screws\n\ngrandpa's garage \nchockablock tools\njam jars with washers",
-      "title" : "Fix-it",
+      "text" : "in grandpa's garage\nhangs rolled up wire\n\nit's chock-a-block with tools\n\njam jars full of washers\nendless sorted screws",
+      "title" : "Mr Fix-it",
       "uuid" : "A7A161E1-6707-4B5B-A70C-D1D6948FAF30"
     },
     {
@@ -10226,7 +10226,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0753",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1"
       ],
@@ -10726,7 +10726,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0796",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
