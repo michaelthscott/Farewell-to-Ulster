@@ -4111,7 +4111,7 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0265",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9"
       ],
@@ -4325,11 +4325,11 @@
         "736FDD57-19EF-4AF8-BFBC-1BCF4A205197"
       ],
       "fileOrder" : "0281",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2E667939-4314-420D-89FF-4FC512542ACB"
       ],
-      "text" : "edge of the bed\nYoko Ono screams\ndon't worry don't worry\nopen your box\n\nround eye glass John\nfuzzy short hair now\nmy big glossy poster\ngive peace a chance",
+      "text" : "edge of the bed\nYoko Ono scream\nworry don't worry \nwe open your box\n\nround eyeglass John\nfuzzy short hair now\nmy big glossy poster\ngive peace a chance",
       "title" : "Fly",
       "uuid" : "4B31A116-5736-4A1B-88BE-DF429B7A60F6"
     },
@@ -10762,11 +10762,11 @@
       "category" : "lament",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0799",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "9AA45080-C30E-4FB4-AC35-5F5EEA4F0B8B"
       ],
-      "text" : "in theory \none could remove the pith \nfrom an elder twig and make a flute\n\nbut even carving a notch \nnever made it happen",
+      "text" : "in theory \nI can remove the pith \nfrom an elder twig and make a flute\n\nbut even carving a notch \nnever made it happen",
       "title" : "Flute",
       "uuid" : "4AD3CB36-4562-4BBC-BEB6-8C63D64033DB"
     },
