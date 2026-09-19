@@ -1262,7 +1262,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0050",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F8C2CB36-6367-4BBF-A1FB-9409E4D3901B"
       ],
@@ -4508,8 +4508,8 @@
       "subjectUUIDs" : [
         "D0A143CA-8080-4954-9C77-F1D22931F2D5"
       ],
-      "text" : "Gauguin\nfull colour illustrations\nThames & Hudson\naspects of a picture\nthat entered my mind",
-      "title" : "Forerunner",
+      "text" : "full colour \nGauguin illustrations\naspects of the picture\nthat entered my mind",
+      "title" : "Thames & Hudson",
       "uuid" : "6AEBD76E-3A68-47D3-83B1-F20DF0C78642"
     },
     {
@@ -7293,12 +7293,12 @@
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0515",
       "scratchpad" : "Airfix glue \nand balsa cement",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "9AA45080-C30E-4FB4-AC35-5F5EEA4F0B8B",
         "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
       ],
-      "text" : "finger turning \ntwo blade propeller\npowered by long twisted rubber band\n\ntwo springy wire legs\nwith plastic wheels\njutting from the nose of the fuselage",
+      "text" : "my finger turning \nthis two blade propeller\npowered by long twisted rubber band\n\nspringy wire legs\nwith small plastic wheels\njutting from the nose of the fuselage",
       "title" : "Flying machine",
       "uuid" : "385813FC-60E8-42E0-92EC-77D03F874B42"
     },
