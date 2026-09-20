@@ -24,6 +24,24 @@ extension Collection where Element: SortIndexable {
         sorted(by: { $0.sortIndex < $1.sortIndex })
     }
     
+    /*
+     TODO: resetSortIndexes has a real bug: as written, it can never actually update the elements unless Element is a class. enumerated() produces (offset, element) pairs by value. var item copies that element into a local variable; mutating item.sortIndex mutates the copy, not anything reachable through the collection. And since this is declared on Collection (not MutableCollection), there's no subscript setter available even if you wanted one — the method has no way to write back. For a struct Element, this method silently does nothing observable to the caller, despite its name and doc comment ("set the sortIndex to the index of the element in the collection") implying persistence.
+    
+    It only "works" if Element is a class — then item is a reference and mutating item.sortIndex does affect the shared instance. That's a fragile, implicit dependency on reference semantics that nothing in the code signals.
+
+    To make it actually do what it says, you'd need either:
+
+    extension MutableCollection where Element: SortIndexable {
+        mutating func resetSortIndexes() {
+            for i in indices {
+                if self[i].sortIndex != self[i].distance(from: startIndex, to: i) { /* ... */ }
+            }
+        }
+    }
+
+    (roughly — needs Index == Int or an offset calculation for non-Int-indexed collections), or, if Element is meant to stay a class, at minimum a comment noting the reference-semantics requirement so it isn't silently broken if someone converts the type to a struct later.
+    */
+    
     /// Iterate through the collection and set the sortIndex to the index of the element in the collection.
     func resetSortIndexes() {
         for (index, var item) in enumerated() {

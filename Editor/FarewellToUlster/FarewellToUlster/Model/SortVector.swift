@@ -8,12 +8,17 @@
 import Foundation
 
 /// Initialised with an array of indexes which indicate which positions in the vector are significant. 
-struct SortVector {
+nonisolated struct SortVector {
     // These need to be in ascending order so that the < will work.
     let sortIndexes: [Int]
+    
+    init(sortIndexes: [Int]) {
+        assert(sortIndexes == sortIndexes.sorted(), "sortIndexes must be ascending")
+        self.sortIndexes = sortIndexes
+    }
 }
 
-extension SortVector: Comparable {
+nonisolated extension SortVector: Comparable {
     static func == (lhs: SortVector, rhs: SortVector) -> Bool {
         lhs.sortIndexes == rhs.sortIndexes
     }
