@@ -14,8 +14,8 @@ import Testing
 struct GitHubTests {
 
     @Test func testErrorDescriptions() async throws {
-        #expect(GitHubCommitError.noToken.errorDescription == "No GitHub token found in Keychain. Save one first.")
-        #expect(GitHubCommitError.unauthorized.errorDescription == "GitHub rejected the token. It may have expired.")
+        #expect(GitHubCommitError.noToken.errorDescription == "No GitHub token found in Keychain. Save one with GitHub Token.")
+        #expect(GitHubCommitError.unauthorized.errorDescription == "GitHub rejected the token. It may have expired. Save a new one with GitHub Token.")
         #expect(GitHubCommitError.requestFailed(404, "Not Found").errorDescription == "GitHub API error 404: Not Found")
     }
 

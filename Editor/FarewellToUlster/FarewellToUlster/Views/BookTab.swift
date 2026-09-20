@@ -72,10 +72,7 @@ struct BookTab: View {
                             .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
                     }
                 }
-                .alert(outcome?.title ?? "", isPresented: showOutcome, presenting: outcome) { outcome in
-                    if outcome.needsToken {
-                        Button("Enter Token") { showGitHubSettings = true }
-                    }
+                .alert(outcome?.title ?? "", isPresented: showOutcome, presenting: outcome) { _ in
                     Button("OK", role: .cancel) { }
                 } message: { outcome in
                     Text(outcome.message)

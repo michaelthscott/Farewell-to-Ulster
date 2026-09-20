@@ -15,9 +15,9 @@ enum GitHubCommitError: LocalizedError {
     var errorDescription: String? {
         switch self {
         case .noToken:
-            return "No GitHub token found in Keychain. Save one first."
+            return "No GitHub token found in Keychain. Save one with GitHub Token."
         case .unauthorized:
-            return "GitHub rejected the token. It may have expired."
+            return "GitHub rejected the token. It may have expired. Save a new one with GitHub Token."
         case .requestFailed(let code, let message):
             return "GitHub API error \(code): \(message)"
         }
