@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// A single commit that failed, named so the user can tell which one.
+/// A single commit that failed, named so the user can tell which one failed.
 struct CommitFailure: Identifiable {
     let id = UUID()
     let target: String
