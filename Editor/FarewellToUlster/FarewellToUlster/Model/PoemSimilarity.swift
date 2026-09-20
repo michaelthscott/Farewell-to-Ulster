@@ -29,7 +29,10 @@ class PoemSimilarity: PoemSimilarityProtocol {
     }
         
     func similarPoemPairs(poems: [Poem]) -> [PoemPair] {
-        guard let embedding = Self.sentenceEmbedding else { return [] }
+        guard let embedding = Self.sentenceEmbedding else {
+            print("No sentence embedding")
+            return []
+        }
         var embeddings: [PoemEmbedding] = []
         embeddings.reserveCapacity(poems.count)
         
