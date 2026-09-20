@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-// TODO: This needs to be made available to update the token when it expires.
-
+/// Save or replace the GitHub token. Reached from the Book tab menu, and offered
+/// directly when a commit fails because the token is missing or expired.
 struct GitHubSettingsView: View {
     @State private var tokenInput = ""
     @State private var savedMessage: String?

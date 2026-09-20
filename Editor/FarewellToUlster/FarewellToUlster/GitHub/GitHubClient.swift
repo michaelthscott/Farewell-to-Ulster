@@ -79,12 +79,28 @@ struct GitHubClient {
             req.setValue("application/json", forHTTPHeaderField: "Content-Type")
         }
         let (data, response) = try await URLSession.shared.data(for: req)
-        guard let http = response as? HTTPURLResponse, (200..<300).contains(http.statusCode) else {
-            let body = String(data: data, encoding: .utf8) ?? ""
-            throw NSError(domain: "GitHub", code: (response as? HTTPURLResponse)?.statusCode ?? -1,
-                           userInfo: [NSLocalizedDescriptionKey: body])
+        guard let http = response as? HTTPURLResponse else {
+            throw GitHubCommitError.requestFailed(-1, "No HTTP response")
+        }
+        guard (200..<300).contains(http.statusCode) else {
+            // 401 means the credentials themselves are bad, so the fix is a new token.
+            // 403 is left alone: it covers rate limiting and scope problems too, and the
+            // decoded message distinguishes them.
+            if http.statusCode == 401 {
+                throw GitHubCommitError.unauthorized
+            }
+            throw GitHubCommitError.requestFailed(http.statusCode, Self.message(from: data))
         }
         return data
+    }
+
+    /// GitHub errors arrive as `{ "message": "...", ... }`; fall back to the raw body.
+    private static func message(from data: Data) -> String {
+        struct ErrorBody: Decodable { let message: String }
+        if let body = try? JSONDecoder().decode(ErrorBody.self, from: data) {
+            return body.message
+        }
+        return String(data: data, encoding: .utf8) ?? "Unknown error"
     }
 
     struct TreeEntry: Decodable {

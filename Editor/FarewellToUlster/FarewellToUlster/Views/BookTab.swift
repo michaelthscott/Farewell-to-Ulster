@@ -21,6 +21,16 @@ struct BookTab: View {
     @State private var contentType: UTType = .pdf
     @State private var defaultFileName: String = "Untitled"
     @State private var isCommittingUpdate: Bool = false
+    @State private var showGitHubSettings: Bool = false
+    @State private var outcome: CommitOutcome?
+
+    /// Drives the outcome alert, clearing the outcome when the alert is dismissed.
+    private var showOutcome: Binding<Bool> {
+        Binding(
+            get: { outcome != nil },
+            set: { if !$0 { outcome = nil } }
+        )
+    }
 
     var body: some View {
         NavigationStack {
@@ -44,6 +54,11 @@ struct BookTab: View {
                             }) {
                                 Label("Export PDF", systemImage: "square.and.arrow.up")
                             }
+                            Button(action: {
+                                showGitHubSettings = true
+                            }) {
+                                Label("GitHub Token", systemImage: "key")
+                            }
                         } label: {
                             Label("Export", systemImage: "ellipsis.circle")
                         }
@@ -55,6 +70,25 @@ struct BookTab: View {
                         ProgressView("Committing update …")
                             .padding(24)
                             .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
+                    }
+                }
+                .alert(outcome?.title ?? "", isPresented: showOutcome, presenting: outcome) { outcome in
+                    if outcome.needsToken {
+                        Button("Enter Token") { showGitHubSettings = true }
+                    }
+                    Button("OK", role: .cancel) { }
+                } message: { outcome in
+                    Text(outcome.message)
+                }
+                .sheet(isPresented: $showGitHubSettings) {
+                    NavigationStack {
+                        GitHubSettingsView()
+                            .navigationTitle("GitHub")
+                            .toolbar {
+                                ToolbarItem(placement: .confirmationAction) {
+                                    Button("Done") { showGitHubSettings = false }
+                                }
+                            }
                     }
                 }
                 .fileExporter(isPresented: $showExporter, document: document, contentType: contentType, defaultFilename: defaultFileName) { result in
@@ -69,12 +103,16 @@ struct BookTab: View {
     }
     
     private func commitUpdate() async {
+        var outcome = CommitOutcome()
+        defer { self.outcome = outcome }
+
         guard let jsonFile = JSONFile(storage: storage) else {
-            print("Failed to get JSON file")
+            outcome.record(target: "JSON file", message: "Could not build the JSON file.")
             return
         }
 
         guard let data = try? jsonFile.document.snapshot(contentType: jsonFile.contentType) else {
+            outcome.record(target: "JSON file", message: "Could not encode the JSON file.")
             return
         }
         
@@ -84,13 +122,21 @@ struct BookTab: View {
         var localFiles: [LocalFile] = [localFile]
         let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")
         do {
-            _ = try await client.batchCommit(files: localFiles, message: "Editor update for JSON file")
+            let sha = try await client.batchCommit(files: localFiles, message: "Editor update for JSON file")
+            outcome.record(target: "JSON file", commitSHA: sha)
         } catch {
-            print("Update failed: \(error.localizedDescription)")
+            outcome.record(target: "JSON file", error: error)
+            // A dead token fails every remaining commit identically, so stop here.
+            if outcome.needsToken { return }
         }
 
         for era in storage.eras.sorted() {
-            guard let poems = era.poems else { continue }
+            // An era with no poems has nothing to write, but still counts towards the
+            // total so the summary matches the number of eras in the book.
+            guard let poems = era.poems else {
+                outcome.record(target: era.title, commitSHA: nil)
+                continue
+            }
             let eraInfo: MDInfo = .era(title: era.title, number: era.fileOrder)
             localFiles = []
             let sortedPoems = poems.vectorSorted()
@@ -110,9 +156,11 @@ struct BookTab: View {
                 localFiles.append(LocalFile(path: mdPoem.path, content: mdPoem.data))
             }
             do {
-                _ = try await client.batchCommit(files: localFiles, message: "Editor update for era: \(mdEra.info.title)")
+                let sha = try await client.batchCommit(files: localFiles, message: "Editor update for era: \(mdEra.info.title)")
+                outcome.record(target: mdEra.info.title, commitSHA: sha)
             } catch {
-                print("Update failed: \(error.localizedDescription)")
+                outcome.record(target: mdEra.info.title, error: error)
+                if outcome.needsToken { return }
             }
         }
     }
