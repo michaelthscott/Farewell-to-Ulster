@@ -2683,7 +2683,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0156",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
       ],
@@ -4425,12 +4425,12 @@
       "category" : "ironic",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0289",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "937498DF-E340-49CA-8134-82ED96E503EB",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "time makes it summer again\nweeks and weeks of weekend \ngiving back the garden \nto aimlessly play in\n \ncasual inspection\nof strawberry plants\nsoil covered straw mats\nrows that move each year\nrotating with the potatoes\n\nnever occurs to me why \nnever recruited in \nadult world\n\nthree sons polluted \nby not here forever \nLongshot\n\n\n\n\n",
+      "text" : "time makes it summer again\nendlessly weeks of weekend\n\ngiving back the garden \nfor aimlessly playing in\n \ncasual inspection\nof strawberry plants\nsoil covered straw mats\nrows that move each year\nrotating with the potatoes\n\nnever occurs to me why \nnever recruited into\nthe adult world\n\nthree sons polluted \nby not here forever\nLongshot\n\n\n\n\n",
       "title" : "Fruit and vegetables",
       "uuid" : "C2D833F3-6A90-4353-B1AC-BF28A8E5CF11"
     },
@@ -4955,7 +4955,7 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0330",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "4E8D35BE-B360-4F48-9A7E-892E7BA252D8",
         "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
@@ -5678,14 +5678,14 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0387",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "7994F3EA-CC25-455B-A350-BD69D7AB0DDB",
         "8F76EA22-A699-413A-BDA1-BDFE31D889A0"
       ],
-      "text" : "Moya and Brian\nlike Teddy and Noel\n\nbest man\nbridesmaid\nnothing wild at all",
+      "text" : "Moya and Brian\nlike Teddy and Noel\n\nbest man\nbridesmaid\n\nwild \nnot at all",
       "title" : "Friends",
       "uuid" : "E74F2497-53AB-4DC8-9262-EB44FDD1BB98"
     },
@@ -6963,11 +6963,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0489",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9"
       ],
-      "text" : "freedom comes\nfrom being alone\n\nbecoming alone\nnot staying alone\n\nalone \nemptying\neverything",
+      "text" : "freedom comes\nfrom only alone\n\nbecoming alone\nnot staying alone\n\nalone \nemptying\neverything",
       "title" : "Freedom",
       "uuid" : "9615C0E3-449A-4D7B-B3A0-F19416BB6155"
     },
@@ -9680,7 +9680,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0707",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
@@ -9801,7 +9801,7 @@
       "category" : "lyric",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0717",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
@@ -10301,11 +10301,11 @@
         "8CB14258-8C5E-428F-8044-ECBF81DFDB6E"
       ],
       "fileOrder" : "0759",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1"
       ],
-      "text" : "how could that possibly happen\nmucky old field turned to glass",
+      "text" : "how could this possibly happen\nmucky old field turned into glass",
       "title" : "Freeze",
       "uuid" : "41625E5B-ABA1-4A55-A0D6-797F1B678F54"
     },
