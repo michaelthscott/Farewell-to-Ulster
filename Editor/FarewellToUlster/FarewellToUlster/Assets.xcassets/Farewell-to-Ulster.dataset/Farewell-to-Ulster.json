@@ -6131,7 +6131,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0422",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1"
       ],
@@ -8802,11 +8802,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0635",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
       ],
-      "text" : "move the ring\nalong the wire\n\ndon't flash\nthe little light",
+      "text" : "move the ring\nalong the wire\n\ndon't flash it\nthe little light",
       "title" : "Game",
       "uuid" : "7895E232-9552-4456-9415-DB947832EC92"
     },
@@ -9227,12 +9227,12 @@
       "category" : "narrative",
       "eraUUID" : "E86C3877-3815-42AE-BEBF-3787BDB69C56",
       "fileOrder" : "0670",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C084DF66-00B8-475E-BBC3-1B14329CDD3E"
       ],
-      "text" : "tall thin Paris Irish librarian\nat the Bibliothèque Nationale\n\nsmall bare attic rooftop room\noblique view of the boulevard",
+      "text" : "Paris tall thin Irish librarian\nchez Bibliothèque nationale\n\nsmall bare attic rooftop room\noblique view of the boulevard",
       "title" : "Future",
       "uuid" : "EB573EE2-4C8F-4B25-B37E-E1692C9C21C2"
     },
@@ -9629,11 +9629,11 @@
       "category" : "lament",
       "eraUUID" : "8F23EB6C-80FA-49F6-9C03-322333025775",
       "fileOrder" : "0703",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "the flowers my parents planted\nhow do they bloom today",
+      "text" : "flowers my parents planted\ndo any bloom again today?",
       "title" : "Garden",
       "uuid" : "B9A4C943-2946-4584-B237-682FD0995431"
     },
@@ -10094,11 +10094,11 @@
       "category" : "complaint",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0742",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "876C0503-2522-4DE9-97AB-A98F9660FA0D"
       ],
-      "text" : "in school uniform is born\nthe rule that you’ll conform",
+      "text" : "with school uniform is born\nthe rule that you’ll conform",
       "title" : "Garb",
       "uuid" : "5F6F97D5-97F6-40EB-BB97-06F66AEB1DA6"
     },
