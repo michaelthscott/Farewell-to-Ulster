@@ -10666,11 +10666,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0790",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "raked leaves\nmushy brown\nover rough damp hessian\nbundled up and dragged to a heap\nunder pine trees\nfor compost\nlater",
+      "text" : "rake leaves\nmushy brown\nover rough damp hessian\n\nbundled up and dragged \nunder pine trees \nfor compost \nmulching \n\nMum and Dad\nknow their\ngarden \n\n",
       "title" : "Gardening",
       "uuid" : "4ED9FC26-FF21-4E80-9A6F-EAF3590A49B1"
     },
