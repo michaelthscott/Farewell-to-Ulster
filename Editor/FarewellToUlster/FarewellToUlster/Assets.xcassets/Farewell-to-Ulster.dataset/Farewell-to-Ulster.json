@@ -2075,11 +2075,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0110",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "BCFF7E65-2944-4526-B82A-851A9C95D343"
       ],
-      "text" : "Sunday afternoon\nlet's go for a drive\n\nwindow handle\nthe winderuper\nit's a little loose\nfingers wobble it\n\nnose and cheek\nagainst the glass\nnot really interested\nin farms and hedges",
+      "text" : "Sunday afternoon\nlet's go for a drive\n\nwindow handle\nthe winderuper\nit's a little loose\nfinger wobble it\n\nnose and cheek\nagainst the glass\nnot really interested\nin farms and hedges",
       "title" : "Germ of elsewhere forming",
       "uuid" : "35CD906B-B8EE-4D23-8FF8-CA529C649AB2"
     },
@@ -6442,13 +6442,13 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0447",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "40139369-A64C-46D5-B1A0-BED7FB669E8F",
         "57CD1810-6E41-424B-9F18-1582FB8010FF",
         "5B51317A-87C9-4321-888F-419461AFEDF4"
       ],
-      "text" : "Grandpa brought a dagger\nfrom the First World War\nwe crack up to discover \ndas ist der fust pudden",
+      "text" : "we've a German dagger\nfrom the First World War\n\nGrandpa Scott he got it\nprobably from the dead \n\nwe crack up to discover\nwhen he says the floor\nin German it sounds \nlike foot putting",
       "title" : "German",
       "uuid" : "7CBC4AE0-D684-43EB-BBB9-32E67986E0D6"
     },
@@ -8268,7 +8268,7 @@
       "category" : "descriptive",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0593",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
