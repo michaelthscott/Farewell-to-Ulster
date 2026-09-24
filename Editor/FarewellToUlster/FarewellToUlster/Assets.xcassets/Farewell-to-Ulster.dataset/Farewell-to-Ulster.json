@@ -5706,11 +5706,11 @@
       "category" : "descriptive",
       "eraUUID" : "01686548-4384-46F3-A5CB-EDC2D83D34DB",
       "fileOrder" : "0389",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "8ED11B87-901F-44F0-ADC3-F4DE88EFBA87"
       ],
-      "text" : "look \nit’s a giant hogweed\npale branching monster\nrising above riverside leaves \n\nit escaped you know\nit’s poisonous \nfrom Kew\n\nheads turn\nfollowing the monster\nriding above the stonewall curve",
+      "text" : "look!\nit’s a giant hogweed\npale branching monster\nrising above riverside leaves \n\nit escaped you know\nit’s poisonous \nfrom Kew\n\nheads turn\nfollowing the monster\nriding above the stonewall curve",
       "title" : "Giant hogweed",
       "uuid" : "15F98879-9B97-4112-9C8A-E882E6D0F830"
     },
@@ -6353,7 +6353,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0440",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "BCFF7E65-2944-4526-B82A-851A9C95D343"
       ],
@@ -9886,7 +9886,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0724",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "8ED11B87-901F-44F0-ADC3-F4DE88EFBA87"
       ],
@@ -10202,11 +10202,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0751",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "937498DF-E340-49CA-8134-82ED96E503EB"
       ],
-      "text" : "making ginger beer\nin the pantry cupboard\nfizzle as the yeast grow\nthen we bottle it",
+      "text" : "making ginger beer\nin the pantry cupboard\nfizzle as the yeast grows\nthen we bottle it",
       "title" : "Ginger beer",
       "uuid" : "A7663173-8738-40AC-81FA-25A73BC27F4C"
     },
