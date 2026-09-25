@@ -3621,12 +3621,12 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0228",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "05DC0326-A952-462C-955A-05B48779EE8E",
         "93DCA9D5-7457-4348-B1BD-A88E9AC4D5B7"
       ],
-      "text" : "edge of history\nstonewalled \nKerry field\n\nsmall dark door\nover muddy step\nsunless cold inside\n\ngleefully\nour discovery\nGluggy’s Oratory",
+      "text" : "Kerry field\nstonewalled\nedge of history\n\nsmall dark door\nover muddy step\nsunless cold inside\n\ngleefully \nour discovery\nGluggy’s Oratory",
       "title" : "Glarius' Oratory",
       "uuid" : "449B726D-4CE2-45A7-81D4-AC9E47EBE67D"
     },
@@ -7805,12 +7805,12 @@
       "category" : "ironic",
       "eraUUID" : "8F23EB6C-80FA-49F6-9C03-322333025775",
       "fileOrder" : "0556",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "709CE96C-6616-4070-ACA9-4FF8DDA065AE",
         "D1A854F1-CF5A-437A-956B-9367580C7F74"
       ],
-      "text" : "Mum's selling the house\nso everyone's come\nto say goodbye to the old days\n\nEthel's sat by the fireplace\nin charge of herself\n\ntell me Michael\nhave you got a girlfriend yet",
+      "text" : "Mum's selling the house\nso everyone's come\nto say goodbye to \nthe old days\n\nEthel's sat \nby the fireplace\nin charge of herself\n\ntell me Michael\nhave you got a girlfriend yet",
       "title" : "Girlfriend",
       "uuid" : "D0660264-D803-459B-808E-D06A54355EE3"
     },
@@ -11313,11 +11313,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0844",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6BC2C809-6E0C-4FC1-970C-6898357DE6BF"
       ],
-      "text" : "my dark green goblet\nwith tiny clay ball rattle\nhidden in its base\n\ntakes wine my wine \nmy more wine please\n\nshining glazed emerald liquid whorl\n\npeat bog Connemara",
+      "text" : "dark green goblet\ntiny clay ball rattle\nhidden in its base\n\ntakes wine my wine \nmy more wine please\n\nshining clear glazed\nemerald liquid whorl\n\npeat bog Connemara",
       "title" : "Goblet",
       "uuid" : "2B9D4B91-53D1-4D56-899B-133130C0E2A8"
     },
@@ -11398,7 +11398,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0851",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6A2B56E9-4207-4BB9-8805-393C24EF90EC"
       ],
