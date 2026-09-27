@@ -4309,12 +4309,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0280",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "lawnmower nostrils\nscissors secateurs\n\ngrey cracked rubber \nkneeling mat\n\nafternoon on\nhands and knees\n\ncutting \nflower bed\nedges",
+      "text" : "lawnmower nostrils\nscissors secateurs\n\ngrey cracked rubber \nkneeling mat\n\nall afternoon on\nhands and knees\n\ncutting \nflower bed\nedges",
       "title" : "Grass",
       "uuid" : "D9547402-B968-4C3C-A6D6-9EDE1663A8DB"
     },
@@ -5562,12 +5562,12 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0378",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
-      "text" : "my father's sleeves\nshirt sleeves\nrolled up\n\ngorilla hairy arms",
-      "title" : "Gorilla",
+      "text" : "shirt sleeves\nrolled up\nreveal\ngorilla hairy arms",
+      "title" : "My father's sleeves",
       "uuid" : "B6A996CC-85E5-4F47-B2F9-D220DFF30E35"
     },
     {
@@ -5693,12 +5693,12 @@
       "category" : "descriptive",
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0388",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "57CD1810-6E41-424B-9F18-1582FB8010FF",
         "A42AF1D0-0ACB-4675-AC88-5546EB7AEB71"
       ],
-      "text" : "the morning is big\nas the day is enormous\nI'm really travelling in France",
+      "text" : "the morning is big\nthe day is enormous\nI'm really travelling in France",
       "title" : "Gone hitching",
       "uuid" : "88F9F042-DB7D-4890-AD8D-2EF2ABFCB741"
     },
@@ -6068,7 +6068,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0417",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
@@ -6208,13 +6208,13 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0429",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "F4EEE959-EC1D-4839-95DE-574EB410524F",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "choice spot in the garden\nto lie and bask in the sun\n\nnever used path by the fence\nat the end of the beech hedge\n\nlong grass in next door's paddock\nsad horse of invisible Mr Spring\n\nleast used lawn between \nbig flower bed and rockery\n\nprimary secondary\ncomplimentary sun",
+      "text" : "choice spot in the garden\nto lie and bask in the sun\n\nnever used path by the fence\nat the end of the beech hedge\n\nnext door's paddock long grass\nsad horse of invisible Mr Spring\n\nleast used lawn between \nbig flower bed and rockery\n\nprimary secondary\ncomplimentary sun",
       "title" : "Goethe's Theory of Colour",
       "uuid" : "611ED003-B7D1-449D-8440-569A49507197"
     },
@@ -6413,7 +6413,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0445",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1",
         "E22ED538-0F68-4AFC-A2C4-C30B6D3651A3"
@@ -7640,12 +7640,12 @@
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0543",
       "scratchpad" : "crosses and namestones\nboxes and bones\n\npointless namestones\nguard boxes of bones\nthe grass keeps on growing\n\ndead namestone\nold buried bone\n\ndead\nname\nstone",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1291394B-42B9-4035-9CE4-3B99CEE779C4",
         "C1031204-4082-4E21-81EB-699EE5F5818C"
       ],
-      "text" : "crosses love namestones\nboxes love bones\ngrass can't stop growing",
+      "text" : "crosses love namestones\nboxes love them bones\ngrasses can't stop growing",
       "title" : "Graveyard",
       "uuid" : "634E7188-0C2C-4385-85B4-E1E74F1E308C"
     },
@@ -8790,11 +8790,11 @@
       "category" : "descriptive",
       "eraUUID" : "01686548-4384-46F3-A5CB-EDC2D83D34DB",
       "fileOrder" : "0634",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "never feel like \ndead man's shirts\nnot sure he's all gone\n\ncollars beautifully curved\n\nperfect on the skin\nsea island white",
+      "text" : "never feel like \ndead man's shirts\nnot sure he's all gone\n\ncollars beautifully curved\n\nperfect on the skin\nsea island white\nquality label",
       "title" : "Good cotton",
       "uuid" : "42B4E7F4-DCE6-429F-987C-C65F05178CFA"
     },
@@ -11036,7 +11036,7 @@
       "eraUUID" : "8F23EB6C-80FA-49F6-9C03-322333025775",
       "fileOrder" : "0821",
       "scratchpad" : "broke the key in the door",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "C37628AB-D572-4377-97C5-919D4D584C96"
