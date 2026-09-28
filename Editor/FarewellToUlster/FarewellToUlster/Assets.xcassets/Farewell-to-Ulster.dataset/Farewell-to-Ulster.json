@@ -4463,13 +4463,13 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0292",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "99465199-F33A-4A5C-B74E-D6663C55D30A",
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "F8C2CB36-6367-4BBF-A1FB-9409E4D3901B"
       ],
-      "text" : "whole days of green fields in my nostrils\ngardening across the land",
+      "text" : "whole days of \ngreen fields in my nostrils\ngardening across the land",
       "title" : "Green fields",
       "uuid" : "0589DBD4-F614-4CE7-8222-2BE076D99207"
     },
@@ -9252,7 +9252,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0672",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7"
       ],
@@ -9302,11 +9302,11 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0676",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C1031204-4082-4E21-81EB-699EE5F5818C"
       ],
-      "text" : "cold graveyard slab green\ncan you open the book\n\nancient Victorian folk tales\ncan you turn to the page\n\narm with a bone sticking out\nlook at Grendel look",
+      "text" : "cold graveyard slab green\ncan you open that book\n\nancient Victorian folk tales\ncan you turn to the page\n\narm with a bone sticking out\nlook at Grendel look",
       "title" : "Grendel",
       "uuid" : "FE61C3F6-3123-4106-A40A-BCEC5CBAE8AC"
     },
@@ -10518,7 +10518,7 @@
       "category" : "lament",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0777",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5FA026D7-1400-439A-AEC0-242DFF0EC504"
       ],
