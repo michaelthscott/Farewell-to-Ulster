@@ -1420,12 +1420,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0062",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6643ED8B-5E85-40B2-B9B9-2913DACAA915",
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
       ],
-      "text" : "Napoleon\nmothball hero\nAir Force greatcoat\n\nsilver buttons\ndouble-breasted\nhad to be turned up at the knee",
+      "text" : "Napoleon\nmothball hero\nAir Force greatcoat\n\nsilver buttons\ndouble-breasted\nturned up at the knee",
       "title" : "Greatcoat",
       "uuid" : "D7B89E2F-A970-4B5B-8DD1-208DDBF7327F"
     },
