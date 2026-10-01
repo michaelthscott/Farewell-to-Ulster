@@ -42,6 +42,19 @@ struct SortingTests {
         #expect(sortedPoems.map(\.sortVector.sortIndexes) == [[], [2], [1], [1, 2], [0], [0, 2], [0, 1], [0, 1, 2]])
     }
 
+    @Test func testResetSortIndexesOnValueTypes() async throws {
+        var subjects = [MockSubject(id: 1, sortIndex: 0), MockSubject(id: 2, sortIndex: 5), MockSubject(id: 3, sortIndex: 9)]
+        subjects.resetSortIndexes()
+        #expect(subjects.map(\.sortIndex) == [0, 1, 2])
+        #expect(subjects.map(\.id) == [1, 2, 3])
+    }
+
+    @Test func testResetSortIndexesOnSlice() async throws {
+        var subjects = [MockSubject(id: 1, sortIndex: 7), MockSubject(id: 2, sortIndex: 8), MockSubject(id: 3, sortIndex: 9)]
+        subjects[1...].resetSortIndexes()
+        #expect(subjects.map(\.sortIndex) == [7, 0, 1])
+    }
+
     // TODO: This will need to be updated if we make reindexing a consequence of subject deletion.
     @Test func testDeleteSubject() async throws {
         let storage = try #require(Storage.testStorage(with: "SmallBook"))
