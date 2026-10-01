@@ -1420,12 +1420,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0062",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6643ED8B-5E85-40B2-B9B9-2913DACAA915",
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
       ],
-      "text" : "Napoleon\nmothball hero\nAir Force greatcoat\n\nsilver buttons\ndouble-breasted\nhad to be turned up at the knee",
+      "text" : "Napoleon\nmothball hero\nAir Force greatcoat\n\nsilver buttons\ndouble-breasted\nturned up at the knee",
       "title" : "Greatcoat",
       "uuid" : "D7B89E2F-A970-4B5B-8DD1-208DDBF7327F"
     },
@@ -2075,11 +2075,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0110",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "BCFF7E65-2944-4526-B82A-851A9C95D343"
       ],
-      "text" : "Sunday afternoon\nlet's go for a drive\n\nwindow handle\nthe winderuper\nit's a little loose\nfingers wobble it\n\nnose and cheek\nagainst the glass\nnot really interested\nin farms and hedges",
+      "text" : "Sunday afternoon\nlet's go for a drive\n\nwindow handle\nthe winderuper\nit's a little loose\nfinger wobble it\n\nnose and cheek\nagainst the glass\nnot really interested\nin farms and hedges",
       "title" : "Germ of elsewhere forming",
       "uuid" : "35CD906B-B8EE-4D23-8FF8-CA529C649AB2"
     },
@@ -3621,12 +3621,12 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0228",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "05DC0326-A952-462C-955A-05B48779EE8E",
         "93DCA9D5-7457-4348-B1BD-A88E9AC4D5B7"
       ],
-      "text" : "edge of history\nstonewalled \nKerry field\n\nsmall dark door\nover muddy step\nsunless cold inside\n\ngleefully\nour discovery\nGluggy’s Oratory",
+      "text" : "Kerry field\nstonewalled\nedge of history\n\nsmall dark door\nover muddy step\nsunless cold inside\n\ngleefully \nour discovery\nGluggy’s Oratory",
       "title" : "Glarius' Oratory",
       "uuid" : "449B726D-4CE2-45A7-81D4-AC9E47EBE67D"
     },
@@ -4226,13 +4226,13 @@
       "eraUUID" : "E86C3877-3815-42AE-BEBF-3787BDB69C56",
       "fileOrder" : "0274",
       "scratchpad" : "driving his car carefully out of the gate\nVauxhall then Saab\n\nDaddy's got a light grey suit\nthat he wears sometimes",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "BCFF7E65-2944-4526-B82A-851A9C95D343",
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "Noel's wearing his grey suit\nshirt and tie\n\nwalking towards the car\ngetting out of the car closing the car door\ngetting something out of the boot\n\nNoel wears his grey suit\nto the factory\nto the office\nMonday to Friday\n\nNoel wears his charcoal grey suit\nto the office\nto the factory\n\ndriving down the Malone Road\ndriving down the Lisburn Road\n\non the Hillhall Road\non the Ballylesson Road\npicking up the car keys\nfolded cotton hanky in his pocket\n\nHush Puppies\nClarks Shoes\n\nin the winter\nhe wears a dark brown sheepskin coat",
+      "text" : "Noel is wearing his grey suit\nshirt and tie\n\nwalking towards the car\ngetting out of the car \nclosing the car door\ngetting something out of the boot\n\nNoel wears his grey suit\nto the factory\nto the office\nMonday to Friday\n\nNoel wears his charcoal grey suit\nto the office\nto the factory\n\ndriving down the Malone Road\ndriving down the Lisburn Road\n\non the Hillhall Road\non the Ballylesson Road\npicking up the car keys\nfolded cotton hanky in his pocket\n\nHush Puppies\nClarks Shoes\n\nin the winter\nhe wears a dark brown sheepskin coat",
       "title" : "Grey suit",
       "uuid" : "6C64B38C-0D2B-42A1-82F4-5DCEC986F89C"
     },
@@ -4309,12 +4309,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0280",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "lawnmower nostrils\nscissors secateurs\n\ngrey cracked rubber \nkneeling mat\n\nafternoon on\nhands and knees\n\ncutting \nflower bed\nedges",
+      "text" : "lawnmower nostrils\nscissors secateurs\n\ngrey cracked rubber \nkneeling mat\n\nall afternoon on\nhands and knees\n\ncutting \nflower bed\nedges",
       "title" : "Grass",
       "uuid" : "D9547402-B968-4C3C-A6D6-9EDE1663A8DB"
     },
@@ -4463,13 +4463,13 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0292",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "99465199-F33A-4A5C-B74E-D6663C55D30A",
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "F8C2CB36-6367-4BBF-A1FB-9409E4D3901B"
       ],
-      "text" : "whole days of green fields in my nostrils\ngardening across the land",
+      "text" : "whole days of \ngreen fields in my nostrils\ngardening across the land",
       "title" : "Green fields",
       "uuid" : "0589DBD4-F614-4CE7-8222-2BE076D99207"
     },
@@ -5245,14 +5245,14 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0354",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6D87E02A-A247-4394-B411-F16067F44E70",
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "CDD2D804-8965-4ECE-BDAC-95B7FC0FC0B1",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "leave the nest\nleave the nest\nas if the nest would stay\n\nbeginner \nhere in time\nnothing happens\nno one notices what happens\nwho notices what happens in a garden\n\nsomethings the gardener notices\nsomethings the busy gardener ignores\nsomethings the lazy cat and boy enjoy",
+      "text" : "leave the nest\nleave the nest\nas if the nest would stay\n\nbeginner \nhere in time\nas if nothing happens\nno one notices what happens\nwho notices what happens in a garden\n\nsomethings the gardener notices\nsomethings the busy gardener ignores\nsomethings the lazy cat and boy enjoy",
       "title" : "Garden nest",
       "uuid" : "E113789E-B371-4E9C-B323-C605427DB153"
     },
@@ -5562,12 +5562,12 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0378",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
-      "text" : "my father's sleeves\nshirt sleeves\nrolled up\n\ngorilla hairy arms",
-      "title" : "Gorilla",
+      "text" : "shirt sleeves\nrolled up\nreveal\ngorilla hairy arms",
+      "title" : "My father's sleeves",
       "uuid" : "B6A996CC-85E5-4F47-B2F9-D220DFF30E35"
     },
     {
@@ -5693,12 +5693,12 @@
       "category" : "descriptive",
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0388",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "57CD1810-6E41-424B-9F18-1582FB8010FF",
         "A42AF1D0-0ACB-4675-AC88-5546EB7AEB71"
       ],
-      "text" : "the morning is big\nas the day is enormous\nI'm really travelling in France",
+      "text" : "the morning is big\nthe day is enormous\nI'm really travelling in France",
       "title" : "Gone hitching",
       "uuid" : "88F9F042-DB7D-4890-AD8D-2EF2ABFCB741"
     },
@@ -5706,11 +5706,11 @@
       "category" : "descriptive",
       "eraUUID" : "01686548-4384-46F3-A5CB-EDC2D83D34DB",
       "fileOrder" : "0389",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "8ED11B87-901F-44F0-ADC3-F4DE88EFBA87"
       ],
-      "text" : "look \nit’s a giant hogweed\npale branching monster\nrising above riverside leaves \n\nit escaped you know\nit’s poisonous \nfrom Kew\n\nheads turn\nfollowing the monster\nriding above the stonewall curve",
+      "text" : "look!\nit’s a giant hogweed\npale branching monster\nrising above riverside leaves \n\nit escaped you know\nit’s poisonous \nfrom Kew\n\nheads turn\nfollowing the monster\nriding above the stonewall curve",
       "title" : "Giant hogweed",
       "uuid" : "15F98879-9B97-4112-9C8A-E882E6D0F830"
     },
@@ -6068,7 +6068,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0417",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
@@ -6131,7 +6131,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0422",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1"
       ],
@@ -6208,13 +6208,13 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0429",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "F4EEE959-EC1D-4839-95DE-574EB410524F",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "choice spot in the garden\nto lie and bask in the sun\n\nnever used path by the fence\nat the end of the beech hedge\n\nlong grass in next door's paddock\nsad horse of invisible Mr Spring\n\nleast used lawn between \nbig flower bed and rockery\n\nprimary secondary\ncomplimentary sun",
+      "text" : "choice spot in the garden\nto lie and bask in the sun\n\nnever used path by the fence\nat the end of the beech hedge\n\nnext door's paddock long grass\nsad horse of invisible Mr Spring\n\nleast used lawn between \nbig flower bed and rockery\n\nprimary secondary\ncomplimentary sun",
       "title" : "Goethe's Theory of Colour",
       "uuid" : "611ED003-B7D1-449D-8440-569A49507197"
     },
@@ -6353,7 +6353,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0440",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "BCFF7E65-2944-4526-B82A-851A9C95D343"
       ],
@@ -6413,7 +6413,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0445",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1",
         "E22ED538-0F68-4AFC-A2C4-C30B6D3651A3"
@@ -6442,13 +6442,13 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0447",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "40139369-A64C-46D5-B1A0-BED7FB669E8F",
         "57CD1810-6E41-424B-9F18-1582FB8010FF",
         "5B51317A-87C9-4321-888F-419461AFEDF4"
       ],
-      "text" : "Grandpa brought a dagger\nfrom the First World War\nwe crack up to discover \ndas ist der fust pudden",
+      "text" : "we've a German dagger\nfrom the First World War\n\nGrandpa Scott he got it\nprobably from the dead \n\nwe crack up to discover\nwhen he says the floor\nin German it sounds \nlike foot putting",
       "title" : "German",
       "uuid" : "7CBC4AE0-D684-43EB-BBB9-32E67986E0D6"
     },
@@ -7640,12 +7640,12 @@
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0543",
       "scratchpad" : "crosses and namestones\nboxes and bones\n\npointless namestones\nguard boxes of bones\nthe grass keeps on growing\n\ndead namestone\nold buried bone\n\ndead\nname\nstone",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1291394B-42B9-4035-9CE4-3B99CEE779C4",
         "C1031204-4082-4E21-81EB-699EE5F5818C"
       ],
-      "text" : "crosses love namestones\nboxes love bones\ngrass can't stop growing",
+      "text" : "crosses love namestones\nboxes love them bones\ngrasses can't stop growing",
       "title" : "Graveyard",
       "uuid" : "634E7188-0C2C-4385-85B4-E1E74F1E308C"
     },
@@ -7805,12 +7805,12 @@
       "category" : "ironic",
       "eraUUID" : "8F23EB6C-80FA-49F6-9C03-322333025775",
       "fileOrder" : "0556",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "709CE96C-6616-4070-ACA9-4FF8DDA065AE",
         "D1A854F1-CF5A-437A-956B-9367580C7F74"
       ],
-      "text" : "Mum's selling the house\nso everyone's come\nto say goodbye to the old days\n\nEthel's sat by the fireplace\nin charge of herself\n\ntell me Michael\nhave you got a girlfriend yet",
+      "text" : "Mum's selling the house\nso everyone's come\nto say goodbye to \nthe old days\n\nEthel's sat \nby the fireplace\nin charge of herself\n\ntell me Michael\nhave you got a girlfriend yet",
       "title" : "Girlfriend",
       "uuid" : "D0660264-D803-459B-808E-D06A54355EE3"
     },
@@ -8268,7 +8268,7 @@
       "category" : "descriptive",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0593",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
@@ -8790,11 +8790,11 @@
       "category" : "descriptive",
       "eraUUID" : "01686548-4384-46F3-A5CB-EDC2D83D34DB",
       "fileOrder" : "0634",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "never feel like \ndead man's shirts\nnot sure he's all gone\n\ncollars beautifully curved\n\nperfect on the skin\nsea island white",
+      "text" : "never feel like \ndead man's shirts\nnot sure he's all gone\n\ncollars beautifully curved\n\nperfect on the skin\nsea island white\nquality label",
       "title" : "Good cotton",
       "uuid" : "42B4E7F4-DCE6-429F-987C-C65F05178CFA"
     },
@@ -8802,11 +8802,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0635",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
       ],
-      "text" : "move the ring\nalong the wire\n\ndon't flash\nthe little light",
+      "text" : "move the ring\nalong the wire\n\ndon't flash it\nthe little light",
       "title" : "Game",
       "uuid" : "7895E232-9552-4456-9415-DB947832EC92"
     },
@@ -9227,12 +9227,12 @@
       "category" : "narrative",
       "eraUUID" : "E86C3877-3815-42AE-BEBF-3787BDB69C56",
       "fileOrder" : "0670",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C084DF66-00B8-475E-BBC3-1B14329CDD3E"
       ],
-      "text" : "tall thin Paris Irish librarian\nat the Bibliothèque Nationale\n\nsmall bare attic rooftop room\noblique view of the boulevard",
+      "text" : "Paris tall thin Irish librarian\nchez Bibliothèque nationale\n\nsmall bare attic rooftop room\noblique view of the boulevard",
       "title" : "Future",
       "uuid" : "EB573EE2-4C8F-4B25-B37E-E1692C9C21C2"
     },
@@ -9252,7 +9252,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0672",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7"
       ],
@@ -9302,11 +9302,11 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0676",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C1031204-4082-4E21-81EB-699EE5F5818C"
       ],
-      "text" : "cold graveyard slab green\ncan you open the book\n\nancient Victorian folk tales\ncan you turn to the page\n\narm with a bone sticking out\nlook at Grendel look",
+      "text" : "cold graveyard slab green\ncan you open that book\n\nancient Victorian folk tales\ncan you turn to the page\n\narm with a bone sticking out\nlook at Grendel look",
       "title" : "Grendel",
       "uuid" : "FE61C3F6-3123-4106-A40A-BCEC5CBAE8AC"
     },
@@ -9629,11 +9629,11 @@
       "category" : "lament",
       "eraUUID" : "8F23EB6C-80FA-49F6-9C03-322333025775",
       "fileOrder" : "0703",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "the flowers my parents planted\nhow do they bloom today",
+      "text" : "flowers my parents planted\ndo any bloom again today?",
       "title" : "Garden",
       "uuid" : "B9A4C943-2946-4584-B237-682FD0995431"
     },
@@ -9886,7 +9886,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0724",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "8ED11B87-901F-44F0-ADC3-F4DE88EFBA87"
       ],
@@ -10094,11 +10094,11 @@
       "category" : "complaint",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0742",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "876C0503-2522-4DE9-97AB-A98F9660FA0D"
       ],
-      "text" : "in school uniform is born\nthe rule that you’ll conform",
+      "text" : "with school uniform is born\nthe rule that you’ll conform",
       "title" : "Garb",
       "uuid" : "5F6F97D5-97F6-40EB-BB97-06F66AEB1DA6"
     },
@@ -10202,11 +10202,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0751",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "937498DF-E340-49CA-8134-82ED96E503EB"
       ],
-      "text" : "making ginger beer\nin the pantry cupboard\nfizzle as the yeast grow\nthen we bottle it",
+      "text" : "making ginger beer\nin the pantry cupboard\nfizzle as the yeast grows\nthen we bottle it",
       "title" : "Ginger beer",
       "uuid" : "A7663173-8738-40AC-81FA-25A73BC27F4C"
     },
@@ -10518,7 +10518,7 @@
       "category" : "lament",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0777",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5FA026D7-1400-439A-AEC0-242DFF0EC504"
       ],
@@ -10666,11 +10666,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0790",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "raked leaves\nmushy brown\nover rough damp hessian\nbundled up and dragged to a heap\nunder pine trees\nfor compost\nlater",
+      "text" : "rake leaves\nmushy brown\nover rough damp hessian\n\nbundled up and dragged \nunder pine trees \nfor compost \nmulching \n\nMum and Dad\nknow their\ngarden \n\n",
       "title" : "Gardening",
       "uuid" : "4ED9FC26-FF21-4E80-9A6F-EAF3590A49B1"
     },
@@ -11036,7 +11036,7 @@
       "eraUUID" : "8F23EB6C-80FA-49F6-9C03-322333025775",
       "fileOrder" : "0821",
       "scratchpad" : "broke the key in the door",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "C37628AB-D572-4377-97C5-919D4D584C96"
@@ -11313,11 +11313,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0844",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6BC2C809-6E0C-4FC1-970C-6898357DE6BF"
       ],
-      "text" : "my dark green goblet\nwith tiny clay ball rattle\nhidden in its base\n\ntakes wine my wine \nmy more wine please\n\nshining glazed emerald liquid whorl\n\npeat bog Connemara",
+      "text" : "dark green goblet\ntiny clay ball rattle\nhidden in its base\n\ntakes wine my wine \nmy more wine please\n\nshining clear glazed\nemerald liquid whorl\n\npeat bog Connemara",
       "title" : "Goblet",
       "uuid" : "2B9D4B91-53D1-4D56-899B-133130C0E2A8"
     },
@@ -11398,7 +11398,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0851",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6A2B56E9-4207-4BB9-8805-393C24EF90EC"
       ],
