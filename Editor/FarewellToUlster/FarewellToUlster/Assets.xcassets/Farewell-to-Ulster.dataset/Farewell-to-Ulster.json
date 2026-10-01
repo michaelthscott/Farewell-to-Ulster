@@ -2307,13 +2307,13 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0127",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "05DC0326-A952-462C-955A-05B48779EE8E",
         "8C429591-F326-40EB-9B3D-2ED1ED5706B7"
       ],
-      "text" : "watch out for guppy spikes \nin wet sand jab your foot\nnasty legless dragons",
-      "title" : "Guppy spikes",
+      "text" : "watch out guppy spikes \nin wet sand jab your foot\nghastly legless dragons\n\nPortuguese man of war\nsting can kill you know\n\ndark russet sea urchin \nrock pool full of spikes\n",
+      "title" : "Dangers",
       "uuid" : "0F0BFF6B-1FF9-46D6-B818-7BF7E7BA7E3C"
     },
     {
@@ -4438,12 +4438,12 @@
       "category" : "narrative",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0290",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "C1031204-4082-4E21-81EB-699EE5F5818C"
       ],
-      "text" : "happily family chair lift to the alp\nsuddenly Mum is herding us down\nyour father’s feeling a pain in his arm\nleft arm it could be serious ",
+      "text" : "happy family chair lift up to the alp\nsuddenly Mum is herding us down\n\nyour father has pain in his arm\nleft arm so it could be serious ",
       "title" : "Grindelwald",
       "uuid" : "8908FE2A-4B48-4A02-A919-A1605C776B1F"
     },
@@ -6556,12 +6556,12 @@
       "category" : "complaint",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0456",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2E667939-4314-420D-89FF-4FC512542ACB",
         "6D87E02A-A247-4394-B411-F16067F44E70"
       ],
-      "text" : "Timothy's old guitar\nnever played\nis bust\n\nonly got one string\nthe lowest one\n\nbumpy metal wire\ncan run my nail along\n \ntape recorder microphone \nshoved under like a pickup\n\nfill blank cassettes with\nrip your ears off sound\n\nI'll never \nlive in town\nbe in a band",
+      "text" : "Timothy's old guitar\nnever played\nis bust\n\nonly got one string\nthe lowest one\n\nbumpy metal wire\ncan run my nail along\n \ntape recorder microphone \nshoved under like a pickup\n\nfill blank cassettes with\nrip your ears off sound\n\nnever \nlive in town\nbe in a band",
       "title" : "Guitar",
       "uuid" : "3ED16DE7-1261-425D-B475-D82DDEDD99D7"
     },
@@ -11125,13 +11125,13 @@
       "eraUUID" : "E86C3877-3815-42AE-BEBF-3787BDB69C56",
       "fileOrder" : "0829",
       "scratchpad" : "cat climbed up the tree \nstuck at the top\nthat’s me\n\n",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "393919CC-BE81-4239-A1C2-99C2B3D7CB7B",
         "C1031204-4082-4E21-81EB-699EE5F5818C"
       ],
-      "text" : "world of self imposed strangers \neven family members at home \nwriting my realisation disaster \n\ndon’t go too wild \nworried Mum",
-      "title" : "Grunt",
+      "text" : "world of self imposed strangers \neven family members at home \nrewriting my realisation disaster \n\ndon’t go too wild \nsaid worried Mum",
+      "title" : "Charlie Grunt",
       "uuid" : "E4F29A8F-38C9-4E6C-AB02-70306AB8161C"
     },
     {
