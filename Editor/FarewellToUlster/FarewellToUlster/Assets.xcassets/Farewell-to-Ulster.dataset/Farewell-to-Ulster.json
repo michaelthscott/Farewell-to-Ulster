@@ -11730,6 +11730,15 @@
       "text" : "I'm Popeye the sailor man\nI live in a caravan\nthere's a hole in the middle \nwhere I do my piddle\nI'm Popeye the sailor man",
       "title" : "Piddle",
       "uuid" : "EAD3C5D9-8D1C-4748-8F58-579C77F6E0C1"
+    },
+    {
+      "category" : "lament",
+      "eraUUID" : "8F23EB6C-80FA-49F6-9C03-322333025775",
+      "fileOrder" : "0879",
+      "status" : "getting started",
+      "text" : "inherited short jacket\nfrom Marks & Spencer\ndull mushroom brown\n\ntwo slant side pockets\nzipped up cold or rai\n\ndied in the dry cleaner",
+      "title" : "Car coat",
+      "uuid" : "F053E584-ACC1-41DA-A067-549B66CD5FE9"
     }
   ],
   "subjects" : [
