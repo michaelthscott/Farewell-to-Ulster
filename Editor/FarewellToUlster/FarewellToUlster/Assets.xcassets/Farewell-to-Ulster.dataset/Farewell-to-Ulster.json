@@ -2821,12 +2821,12 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0167",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0764142C-6140-412D-9E14-D0AB2BE58E87",
         "AFD01569-9BE3-4CDF-85CC-A080A26514B2"
       ],
-      "text" : "tagging along after school\nsawdust floor tight booth\nsip clear sharp spirit\n\n24 bus sucking mint",
+      "text" : "tagging along after school\nsawdust floor tight booth\nsipping clear sharp spirit\n\n24 bus sucking mint",
       "title" : "Hannigans",
       "uuid" : "00D7F086-ECCA-4988-AD69-4A5144764032"
     },
@@ -3161,7 +3161,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0193",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "AFD01569-9BE3-4CDF-85CC-A080A26514B2",
         "F530FAE0-F126-447E-9C12-17C4CA78FD69"
@@ -3596,7 +3596,7 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0226",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "E9DFBFC7-8B96-4A19-B729-70CA627A1C72"
       ],
@@ -8137,7 +8137,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0583",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7"
       ],
@@ -11662,7 +11662,7 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0873",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "99465199-F33A-4A5C-B74E-D6663C55D30A"
       ],
