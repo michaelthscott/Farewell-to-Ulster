@@ -32,6 +32,14 @@ struct BookTab: View {
         )
     }
 
+    /// The version and build number, e.g. "Version 1.1.0 (523)". Set by the release script; debug builds show 1.0 (1).
+    private var appVersion: String {
+        let info = Bundle.main.infoDictionary
+        let version = info?["CFBundleShortVersionString"] as? String ?? "?"
+        let build = info?["CFBundleVersion"] as? String ?? "?"
+        return "Version \(version) (\(build))"
+    }
+
     var body: some View {
         NavigationStack {
             BookView()
@@ -59,6 +67,8 @@ struct BookTab: View {
                             }) {
                                 Label("GitHub Token", systemImage: "key")
                             }
+                            Divider()
+                            Text(appVersion)
                         } label: {
                             Label("Export", systemImage: "ellipsis.circle")
                         }
