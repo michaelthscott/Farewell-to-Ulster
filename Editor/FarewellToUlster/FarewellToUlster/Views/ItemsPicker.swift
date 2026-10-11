@@ -36,6 +36,7 @@ struct ItemsPicker<Item: Identifiable & Equatable & Titled>: View {
     }
 }
 
+#if DEBUG
 #Preview {
     @Previewable @State var selection: [Subject] = []
 
@@ -44,3 +45,4 @@ struct ItemsPicker<Item: Identifiable & Equatable & Titled>: View {
                              selection: $selection)
     }
 }
+#endif

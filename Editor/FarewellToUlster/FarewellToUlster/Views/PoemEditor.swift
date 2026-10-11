@@ -113,6 +113,7 @@ struct PoemEditor: View {
     }
 }
 
+#if DEBUG
 #Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
     @Previewable @Environment(Storage.self) var storage
@@ -124,3 +125,4 @@ struct PoemEditor: View {
             .environment(navigation)
     }
 }
+#endif

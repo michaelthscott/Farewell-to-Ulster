@@ -50,6 +50,7 @@ struct EraEditor: View {
     
 }
 
+#if DEBUG
 #Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
     @Previewable @Environment(Storage.self) var storage
@@ -61,3 +62,4 @@ struct EraEditor: View {
             .environment(navigation)
     }
 }
+#endif

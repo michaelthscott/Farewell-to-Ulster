@@ -34,9 +34,11 @@ struct DestinationView: View {
     }
 }
 
+#if DEBUG
 #Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
     @Previewable @Environment(Storage.self) var storage
     DestinationView(path: .poem(storage.poems.first!))
         .environment(navigation)
 }
+#endif

@@ -54,7 +54,9 @@ struct SubjectsOrderingSheet: View {
     }
 }
 
+#if DEBUG
 #Preview(traits: .sampleData) {
     @Previewable @Environment(Storage.self) var storage
     SubjectsOrderingSheet()
 }
+#endif

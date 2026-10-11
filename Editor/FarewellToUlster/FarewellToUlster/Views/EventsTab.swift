@@ -100,9 +100,11 @@ struct EventsTab: View {
     }
 }
 
+#if DEBUG
 #Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
     @Previewable @Environment(Storage.self) var storage
     EventsTab()
         .environment(navigation)
 }
+#endif

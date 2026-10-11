@@ -75,9 +75,11 @@ struct ItemsPickerSheet<Item: Identifiable & Equatable & Titled>: View {
     }
 }
 
+#if DEBUG
 #Preview {
     @Previewable @State var selection: [Subject] = []
 
     ItemsPickerSheet<Subject>(items: SampleData.subjects(count: 100),
                               selection: $selection)
 }
+#endif

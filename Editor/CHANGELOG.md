@@ -5,12 +5,16 @@ All notable changes to the Farewell to Ulster editor app are documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versions follow [Semantic Versioning](https://semver.org): MAJOR.MINOR.PATCH. Each release is tagged `editor-vMAJOR.MINOR.PATCH`.
 
-## [Unreleased]
+## [1.0.0]
 
 ### Added
 
 - Versioned release pipeline: `Editor/scripts/release.sh` tests, archives, and installs a release on the iPhone, and tags it.
 - The Book tab menu shows the app version and build number.
+
+### Fixed
+
+- Release builds failed to compile because previews referenced `SampleData`, which is a development asset left out of archives. Previews that use it are now wrapped in `#if DEBUG`.
 
 ### Changed
 

@@ -71,6 +71,7 @@ struct SubjectEditor: View {
     }
 }
 
+#if DEBUG
 #Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
     @Previewable @Environment(Storage.self) var storage
@@ -82,3 +83,4 @@ struct SubjectEditor: View {
             .environment(navigation)
     }
 }
+#endif

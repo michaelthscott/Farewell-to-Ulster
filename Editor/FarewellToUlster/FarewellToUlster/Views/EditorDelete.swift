@@ -46,6 +46,7 @@ struct EditorDelete: ToolbarContent {
     }
 }
 
+#if DEBUG
 #Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
     @Previewable @Environment(Storage.self) var storage
@@ -62,3 +63,4 @@ struct EditorDelete: ToolbarContent {
     .frame(width: 400, height: 200)
     .environment(navigation)
 }
+#endif
