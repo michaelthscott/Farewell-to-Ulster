@@ -76,9 +76,8 @@ struct ItemsPickerSheet<Item: Identifiable & Equatable & Titled>: View {
 }
 
 #Preview {
-    @Previewable @State var previewer = Previewer()
     @Previewable @State var selection: [Subject] = []
 
-    ItemsPickerSheet<Subject>(items: previewer.subjects(count: 100),
+    ItemsPickerSheet<Subject>(items: SampleData.subjects(count: 100),
                               selection: $selection)
 }

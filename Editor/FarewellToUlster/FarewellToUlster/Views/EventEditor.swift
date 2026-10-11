@@ -45,15 +45,14 @@ struct EventEditor: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
-    @Previewable @State var previewer = Previewer()
+    @Previewable @Environment(Storage.self) var storage
     NavigationStack {
-        EventEditor(event: previewer.event!)
+        EventEditor(event: storage.events.first!)
             .navigationDestination(for: Path.self) { path in
                 DestinationView(path: path)
             }
             .environment(navigation)
-            .modelContainer(previewer.storage.container)
     }
 }

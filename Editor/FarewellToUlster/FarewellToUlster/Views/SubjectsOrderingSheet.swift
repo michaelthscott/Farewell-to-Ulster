@@ -54,8 +54,7 @@ struct SubjectsOrderingSheet: View {
     }
 }
 
-#Preview {
-    @Previewable @State var previewer = Previewer()
+#Preview(traits: .sampleData) {
+    @Previewable @Environment(Storage.self) var storage
     SubjectsOrderingSheet()
-        .environment(previewer.storage)
 }

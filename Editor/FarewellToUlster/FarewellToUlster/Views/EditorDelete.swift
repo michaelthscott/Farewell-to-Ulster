@@ -46,20 +46,19 @@ struct EditorDelete: ToolbarContent {
     }
 }
 
-#Preview {
+#Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
-    @Previewable @State var previewer = Previewer()
+    @Previewable @Environment(Storage.self) var storage
     NavigationStack {
         Form {
             Text("ABC")
         }
         .toolbar {
-            EditorDelete(item: previewer.era!, action: {
+            EditorDelete(item: storage.eras.first!, action: {
                 print("hello")
             })
         }
     }
     .frame(width: 400, height: 200)
     .environment(navigation)
-    .environment(previewer.storage)
 }

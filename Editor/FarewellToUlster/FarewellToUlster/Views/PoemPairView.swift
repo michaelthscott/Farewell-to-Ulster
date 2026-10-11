@@ -22,9 +22,9 @@ struct PoemPairView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
-    @Previewable @State var previewer = Previewer()
-    let pairs = PoemSimilarity(threshold: 0.5).similarPoemPairs(poems: previewer.poems.sorted())
+    @Previewable @Environment(Storage.self) var storage
+    let pairs = PoemSimilarity(threshold: 0.5).similarPoemPairs(poems: storage.poems.sorted())
     PoemPairView(pair: pairs.first!)
 }

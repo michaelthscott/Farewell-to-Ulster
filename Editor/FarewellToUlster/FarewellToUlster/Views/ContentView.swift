@@ -44,10 +44,9 @@ struct ContentView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
-    @Previewable @State var previewer = Previewer()
+    @Previewable @Environment(Storage.self) var storage
     ContentView()
         .environment(navigation)
-        .environment(previewer.storage)
 }

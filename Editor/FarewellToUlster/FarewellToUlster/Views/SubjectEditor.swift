@@ -71,15 +71,14 @@ struct SubjectEditor: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
-    @Previewable @State var previewer = Previewer()
+    @Previewable @Environment(Storage.self) var storage
     NavigationStack {
-        SubjectEditor(subject: previewer.subject!)
+        SubjectEditor(subject: storage.subjects.first!)
             .navigationDestination(for: Path.self) { path in
                 DestinationView(path: path)
             }
-            .environment(previewer.storage)
             .environment(navigation)
     }
 }

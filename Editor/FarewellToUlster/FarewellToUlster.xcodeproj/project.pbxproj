@@ -64,9 +64,9 @@
 			path = FarewellToUlsterUITests;
 			sourceTree = "<group>";
 		};
-		DA335436300F70AD00B4BAEA /* PreviewContent */ = {
+		DA335436300F70AD00B4BAEA /* Previews */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PreviewContent;
+			path = Previews;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -101,7 +101,7 @@
 			children = (
 				DA3354DE300F717200B4BAEA /* TestPlan.xctestplan */,
 				DA3354DC300F715500B4BAEA /* Documentation.docc */,
-				DA335436300F70AD00B4BAEA /* PreviewContent */,
+				DA335436300F70AD00B4BAEA /* Previews */,
 				DA335372300F6DF100B4BAEA /* FarewellToUlster */,
 				DA335382300F6DF300B4BAEA /* FarewellToUlsterTests */,
 				DA33538C300F6DF300B4BAEA /* FarewellToUlsterUITests */,
@@ -136,7 +136,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DA335372300F6DF100B4BAEA /* FarewellToUlster */,
-				DA335436300F70AD00B4BAEA /* PreviewContent */,
+				DA335436300F70AD00B4BAEA /* Previews */,
 			);
 			name = FarewellToUlster;
 			packageProductDependencies = (
@@ -441,7 +441,7 @@
 				CODE_SIGN_ENTITLEMENTS = FarewellToUlster/FarewellToUlster.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = PreviewContent;
+				DEVELOPMENT_ASSET_PATHS = Previews;
 				DEVELOPMENT_TEAM = 953887MQL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -478,7 +478,7 @@
 				CODE_SIGN_ENTITLEMENTS = FarewellToUlster/FarewellToUlster.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = PreviewContent;
+				DEVELOPMENT_ASSET_PATHS = Previews;
 				DEVELOPMENT_TEAM = 953887MQL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

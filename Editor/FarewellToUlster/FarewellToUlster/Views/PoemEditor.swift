@@ -113,15 +113,14 @@ struct PoemEditor: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
-    @Previewable @State var previewer = Previewer()
+    @Previewable @Environment(Storage.self) var storage
     NavigationStack {
-        PoemEditor(poem: previewer.poem!)
+        PoemEditor(poem: storage.poems.first!)
             .navigationDestination(for: Path.self) { path in
                 DestinationView(path: path)
             }
-            .environment(previewer.storage)
             .environment(navigation)
     }
 }

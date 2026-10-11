@@ -37,11 +37,10 @@ struct ItemsPicker<Item: Identifiable & Equatable & Titled>: View {
 }
 
 #Preview {
-    @Previewable @State var previewer = Previewer()
     @Previewable @State var selection: [Subject] = []
 
     Form {
-        ItemsPicker<Subject>(items: previewer.subjects(count: 100),
+        ItemsPicker<Subject>(items: SampleData.subjects(count: 100),
                              selection: $selection)
     }
 }

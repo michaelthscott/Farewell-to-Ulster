@@ -25,10 +25,10 @@ struct PoemsList: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
-    @Previewable @State var previewer = Previewer()
-    var poems = previewer.poems
+    @Previewable @Environment(Storage.self) var storage
+    var poems = storage.poems
     poems.insert(poems[0], at: 1)
     return NavigationStack(path: $navigation.poemsPath) {
         PoemsList(poems: Array(poems[1...2]))

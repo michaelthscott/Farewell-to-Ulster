@@ -34,10 +34,9 @@ struct DestinationView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
-    @Previewable @State var previewer = Previewer()
-    DestinationView(path: .poem(previewer.poem!))
+    @Previewable @Environment(Storage.self) var storage
+    DestinationView(path: .poem(storage.poems.first!))
         .environment(navigation)
-        .modelContainer(previewer.storage.container)
 }

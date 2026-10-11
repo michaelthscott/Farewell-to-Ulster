@@ -50,15 +50,14 @@ struct EraEditor: View {
     
 }
 
-#Preview {
+#Preview(traits: .sampleData) {
     @Previewable @State var navigation = Navigation()
-    @Previewable @State var previewer = Previewer()
+    @Previewable @Environment(Storage.self) var storage
     NavigationStack {
-        EraEditor(era: previewer.era!)
+        EraEditor(era: storage.eras.first!)
             .navigationDestination(for: Path.self) { path in
                 DestinationView(path: path)
             }
             .environment(navigation)
-            .modelContainer(previewer.storage.container)
     }
 }
