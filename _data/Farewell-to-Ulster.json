@@ -688,7 +688,7 @@
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0006",
       "scratchpad" : "saturday night\n\ni'm going to take a bath\n\nlines",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "B7A5523B-044B-49EB-9B58-9D79303872B4"
       ],
@@ -4176,11 +4176,11 @@
       "category" : "descriptive",
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0270",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
-      "text" : "the car comes slowly up the path\ncome for lunch you father's here\n\ncharcoal grey suit\nmiddle of the day routine\nhair slightly greasy at the back\n\nthere and back\nthe factory there and back\n\nBilly Cascadden's loyalty\n\ncarport wood stacked\nhome and role\nwhole life\n\nmiddle of the middle life\nthe food routine\n\nnested in the food routine\nthe yes the no the private life",
+      "text" : "the car comes slowly up the drive\ncome for lunch you father's here\n\ncharcoal grey suit\nmiddle of the day routine\nhair slightly greasy at the back\n\nthere and back\nthe factory there and back\n\nBilly Cascadden's loyalty\n\ncarport wood stacked\nhome and role\nwhole life\n\nmiddle of the middle life\nthe food routine\n\nnested in the food routine\nthe yes the no the private life",
       "title" : "Home for lunch",
       "uuid" : "8BA6199B-7DF7-4E31-A3BD-CA322F47F0F8"
     },
@@ -4683,12 +4683,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0309",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "we've got a big house big garden\nnot such a big house big garden\nit's a new house new garden\n\nhow the trees have grown\nwhen we moved here \nit was an empty field\n\nprevious time configured\ndon't think much about it",
+      "text" : "we've got a big house big garden\nnot such a big house big garden\nmore a new house new garden\n\nhow the trees have grown\nwas just an empty field\nwhen we moved here \n\nprevious time configured\ndon't think much about it",
       "title" : "House and garden",
       "uuid" : "BC1D71FD-D3F2-4716-B878-A16317971422"
     },
@@ -6519,7 +6519,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0453",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "9700C0B7-41A4-4873-B7E7-AAB10E0ECB1C"
@@ -10457,11 +10457,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0772",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "9700C0B7-41A4-4873-B7E7-AAB10E0ECB1C"
       ],
-      "text" : "solid kitchen top\nnot ordinary wood\n\ndark grained teak\nthicker than my thumb\n\ncorner by the back door\nbolt the cream maker\nunder the overlap\n\nchrome cow tail\nrocking churn\npinhole and spout\n\nforce through\nhot milk and melted butter\n\nPresident\nunsalted\n\nfrom Sawyers\nbeside the Bank Buildings",
+      "text" : "solid kitchen top\nno ordinary wood\n\ndark grained teak\nthicker than my thumb\n\ncorner by the back door\nbolt the cream maker\nunder the overlap\n\nchrome cow tail\nrocking churn\npinhole and spout\n\nforce through\nhot milk and melted butter\n\nPresident\nunsalted\n\nfrom Sawyers\nbeside the Bank Buildings",
       "title" : "Homemade cream",
       "uuid" : "CD332370-3851-41E3-9FDA-6B6682D53998"
     },
