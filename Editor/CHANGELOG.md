@@ -5,6 +5,16 @@ All notable changes to the Farewell to Ulster editor app are documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versions follow [Semantic Versioning](https://semver.org): MAJOR.MINOR.PATCH. Each release is tagged `editor-vMAJOR.MINOR.PATCH`.
 
+## [Unreleased]
+
+### Changed
+
+- Commit update writes the book's JSON to `_data/Farewell-to-Ulster.json` in the site repo instead of into the editor's asset catalog. The bundled copy is now only the first-launch seed.
+
+### Added
+
+- `Editor/scripts/refresh-seed.sh` downloads the latest book from the site repo into the asset catalog. `release.sh` runs it and commits any change before building.
+
 ## [1.0.0]
 
 ### Added

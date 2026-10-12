@@ -123,8 +123,9 @@ struct BookTab: View {
             return
         }
         
-        let localFile = LocalFile(path: "Editor/FarewellToUlster/FarewellToUlster/Assets.xcassets/Farewell-to-Ulster.dataset/Farewell-to-Ulster.json",
-                                  content: data)
+        // The canonical copy lives with the site. The app's bundled copy is only a
+        // first-launch seed, refreshed from here by scripts/refresh-seed.sh.
+        let localFile = LocalFile(path: "_data/Farewell-to-Ulster.json", content: data)
         
         var localFiles: [LocalFile] = [localFile]
         let client = GitHubClient(owner: "michaelthscott", repo: "Farewell-to-Ulster", branch: "main")

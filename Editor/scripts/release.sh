@@ -43,6 +43,15 @@ git fetch -q origin main
 BEHIND="$(git rev-list --count HEAD..origin/main)"
 [[ "$BEHIND" -eq 0 ]] || die "main is $BEHIND commit(s) behind origin/main, run git pull first"
 
+# Bundle the latest book as the first-launch seed, committed so the release still maps to an exact commit.
+step "Refreshing seed data"
+Editor/scripts/refresh-seed.sh
+SEED="Editor/FarewellToUlster/FarewellToUlster/Assets.xcassets/Farewell-to-Ulster.dataset/Farewell-to-Ulster.json"
+if ! git diff --quiet -- "$SEED"; then
+    git commit -q -m "Refresh seed data" -- "$SEED"
+    echo "Committed refreshed seed data"
+fi
+
 BUILD="$(git rev-list --count HEAD)"
 ARCHIVE="$HOME/Library/Developer/Xcode/Archives/$(date +%Y-%m-%d)/$SCHEME $VERSION ($BUILD).xcarchive"
 EXPORT_DIR="Editor/build/release/$VERSION"
