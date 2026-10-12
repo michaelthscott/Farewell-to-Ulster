@@ -2646,7 +2646,7 @@
       "category" : "ironic",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0153",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "E48F317A-4D91-45AE-9EEC-5B364517D3F1"
       ],
@@ -4266,7 +4266,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0277",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "3D152F18-8220-4347-BFC6-1D95C6BB59E7",
         "C37628AB-D572-4377-97C5-919D4D584C96"
@@ -6195,7 +6195,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0428",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "3025D1DE-BB99-4240-935D-184BDBEE7DF5",
         "C37628AB-D572-4377-97C5-919D4D584C96"
@@ -6377,11 +6377,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0442",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1291394B-42B9-4035-9CE4-3B99CEE779C4"
       ],
-      "text" : "pick up dark red hymn book\n\ncorners turned inward \nagainst \nfingered gilt edged pages \n\nthin ribbon hanging out \nfrayed end \nsoft little demon tongue\n\npause everyone\nfinding the page\nof the next hymn\n\nlast breath\nof the knee cushion\nwhen we go down to kneel\n\nReverend sermon Upritchard\nstealth bomb usually amuses\n\nsoars towards\nlands on\nidea",
+      "text" : "pick up dark red hymn book\n\ncorners turned inward \nagainst \nfingered gilt edged pages \n\nthin ribbon hanging out \nend frayed\nsoft little demon tongue\n\npause everyone\nfinding the page\nto the next hymn\n\nlast breath\nof the knee cushion\nwhen we go down to kneel\n\nReverend sermon Upritchard\nstealth bomb usually amuses\n\nsoars towards\nlands on\nidea",
       "title" : "Hymnal",
       "uuid" : "61EE15AA-365E-4A48-9871-759E769D8F65"
     },
@@ -7277,15 +7277,15 @@
       "category" : "complaint",
       "eraUUID" : "E86C3877-3815-42AE-BEBF-3787BDB69C56",
       "fileOrder" : "0514",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "2E667939-4314-420D-89FF-4FC512542ACB",
         "4D0CAA15-9794-41BA-8732-A45B1D1F309F",
         "74EF76BA-C6F7-4908-A6B6-60D2FA16A141"
       ],
-      "text" : "just beside the bank\nwhere Dad drops off\nthe cheques each day\nto prevent the overdraft\nfrom going over and \nbankrupting the Factory\n\njust beside the bank\nis Solly Lipschitz's shop\nsecond hand records\nAmerica Europe\ntrumpet saxaphone \nbass and drums\n\nAmerica's thought of itself\nits emptiness\nit's what there is to learn\nbut it doesn't really interest me\nI'm buying my first copy of the I Ching",
-      "title" : "I Ching",
+      "text" : "just beside the bank\nwhere Dad drops off\nthe cheques each day\nto prevent the overdraft\nbankrupting the factory\n\njust beside the bank\nSolly Lipschitz's shop\nsecond hand records\nAmerican European \ntrumpet saxaphone \nbass and drums\n\nAmerica mirrors itself\nits emptiness its accent\nits endless entertainment\nit's what there is to learn \n\nDice Man buys I Ching",
+      "title" : "Turn on tune in drop out",
       "uuid" : "3F890F95-FB33-4A98-8B19-6005D55292FB"
     },
     {
@@ -11099,11 +11099,11 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0827",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42"
       ],
-      "text" : "your mother has to go into hospital \na woman’s operation \nserious\nmysterious \nin a house of male",
+      "text" : "your mother has to go into hospital \nit's a woman’s operation \nserious\nmysterious \nin a house of male",
       "title" : "Hysterectomy",
       "uuid" : "F7E9449C-8643-4147-8D2E-2B0CA68F73B8"
     },
