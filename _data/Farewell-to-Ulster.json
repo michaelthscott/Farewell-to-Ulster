@@ -2848,7 +2848,7 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0169",
       "scratchpad" : "hedge ends\nfields merging in the boggy bit\nrushy clumps\nhoof holes\ncowclap\ncrusty cake orange flies\npassing talking looking down\npicking our way through the boggy bit\n\nhedge ends\nrushy clumps\nhoof holes\ncrust cake cow clap\norange horseflies\nspike mouthed\na clegg got me\n\nhedge ends\nrushy clumps\nhoof holes\ncrust cake cow clap\nspike mouthed orange horseflies\nwalking talking looking down\npicking our way through the boggy bit\ntop of the river where we never really go\nno hideouts\njust hardgoing ground\n\nhedge ends\nrushy clumps\nhoof holes\ncake crusty cow clap\norange spike mouthed horse flies\nwalking talking looking down\npicking our way through the boggy bit\n\nwhere the hedge ends\nthe fields merge\n\nno hideouts\njust hard going ground\n\nthe top of the river\nwhere we never really go\n\nstabber mouth\n\norange stab mouth horseflies\n\nspike mouth orange horseflies",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "738933D9-60B9-4959-9F4D-35F91BF3F78F",
         "99465199-F33A-4A5C-B74E-D6663C55D30A"
@@ -3269,13 +3269,14 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0201",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
+        "01D182F4-777F-455D-833C-7993AC66EC42",
         "160CB9BF-7680-4F40-A253-3259DB5A5A62",
         "56A2CE97-A6A1-45AF-A85F-7A2D46504AB9",
         "A10113ED-E8BE-4A5C-B100-D2D33EDD313E"
       ],
-      "text" : "for each \nthere's two\nI'm the middle one\n\nChristopher cars and geography\nTimothy tantrums and clocks\n\ntwo years older or younger\nall three tustling on the back seat\n\nMummy reaches back and goes slap",
+      "text" : "for each there's two\nI'm the middle one\n\nChristopher cars and geography\nTimothy tantrums and clocks\n\ntwo years older or younger\nall three tustling on the back seat\n\nMummy reaches back and goes slap",
       "title" : "In the middle",
       "uuid" : "365C5370-337D-4DBC-B510-CF4385AA5906"
     },
@@ -5032,7 +5033,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0336",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C37628AB-D572-4377-97C5-919D4D584C96"
@@ -5157,12 +5158,12 @@
       "category" : "narrative",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0346",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "66C661EB-14B7-404A-BBDD-AA96573A6B19",
         "F530FAE0-F126-447E-9C12-17C4CA78FD69"
       ],
-      "text" : "this old bald Scottish guy\nin the cafe me looking at\nhim as he talks and my\nmind is saying I could kiss\nhim why that i don't know\n\nand then he takes me to his\nsea front terraced house in\nGatehouse of Fleet\nmy wife's away\nand gets me oh so drunk\non whiskey and then in\nbed and he is why not\njust saying he'll get in\nbeside me\n\nin the morning when he was\nout getting stuff for breakfast\nI checked his wardrobe\nno wife's clothes\n\nnext it was the guy who\ndrifted his hand from gear stick\nto my leg\nlet me out\n\ngod I missed Simms and Speedy\nthat night sleeping in the\nlong grass of the roundabout\nwhere that slimey groper\nhad left me\nso lonely\n\ncalled on John Wade in London\nwent to some writer's flat\nmanuscript of meaningless sentences\n\ntwo tickets for the Isle of Wight\nfestival in my pocket but\nI went back home to Belfast\nmissed Jimi Hendrix\n\nSimms has gone to Turkey\nwithout me",
+      "text" : "this old bald Scottish guy\nin the cafe me looking at\nhim as he talks and my\nmind is saying I could kiss\nhim why that I don't know\n\nand then he takes me to his\nsea front terraced house\nin Gatehouse of Fleet\nmy wife's away\n\ngets me oh so drunk\non whiskey and then\nbed and he's why not\njust saying he'll get in\nbeside me\n\nin the morning when he is out\ngetting stuff for breakfast\nI check his wardrobe\nno wife's clothes\n\nnext it's the guy who drifts \nhis hand from gear stick\nto touch my leg\nlet me out\n\nI so missed Simms and \nSpeedy that night sleeping \nin the roundabout long grass\nwhere that slimey groper left me\n\ncall on John Wade in London\ngo to some writer's flat\ntyped manuscript of \nmeaningless \nsentences\n\ntwo tickets for the Isle of Wight\nfestival in my pocket but go\nback home to Belfast\nmiss Jimi Hendrix\n\nfind Simms has \ngone to Turkey\nwithout me",
       "title" : "Incident",
       "uuid" : "F9332795-042B-4C1B-BFAE-9F4E68D5BE4E"
     },
@@ -5820,7 +5821,7 @@
       "category" : "descriptive",
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0398",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0764142C-6140-412D-9E14-D0AB2BE58E87",
         "7D78C4B9-0FC2-41A4-B0C7-E241A9170B72"
@@ -7946,7 +7947,7 @@
       "category" : "lyric",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0568",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "0A84DCC5-C421-40EC-AF2D-F76CF2FD3173",
@@ -9203,11 +9204,11 @@
       "category" : "narrative",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0668",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
       ],
-      "text" : "I'm runnning up\nrunning up\nthrough the castle\nthrough the tower\nto the top\nnobody with me\n\nI can see the Rhine\nand the car park\nand the fields\nand the trees\nthe whole wide adventuring world\n\nwhere have you been",
+      "text" : "I'm running up up\nthrough the castle\nthrough the tower\n\nto the top \nthe very top\nnobody but me\n\ndown there the Rhine\nthe car park fields and trees\na whole wide adventuring world\n\nwhere have you been",
       "title" : "Independent",
       "uuid" : "5E431BEB-5AAF-4A8B-9D6E-0EB83155924A"
     },
@@ -9314,7 +9315,7 @@
       "category" : "ironic",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0677",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1291394B-42B9-4035-9CE4-3B99CEE779C4"
       ],
