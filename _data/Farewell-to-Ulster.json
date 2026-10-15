@@ -779,7 +779,7 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0013",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "3ADE30B6-AB2C-418E-B713-A001C2D36EEC"
       ],
@@ -1208,11 +1208,11 @@
       "category" : "narrative",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0046",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "876C0503-2522-4DE9-97AB-A98F9660FA0D"
       ],
-      "text" : "Strongbow drinkers blow\nwoo! the concrete ledge\n\nlabel peeled\ncap unscrewed\nbrown glass bottle held\n\nStrongbow drinkers blow\nlet's go crazy escapades",
+      "text" : "Strongbow drinkers blow\nwooo the concrete ledge\n\nlabel peeled\ncap unscrewed\nbrown glass bottle held\n\nStrongbow drinkers blow\ncrazy let's go escapades",
       "title" : "Jordanstown seawall",
       "uuid" : "DD16B038-530F-44BC-8919-99DBA71E05CE"
     },
@@ -4023,11 +4023,11 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0258",
       "scratchpad" : "it's hard to say what's wrong with her\nbut her speech and walk's not right\nstumbling clumsy\nblurred and mumbly\nsimple not so bright\n\nbut how she wants to be a girl\nand shine\n\nerratic hairbrush hand\n\ndreams and reality do not fit\n\nnothing spelled in all the facts fully said\ndon't talk about it\nwe don't talk about it\n\nborderline case\n\nFleming Fulton School\n\nthe handicapped",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "76BE9F38-5635-4460-98A4-52FCCCA4C28F"
       ],
-      "text" : "Julie's jumping\non my tummy\nand i'm getting hard\n\ni'm bad\nbad thoughts\n\nyes I can be bad\nglee free me she bad",
+      "text" : "Julie jumping\non my tummy\ndon't get hard\n\nme thinking \nbad thoughts\nyes I can be bad\n\nglee free me she \nbetter stop now ",
       "title" : "Julie",
       "uuid" : "E8F2FC9E-B8A1-4CB5-B8A1-3125541AC3F2"
     },
@@ -10531,11 +10531,11 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0778",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1"
       ],
-      "text" : "ask what’s the time\nlook at my empty wrist\nit's two hairs past a freckle\n",
+      "text" : "asked what’s the time\nlook at my empty wrist\ntwo hairs past a freckle\n",
       "title" : "Joke",
       "uuid" : "674833AB-2DB3-449F-9B34-ECBCB1F7202D"
     },
@@ -11302,7 +11302,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0843",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
