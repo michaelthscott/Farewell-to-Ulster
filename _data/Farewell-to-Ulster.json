@@ -1274,11 +1274,11 @@
       "category" : "narrative",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0051",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "66C661EB-14B7-404A-BBDD-AA96573A6B19"
       ],
-      "text" : "lined up\nsquatting\nbacks along the wall\nnudge nod and wink\n\nrecorder stuck\nbetween knees\nwaggling\n\ndidn't see it as funny\nuntil explained\n\nbunch of sniggering gits",
+      "text" : "lined up\nsquatting\nbacks along the wall\nnudge nod and wink\n\nwaggling\nrecorder stuck\nbetween knees\n\ndidn't see it as funny\nuntil explained\n\nbunch of sniggering gits",
       "title" : "Innuendo",
       "uuid" : "81A1D389-4297-4333-8CF9-206A21126813"
     },
@@ -1473,7 +1473,7 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0066",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "66C661EB-14B7-404A-BBDD-AA96573A6B19"
       ],
@@ -4338,7 +4338,7 @@
       "category" : "lament",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0282",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C37628AB-D572-4377-97C5-919D4D584C96"
@@ -4621,7 +4621,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0304",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C084DF66-00B8-475E-BBC3-1B14329CDD3E"
       ],
@@ -4854,7 +4854,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0322",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "60699AC7-AABC-4019-BD84-F2E0CB6B6B20"
       ],
@@ -7742,7 +7742,7 @@
       "category" : "narrative",
       "eraUUID" : "E86C3877-3815-42AE-BEBF-3787BDB69C56",
       "fileOrder" : "0551",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
@@ -7909,7 +7909,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0564",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "DA8BE78B-F31E-4007-94B2-1805B17238F5"
@@ -11488,7 +11488,7 @@
       "category" : "narrative",
       "eraUUID" : "7F184646-54B0-4D5A-ACC1-7150517DCFD0",
       "fileOrder" : "0858",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42"
       ],
