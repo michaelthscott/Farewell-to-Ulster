@@ -9179,7 +9179,7 @@
       "category" : "narrative",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0666",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0A8379D5-F722-439D-A0FF-B9373C070FAD",
         "E28B3420-8274-473A-AF36-4F47E3E78D2B"
@@ -10971,7 +10971,7 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0816",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1BA4097C-8DAE-4180-AD39-96EF1C1091D1",
         "670056E8-F6C4-4247-8D7B-C11382D0F657"
