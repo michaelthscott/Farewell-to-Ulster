@@ -1744,11 +1744,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0086",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "8ED11B87-901F-44F0-ADC3-F4DE88EFBA87"
       ],
-      "text" : "sandy specked jelly\npoked with a stick\nalready dead\n\narmless menace\nsting coloured pink\ndrift in waist high waves",
+      "text" : "sandy specked jelly\npoked with a stick\nalready dead\n\narmless menace\nsting coloured pink\ndrifts in waist high waves",
       "title" : "Jellyfish",
       "uuid" : "A229B6DD-93C8-4199-9D25-BC9F540F90CA"
     },
@@ -7793,7 +7793,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0555",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "D99D600E-BC3A-4F79-9EBE-72B91600E03D"
@@ -11386,7 +11386,7 @@
       "category" : "descriptive",
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0850",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "56A2CE97-A6A1-45AF-A85F-7A2D46504AB9",
         "BCFF7E65-2944-4526-B82A-851A9C95D343"
@@ -11712,7 +11712,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0877",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
