@@ -2966,7 +2966,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0178",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
@@ -7962,11 +7962,11 @@
       "category" : "narrative",
       "eraUUID" : "1C745966-0505-45CF-AA28-EA09E3144F12",
       "fileOrder" : "0569",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6DAEFA40-3546-4CB9-BC1F-D7C1F93333C5"
       ],
-      "text" : "dropping out\ngoing to Leeds\n\nbeside the Ripper's hotel\nRomanowich with his Lee\nme and Speedy room each\n\ngive Speedy's brother my bike\n\nRimbaud Sims turns up \ntale of escape Istanbul\n\nstays with some girl he knows\n\nreunited trio\ndidn't last long\nsoon fell apart\n\ntalk is not glue",
+      "text" : "drop out\ngo to Leeds\n\nbeside the Ripper hotel\nRomanowich with his Lee\nSpeedy and me room each\n\nSpeedy's brother gets my bike\n\nRimbaud Sims appears  \nIstanbul tale of escape\n\nstays with some girl he knows\n\nthe reunited trio\ndidn't last long\nsoon fell apart\n\ntalk is not glue",
       "title" : "Leeds",
       "uuid" : "0A4BA02F-2D37-4C04-B3EE-675C8A1C88DB"
     },
@@ -8755,7 +8755,7 @@
       "category" : "ironic",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0631",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "13613B9B-E678-491E-95E3-761B9585EF44"
       ],
@@ -8839,7 +8839,7 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0638",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "9700C0B7-41A4-4873-B7E7-AAB10E0ECB1C"
       ],
@@ -10191,7 +10191,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0750",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
@@ -10314,7 +10314,7 @@
       "category" : "complaint",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0760",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "CDD2D804-8965-4ECE-BDAC-95B7FC0FC0B1"
       ],
@@ -11265,11 +11265,11 @@
       "category" : "lament",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0840",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
       ],
-      "text" : "my spinning rope\nlittle metal swivel\nspin the loop\njump in it\nnever",
+      "text" : "my while spinning rope\nlittle metal swivel\nspin the loop\njump in it\nnever",
       "title" : "Lasso",
       "uuid" : "EA3D95AF-7983-4DE4-A5A4-0FE8450E8922"
     },
