@@ -3413,14 +3413,14 @@
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0212",
       "scratchpad" : "Lady Esquire shoe conditioner",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "3ADE30B6-AB2C-418E-B713-A001C2D36EEC",
         "6DAEFA40-3546-4CB9-BC1F-D7C1F93333C5",
         "D3D54B58-91C1-45D4-AE27-8963F3032291",
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
-      "text" : "walk up between the protacabins\nsun throws my shadow ahead\n\nhair almost down \nto my shoulders\n\ndamn kink\nright side\nover my ear\n\nold brown pullover\nthat shrank\na little\n\nslightly flared\nbottle green\nneedlecord\n\nscuffed laceups\nthat come up\npast the ankle\n\nthat kink\nI just can't\nget rid of it\n\nstill stoned from last night",
+      "text" : "walk up between protacabins\nsun throws my shadow ahead\n\nhair almost down \nto my shoulders\n\ndamn kink\nright side\nover my ear\n\nold brown pullover\nthat shrank\na little\n\nneedlecord\nbottle green\nslightly flared\n\nscuffed laceups\nthat come up\npast the ankle\n\nthat kink\nI just can't\nget rid of it\n\nstill stoned from last night",
       "title" : "Kink",
       "uuid" : "FCBAB435-9715-478E-A16D-2DC3AAF04876"
     },
@@ -3801,11 +3801,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0242",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "3D152F18-8220-4347-BFC6-1D95C6BB59E7"
       ],
-      "text" : "take the butter\nfrom the fridge\nput the last bit on the dish\n\nfold the buttery wrapper\nKerrygold\n\nput it in the cold cupboard\nin another dish\n\nbaking cakes\nangelica\nlicking the bowl",
+      "text" : "take the butter\nfrom the fridge\nlast bit on the dish\n\nfolded buttery wrapper\nin the cold cupboard\non another dish\n\nbaking cakes\nI love angelica\nlicking the bowl",
       "title" : "Kerrygold",
       "uuid" : "7797AE80-3313-4BA3-A09A-2CBBC5A1DC76"
     },
@@ -4801,13 +4801,13 @@
       "category" : "complaint",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0318",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1EF2089F-194A-44F3-AA13-E0F02768BEDE",
         "BCFF7E65-2944-4526-B82A-851A9C95D343",
         "F8C2CB36-6367-4BBF-A1FB-9409E4D3901B"
       ],
-      "text" : "down to the Crossroads\nkeep on the right\n\nup from the Crossroads\nkeep to the left\n\nexception proves the rule\n\ndon't face the oncoming traffic\ncars come round that corner too fast\n\ndeep brown gash in a wall of grass\n\nhear a car coming behind you\nstand and turn",
+      "text" : "down to the Crossroads\nkeep on the right\n\nup from the Crossroads\nkeep to the left\n\nexception proves the rule\n\nbest not to face the oncoming traffic\ncars come round that corner too fast\n\ndeep brown gash in the wall of grass\n\nhear a car coming behind you\nstand and turn",
       "title" : "Killer cars",
       "uuid" : "59B243BF-F626-4149-A648-64455C3F22B9"
     },
@@ -8153,11 +8153,11 @@
         "BD40CD6E-C446-4704-85B9-04966E3D2F9F"
       ],
       "fileOrder" : "0584",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2E667939-4314-420D-89FF-4FC512542ACB"
       ],
-      "text" : "listening to Sergeant Pepper \nLP cover in my hands\nBull's living room\nsitting forward\n\nit's a concept \nmade up idea\n\nwhy did they have to come up with that",
+      "text" : "listening to Sergeant Pepper \nLP cover in my hands\nBull's living room\nsitting forward\n\nit's a concept \nmade up idea\n\nwhy did they have \nto come up with that",
       "title" : "Just released",
       "uuid" : "A854C02A-3818-4B0C-871A-AE643E20A493"
     },
@@ -10715,7 +10715,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0795",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D17D11E5-8A88-4EAC-BB93-2CEA027C849A"
       ],
