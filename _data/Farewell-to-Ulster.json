@@ -2,7 +2,7 @@
   "author" : "Michael T. H. Scott",
   "eras" : [
     {
-      "end" : "1954-04-24T23:59:45Z",
+      "end" : "1954-04-23T23:59:45Z",
       "fileOrder" : "0001",
       "start" : "1900-01-01T23:59:45Z",
       "text" : "Things I heard about or imagined from the earlier world.",
@@ -10,7 +10,7 @@
       "uuid" : "7F184646-54B0-4D5A-ACC1-7150517DCFD0"
     },
     {
-      "end" : "1960-08-31T00:00:00Z",
+      "end" : "1960-09-01T00:00:00Z",
       "fileOrder" : "0002",
       "start" : "1954-04-24T00:00:00Z",
       "text" : "Our house and garden. A child at home.",
@@ -18,7 +18,7 @@
       "uuid" : "955A02A6-3C2F-4604-8B43-6750E7CC1AB6"
     },
     {
-      "end" : "1963-08-31T00:00:00Z",
+      "end" : "1963-09-01T00:00:00Z",
       "fileOrder" : "0003",
       "start" : "1960-09-01T00:00:00Z",
       "text" : "The shock of going to school. All those other boys with their different family lives.",
@@ -26,7 +26,7 @@
       "uuid" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14"
     },
     {
-      "end" : "1965-08-31T00:00:00Z",
+      "end" : "1965-09-01T00:00:00Z",
       "fileOrder" : "0004",
       "start" : "1963-09-01T00:00:00Z",
       "text" : "Vaguely an exam appears that will decide what happens next.",
@@ -34,7 +34,7 @@
       "uuid" : "EBE25509-202F-49AF-B654-A7746CCC01A2"
     },
     {
-      "end" : "1966-08-31T00:00:00Z",
+      "end" : "1966-09-01T00:00:00Z",
       "fileOrder" : "0005",
       "start" : "1965-09-01T00:00:00Z",
       "text" : "Arriving at the big school right in the heart of Belfast.",
@@ -42,7 +42,7 @@
       "uuid" : "BF57A2D9-B181-417B-81F9-55020069D93E"
     },
     {
-      "end" : "1968-08-31T00:00:00Z",
+      "end" : "1968-09-01T00:00:00Z",
       "fileOrder" : "0006",
       "start" : "1966-09-01T00:00:00Z",
       "text" : "I’m too indifferent and lazy to try to do well in school.",
@@ -50,7 +50,7 @@
       "uuid" : "F487E1AC-48D1-4F82-9954-1DDF108B988A"
     },
     {
-      "end" : "1970-08-31T00:00:00Z",
+      "end" : "1970-09-01T00:00:00Z",
       "fileOrder" : "0007",
       "start" : "1968-09-01T00:00:00Z",
       "text" : "The evil torture of exams.",
@@ -58,7 +58,7 @@
       "uuid" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08"
     },
     {
-      "end" : "1971-08-31T00:00:00Z",
+      "end" : "1971-09-01T00:00:00Z",
       "fileOrder" : "0008",
       "start" : "1970-09-01T00:00:00Z",
       "text" : "Didn’t get enough O Levels. They had to move me to an ordinary coed school.",
@@ -66,7 +66,7 @@
       "uuid" : "01686548-4384-46F3-A5CB-EDC2D83D34DB"
     },
     {
-      "end" : "1972-08-31T00:00:00Z",
+      "end" : "1972-09-01T00:00:00Z",
       "fileOrder" : "0009",
       "start" : "1971-09-01T00:00:00Z",
       "text" : "Sixth form college to see if I can get a few A Levels.",
@@ -74,7 +74,7 @@
       "uuid" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C"
     },
     {
-      "end" : "1973-08-31T00:00:00Z",
+      "end" : "1973-09-01T00:00:00Z",
       "fileOrder" : "0010",
       "start" : "1972-09-01T00:00:00Z",
       "text" : "Art school at last no more exams. Meet Simms and Speedy. Maybe now have friends.",
@@ -82,7 +82,7 @@
       "uuid" : "ACDAF876-52F9-424C-867F-C24C0CA674D2"
     },
     {
-      "end" : "1975-05-01T00:00:00Z",
+      "end" : "1975-07-01T00:00:00Z",
       "fileOrder" : "0011",
       "start" : "1973-09-01T00:00:00Z",
       "text" : "Christopher is there. I decide to take the easy option.",
@@ -90,7 +90,7 @@
       "uuid" : "32AC857B-F7BA-484D-9D99-C6BA9D974976"
     },
     {
-      "end" : "1975-06-30T00:00:00Z",
+      "end" : "1975-09-01T00:00:00Z",
       "fileOrder" : "0012",
       "start" : "1974-07-01T00:00:00Z",
       "text" : "Drop out of art school and follow Speedy to Leeds. His brother is there.",
@@ -98,7 +98,7 @@
       "uuid" : "1C745966-0505-45CF-AA28-EA09E3144F12"
     },
     {
-      "end" : "1976-08-31T00:00:00Z",
+      "end" : "1976-09-01T00:00:00Z",
       "fileOrder" : "0013",
       "start" : "1975-09-01T00:00:00Z",
       "text" : "Ended up back home. Doing some more exams. Time to escape again. This time for good.",
