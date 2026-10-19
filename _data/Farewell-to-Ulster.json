@@ -1068,11 +1068,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0035",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2500E8D7-9B12-40B6-BD54-9475EF8F696F"
       ],
-      "text" : "clear huge room full\nshelves and shelves\n\nbooks \ntall books\nbig books\n\npicture books\nsubjects to choose\n\nshiny red yellow blue\nslightly tattered spines\n\npink yellow blue \nsmall envelopes\n\nopen two sides \nkeeps the ticket\n\nlibrarian lady loves her\nneat rows of borrowing",
+      "text" : "huge clear room full\nshelves and shelves\n\nspines of\ntall books \nbig books\n\npicture books\nsubjects to choose\n\nshiny red yellow blue\nslightly tattered ends\n\npink yellow blue \nsmall envelopes\n\nopen two sides \nkeeps the ticket\n\nlibrarian lady loves her\nneat rows of borrowing",
       "title" : "Lisburn Road Library",
       "uuid" : "D4F58BAE-2FDC-408C-98D8-20979AF1204E"
     },
@@ -7214,13 +7214,13 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0509",
-      "status" : "getting started",
+      "status" : "duplicate",
       "subjectUUIDs" : [
         "1291394B-42B9-4035-9CE4-3B99CEE779C4",
         "326DFE87-6AB7-41BB-895C-CBEECFE1F04B",
         "876C0503-2522-4DE9-97AB-A98F9660FA0D"
       ],
-      "text" : "them and us\nthe teachers\nschool rules\nlong hair\nMr Auld's divinity class\na man on his own\nwith a little MG\nand a cottage in Portrush\nhe takes some boys to\nthey say he was a reverend\nrelaxed almost openminded classes\nsuch a useless subject\n\nGauguin's La Source\nhung in hs old gloomy room\nbefore he moved upstairs\nround tables\nbright\n\nthat old room was where\ni was going to burn\nthe school\ndown\n\nwith a candle\nin a saucer\npetrol sloshed about",
+      "text" : "them and us\nthe teachers\nschool rules\nhair too long\n\nMr Auld's divinity class\n\na man on his own\nwith a smart little MG\nand a cottage in Portrush\nwhere he takes some \nboys not me\n\nthey say he was a reverend\nrelaxed openminded classes\nbut such a useless subject\n\nGauguin's La Source\nhung in his old gloomy room\nbefore he moved upstairs\nto round tables bright\n\nthat old room was where\nI was going to burn\nthe school\ndown\n\ncandle in a saucer\npetrol sloshed about",
       "title" : "Let it burn",
       "uuid" : "AA2F04A5-C1D3-40BF-8C08-EF4C5FE091BB"
     },
@@ -10338,7 +10338,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0762",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42"
       ],
@@ -10543,12 +10543,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0779",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2E667939-4314-420D-89FF-4FC512542ACB",
         "74EF76BA-C6F7-4908-A6B6-60D2FA16A141"
       ],
-      "text" : "Shaftsbury Square\nup Botanic Avenue\na jazz record shop\n\nthick lipped \ncomb over\npulpit\n\n\n",
+      "text" : "on Shaftsbury Square\nup Botanic Avenue\njazz record shop\n\nthick lipped \ncomb over\npulpit\n\n\n",
       "title" : "Lipsitz",
       "uuid" : "487139F1-3EAC-4C77-BD12-18461EB5D1F8"
     },
@@ -10875,11 +10875,11 @@
       "category" : "lament",
       "eraUUID" : "E86C3877-3815-42AE-BEBF-3787BDB69C56",
       "fileOrder" : "0808",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
-      "text" : "the closest I get to my father\nis the passenger seat in the car",
+      "text" : "the closest I get to my father\nis passenger seat in the car",
       "title" : "Lift into town",
       "uuid" : "D1C27506-2089-4F44-A7DC-AC4A67E86328"
     },
@@ -11076,7 +11076,7 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0825",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
       ],
