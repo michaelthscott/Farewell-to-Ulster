@@ -5735,7 +5735,7 @@
       "subjectUUIDs" : [
         "5F515830-FED0-471B-8545-C1EEB1A62DBF"
       ],
-      "text" : "a speck\non the horizon \nis that Scotland?",
+      "text" : "a speck\non the horizon \nis that Scotland",
       "title" : "Mull of Kintyre",
       "uuid" : "BB15825D-F7BF-4CF6-9369-689D3FCC4C35"
     },
@@ -8548,7 +8548,7 @@
       "subjectUUIDs" : [
         "81ACB528-558A-4AD8-86FC-1F899B24EB5C"
       ],
-      "text" : "yes what?\nyes please",
+      "text" : "yes what\nyes please",
       "title" : "Correction",
       "uuid" : "44EC1E1C-AB6C-40B5-95A4-D493957F14E7"
     },
@@ -9634,7 +9634,7 @@
       "subjectUUIDs" : [
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "flowers my parents planted\ndo any bloom again today?",
+      "text" : "flowers my parents planted\ndo any bloom again today",
       "title" : "Garden",
       "uuid" : "B9A4C943-2946-4584-B237-682FD0995431"
     },
