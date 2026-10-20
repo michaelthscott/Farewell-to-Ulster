@@ -3685,6 +3685,9 @@
     {
       "category" : "ironic",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
+      "eventUUIDs" : [
+        "6F0841BC-C21F-4132-8877-140A9573A98E"
+      ],
       "fileOrder" : "0233",
       "status" : "getting started",
       "subjectUUIDs" : [
