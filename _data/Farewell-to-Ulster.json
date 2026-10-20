@@ -2020,12 +2020,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0106",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "living room feels\nlike a photograph\n\nthe cowrie shell\nlittle glass birds\nart bookshelves\ngentle wallpaper\n\ndark strip of wood \naround the fireplace\nbrown tweed on the sofa\nMum's little green swivel chair\n\nold kind of brown\nplastic castors that\nprotect the parquet \nfrom legs of the chairs\n\nthat sometimes press into\nthe carpet\n\ndried flower honesty\ncorn heads grasses\n\nbox with the coal bucket\n\nMum's chest with its layers\nand layers of folded fabric\nsewing stuff knitting needles\nwool patterns\n\nthe light that swings from the wall\n\nthe green glass sphere\non the marble bowl\non the high windowsill\nat the end of the dining table\nthe lampshade that they made\nwith the funny bread loaf\nweight for raising it when\nthere were parties\n\nthe box of inherited cutlery\nunder the side board",
+      "text" : "living room feels\nlike a photograph\n\nthe cowrie shell\nlittle glass birds\nart bookshelves\ngentle wallpaper\n\ndark strip of wood \naround the fireplace\nbrown tweed on the sofa\nMum's little green swivel chair\n\nold kind of brown\nplastic castors that\nprotect the parquet \nfrom legs of the chairs\n\nsometimes\npress into\nthe carpet\n\ndried flower honesty\ncorn heads grasses\n\nbox with the coal bucket\n\nMum's chest with its layers\nand layers of folded fabric\nsewing stuff knitting needles\nwool patterns\n\nthe light that swings from the wall\n\nthe green glass sphere\non the marble bowl\non the high windowsill\nat the end of the dining table\nthe lampshade that they made\nwith the funny bread loaf\nweight for raising it when\nthere were parties\n\nthe box of inherited cutlery\nunder the side board",
       "title" : "Livingroom",
       "uuid" : "EF260372-0BB0-498E-9A86-F5F192E6DAB1"
     },
@@ -2511,12 +2511,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0143",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5B51317A-87C9-4321-888F-419461AFEDF4",
         "805C994F-34A7-4351-BD62-97454B8B00A9"
       ],
-      "text" : "old lonely man\ncan't see inside\n\nso solid\nso far away",
+      "text" : "old lonely man\ncan't see inside\n\nso solid\nfar away",
       "title" : "Lonely grandpa",
       "uuid" : "2D236EB6-4D24-4AFD-9224-8702E8212078"
     },
@@ -2731,12 +2731,12 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0160",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6DAEFA40-3546-4CB9-BC1F-D7C1F93333C5",
         "DA8BE78B-F31E-4007-94B2-1805B17238F5"
       ],
-      "text" : "first day back\nmiddle of the quad\nErwin says\nyou growing your hair long\n\nit’s not that long\nbarely covers my ears\n\nhow did I not notice?\nhow did I manage to get away with it?\n\npull it forward\nover my ear",
+      "text" : "first day back\nmiddle of the quad\nErwin says\nyou growing your hair long\n\nit’s not that long\nbarely covers my ears\n\nhow did I not notice\nhow did I manage to \nget away with it\n\npull it forward\nover my ear",
       "title" : "Long hair",
       "uuid" : "955B379B-1D6E-425F-A873-7A81111A002C"
     },
@@ -3610,11 +3610,11 @@
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0227",
       "scratchpad" : "grass only grows\nin the summer",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "99465199-F33A-4A5C-B74E-D6663C55D30A"
       ],
-      "text" : "hand caress long furry head\nsome grass has a knuckle\n\nslips out the stem when you pull it\nfresh nutty moment gets chewed\n\nhay has a dry scratchy rustle\nprickly rolling down the hill\n\nflattened long grass nest\nour lookout hideout fort\n\nthe whole field\ndamp at the roots",
+      "text" : "furry head long hand caress\nsome grass has a knuckle\n\nslips out of stem when you pull it\nfresh nutty moment gets chewed\n\nhay has a dry scratchy rustle\nprickly rolling down the hill\n\nflattened long grass nest\nour hideout lookout fort\n\nthe whole field\ndamp at the roots",
       "title" : "Long grass",
       "uuid" : "18003048-C572-4CFE-AA53-789392EE50C1"
     },
@@ -9778,11 +9778,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0715",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "9AA45080-C30E-4FB4-AC35-5F5EEA4F0B8B"
       ],
-      "text" : "opaque plastic \nice lolly mould\nin the freezer\nin the fridge \nhomemade \norange \njuice",
+      "text" : "opaque plastic \nice lolly mould\nin the freezer\nin the fridge \nhomemade \norange \njuice\nyes",
       "title" : "Lollypops",
       "uuid" : "DC0F1396-B320-428A-8940-1AB824176E53"
     },
