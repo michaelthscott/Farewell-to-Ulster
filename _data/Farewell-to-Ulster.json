@@ -2025,7 +2025,7 @@
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "living room feels\nlike a photograph\n\nthe cowrie shell\nthe little glass birds\nthe bookshelves\nthe wallpaper\nthe strip of wood around the fireplace\nthe brown tweed on the sofa\nthe little green swivel chair\n\nthe old kind of brown\nplastic castors that\nprotect the parquet from\nthe legs of the chairs\nthat sometimes press into\nthe carpet\n\nthe dried flowers honesty\ncorn heads grasses\nthe box with the coal bucket\n\nMum's chest with its layers\nand layers of folded fabric\nsewing stuff knitting needles\nwool patterns\n\nthe light that swings from the wall\n\nthe green glass sphere\non the marble bowl\non the high windowsill\nat the end of the dining table\nthe lampshade that they made\nwith the funny bread loaf\nweight for raising it when\nthere were parties\n\nthe box of inherited cutlery\nunder the side board",
+      "text" : "living room feels\nlike a photograph\n\nthe cowrie shell\nlittle glass birds\nart bookshelves\ngentle wallpaper\n\ndark strip of wood \naround the fireplace\nbrown tweed on the sofa\nMum's little green swivel chair\n\nold kind of brown\nplastic castors that\nprotect the parquet \nfrom legs of the chairs\n\nthat sometimes press into\nthe carpet\n\ndried flower honesty\ncorn heads grasses\n\nbox with the coal bucket\n\nMum's chest with its layers\nand layers of folded fabric\nsewing stuff knitting needles\nwool patterns\n\nthe light that swings from the wall\n\nthe green glass sphere\non the marble bowl\non the high windowsill\nat the end of the dining table\nthe lampshade that they made\nwith the funny bread loaf\nweight for raising it when\nthere were parties\n\nthe box of inherited cutlery\nunder the side board",
       "title" : "Livingroom",
       "uuid" : "EF260372-0BB0-498E-9A86-F5F192E6DAB1"
     },
@@ -6762,11 +6762,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0472",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "the little window\ndownstairs toilet",
+      "text" : "the little window\ndownstairs toilet\nbottle green ball\ncatches the light",
       "title" : "Little window",
       "uuid" : "6588A8D5-9F7B-4320-87D4-245177ED3521"
     },
