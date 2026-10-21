@@ -2,6 +2,7 @@ title: Farewell to Ulster
 description: Growing up in Northern Ireland
 author: Michael T. H. Scott
 theme: minima
+url: "https://farewell-to-ulster.michaelthscott.org"
 collections:
   Poems:
     output: true
