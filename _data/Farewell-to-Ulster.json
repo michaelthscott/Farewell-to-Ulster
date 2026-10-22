@@ -2320,12 +2320,12 @@
       "category" : "narrative",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0128",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C1031204-4082-4E21-81EB-699EE5F5818C"
       ],
-      "text" : "we thought i was getting a cold\nbut we went all the same\nout in the boat to the island\nin vast inaccessible Lough Neagh\nyou can't even see it from the shore\n\nthe Bulls were looking after it\nfor the National Trust\na low dark damp cottage\nwith a big map of the island\npainted on the wall\n\nright out into the jungle\nrunning paths\nwith sticks in our hands\nthis way that way\nand then abruptly a hole\nfull of grey water\nwith a brown hairy ominous back\nfloating drowned dead\nspirit of the dead dead\ndonkey\nwe stopped\nhovering\nrecoiling from an accident\nthat perhaps required adult intervention\n\nback squealing recovering fun",
-      "title" : "Lough Neigh",
+      "text" : "we thought I was getting a cold\nbut we went all the same\nout in the boat to the island\nin vast inaccessible Lough Neagh\nyou can't even see it from the shore\n\nthe Bulls were looking after it\nfor the National Trust\na low dark damp cottage\nwith a big map of the island\npainted on the wall\n\nright out into the jungle\nrunning paths\nwith sticks in our hands\nthis way that way\nand then abruptly a hole\nfull of grey water\nwith a brown hairy ominous back\nfloating drowned dead\nspirit of the dead dead\ndonkey\n\nwe stopped\nhovering\nrecoiling from an accident\nthat perhaps required adult intervention\n\nback squealing recovering fun",
+      "title" : "Lough Neagh",
       "uuid" : "F8413E24-7414-4814-9E34-1DE20E742D20"
     },
     {
@@ -3441,7 +3441,7 @@
       "category" : "narrative",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0214",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A10113ED-E8BE-4A5C-B100-D2D33EDD313E",
         "C37628AB-D572-4377-97C5-919D4D584C96"
@@ -6111,7 +6111,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0420",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "57CD1810-6E41-424B-9F18-1582FB8010FF"
       ],
@@ -6487,11 +6487,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0450",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0A8379D5-F722-439D-A0FF-B9373C070FAD"
       ],
-      "text" : "Mad magazine\nstupid grin\nFester Bester Tester",
+      "text" : "Mad magazine\nstupid grin\nFester Bestertester",
       "title" : "Mad",
       "uuid" : "F5822164-16EF-4FF5-9B41-D2B29489E434"
     },
@@ -7322,7 +7322,7 @@
       "category" : "ironic",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0517",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "876C0503-2522-4DE9-97AB-A98F9660FA0D"
       ],
