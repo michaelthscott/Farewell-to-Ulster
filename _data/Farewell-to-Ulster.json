@@ -10425,11 +10425,11 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0769",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5B51317A-87C9-4321-888F-419461AFEDF4"
       ],
-      "text" : "there’s the church\nand there’s the steeple\n\nopen the doors\nand there’s all the people",
+      "text" : "here’s the church\nand here’s the steeple\n\nopen the doors\nand there’s all the people",
       "title" : "Magic",
       "uuid" : "78CE91F5-FE4A-4144-AA65-4A7BF6C62C7D"
     },
@@ -11365,11 +11365,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0848",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "big long Peruvian scarf\nuseless when it came\n\nsad nag folded reminder \ngone almost forgotten \n\nyet coloured pure\nin its pure dye\n\n\n\n",
+      "text" : "too big Peruvian scarf\nuseless when it came\n\nfolded reminder \nalmost forgotten \n\nyet coloured pure\npure dyed stripes\n\nnagging Aztecs\nand their llamas \n\n\n\n",
       "title" : "Mail order",
       "uuid" : "D7FF559C-720C-4470-A3AB-2D1D1060E422"
     },
