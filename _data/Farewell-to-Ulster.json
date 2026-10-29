@@ -3881,12 +3881,12 @@
       "category" : "lyric",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0248",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "670056E8-F6C4-4247-8D7B-C11382D0F657",
         "C69CE53D-2CE7-42E2-B344-4981579D1812"
       ],
-      "text" : "Rosie Wray\nevery day\nmaking your life hell\n\ncarefully\nyou explain to me\nlearning casts a spell",
+      "text" : "Rosie Wray every day\nwe make your life hell\n\ncarefully explains to me\nso learning casts a spell",
       "title" : "Maths",
       "uuid" : "24C45BE6-71A8-4DCD-8AF3-65E87D9EE93B"
     },
@@ -4204,11 +4204,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0272",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5B51317A-87C9-4321-888F-419461AFEDF4"
       ],
-      "text" : "slow curve of the drive\nedge of a dull pond\n\nsilently dutiful grandfather \ntakes his grandson fishing\n\ncrunch of posh gravel \nold war memorial plaque\nglimpse into the Club House\n\nlonely glum old Grandpa Scott\nlifts rods and bags from the boot\n\npush out a miniature white boat\ndrift in circles around the pond\n\ndrift cast drift\ncatch nothing\n\nGranny Scott loved to play golf\nwore spiky shoes with a flap",
+      "text" : "slow curve of the drive\nedge of a dull pond\n\nsilently dutiful grandfather \ntakes his grandson fishing\n\ncrunch of posh gravel \nold war memorial plaque\nglimpse into the Club House\n\nlonely glum old Grandpa Scott\nlifts rods and bags from the boot\n\npush out a miniature white boat\ndrift around the pond in circles\n\ndrift cast drift\ncatch nothing\n\nGranny Scott loved to play golf\nwore spiky shoes with a flap",
       "title" : "Malone Road Golf Club",
       "uuid" : "4D29C780-BBD0-4BEB-9BE0-968A739F5DE2"
     },
@@ -6254,13 +6254,13 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0432",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5B51317A-87C9-4321-888F-419461AFEDF4",
         "7CA50585-8727-4BBD-BEF4-936ADADE9402",
         "FD5A1206-49FB-4652-8D06-63C87EF99B75"
       ],
-      "text" : "finishing Sunday lunch\nit's time to get some air\n\nGrandpa Scott \non his own now\n\ntumble out\nopen the car boot\nstomp into our wellies\n\nroute march winter\nrun trudge along\nmuddy walk  \nafternoon\n\ndrive home\npast sunset\n",
+      "text" : "finish up Sunday lunch\ntime to get some air\n\nGrandpa Scott single\nonly on his own now\n\ntumble out\nopen car boot\nstomp into our wellies\n\nwinter route march\ntrudge run along\nmuddy walk  \nafternoon\n\ndrive home\npast sunset\n",
       "title" : "Marching orders",
       "uuid" : "1529402D-AAA3-4860-AB12-72B30E69E329"
     },
@@ -7068,13 +7068,13 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0497",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "Daddy\nhall cupboard overcoat\ntaps the barometer",
-      "title" : "Man",
+      "text" : "hall cupboard overcoat\ntaps checks the barometer",
+      "title" : "Daddy",
       "uuid" : "E6B9F6ED-0D9E-466B-B219-6D28DE68B080"
     },
     {
@@ -7490,7 +7490,7 @@
       "category" : "ironic",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0531",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "99465199-F33A-4A5C-B74E-D6663C55D30A"
       ],
@@ -8299,11 +8299,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0595",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0764142C-6140-412D-9E14-D0AB2BE58E87"
       ],
-      "text" : "Cranmore Park\nOsborne Gardens \nBawnmore Road\nOsborne Park",
+      "text" : "from Osborne Gardens \nup the Bawnmore Road\nto school playing fields\n\ndown Osborne Gardens \nright up Cranmore Park\nquick run to get the bus",
       "title" : "Malone",
       "uuid" : "33072472-5B41-4304-9FB1-00B7CE1EE636"
     },
