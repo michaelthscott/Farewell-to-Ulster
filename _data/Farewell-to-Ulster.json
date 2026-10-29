@@ -1093,11 +1093,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0037",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "66C661EB-14B7-404A-BBDD-AA96573A6B19"
       ],
-      "text" : "I am who am I am he\nskinny lanky silly me\nfeel it coming thicken feel\nfinger thumb light lost and he\nis silly lanky skinny me\nback it fades back to forgotten\nsilly me I see lonely me me me me me\nme me me me me me\nme me\nme\nsilly\nme",
+      "text" : "I am who am I am he\nskinny lanky silly me\n\nfeel it coming thicken feel\nfinger thumb light lost and \nhe is silly lanky skinny me\nback it fades back forgotten\n\nsilly me I see lonely me me \nme me me me me me me \nme me me me\nme silly me",
       "title" : "Me",
       "uuid" : "7FD2D9CE-EF6A-4751-8EEE-62125B5926AF"
     },
@@ -6473,13 +6473,13 @@
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0449",
       "scratchpad" : "the whole house\nhad been covered with it\na special white icing\nmade with crushed sea shells and grit\nthe problem was it wasn't setting",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "blue and white rug\non the hall door\nMatisse cut out La Mer\n\nTeddy and Noel's early marriage\nfeels like i almost was there\n\nfirst when they got married\nthey lived with his parents\nwhile they found the field\nand built the house\nthat her father designed\n\nlet's call it Longshot\n\nGrandpa Rip had a sort of breakdown\nand started clawing at the walls\nwhen the rendering didn't set\n\nfine white sandy\nhouse icing\nflecked with broken\nsea shells",
+      "text" : "blue and white rug\nback of the hall door\ncutout Matisse La Mer\n\nfirst when they got married\nthey lived with his parents\nwhile they found the field\nand built the house\nher father designed\n\nlet's call it Longshot\n\nGrandpa Rip had a sort of breakdown\nand started clawing at the walls\nwhen the rendering didn't set\n\nfine white sandy\nhouse icing\nflecked with broken\nsea shells",
       "title" : "Matisse",
       "uuid" : "61CA4AEE-6D6F-452B-AEEF-7B165698A5A3"
     },
