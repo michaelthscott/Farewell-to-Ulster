@@ -3894,13 +3894,13 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0249",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26",
         "DA8BE78B-F31E-4007-94B2-1805B17238F5",
         "F56657FC-2FE4-4CCC-8DAD-367780E34440"
       ],
-      "text" : "mirror mirror \nmirror me\n\nmirror me \nsqueezing blackheads\n\nmirror mirror \nmirror me\n\nmirror me \nchecking my hair",
+      "text" : "mirror mirror \nmirror me\n\nmirror me \nblackhead\nsqueezing\n\nmirror mirror \nmirror me\n\nmirror me \nchecking my hair",
       "title" : "Mirror me",
       "uuid" : "97453EA7-01E8-41DF-8502-45106BAFB1D7"
     },
@@ -4894,7 +4894,7 @@
       "category" : "lyric",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0325",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
       ],
@@ -6099,11 +6099,11 @@
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0419",
       "scratchpad" : "Mummy licks the jam spoon",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42"
       ],
-      "text" : "Mum's in bed\nmiddle of the day\n\ncurtains closed\ngot a lousy head\n\neventually \ngone away",
+      "text" : "Mum in bed\nmiddle of the day\n\ncurtains closed\ngot a lousy head\n\neventually \ngoes away",
       "title" : "Migraine",
       "uuid" : "D1400FAB-5DC8-456C-9341-009EE8D52078"
     },
@@ -9330,11 +9330,11 @@
       "category" : "descriptive",
       "eraUUID" : "01686548-4384-46F3-A5CB-EDC2D83D34DB",
       "fileOrder" : "0678",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2E667939-4314-420D-89FF-4FC512542ACB"
       ],
-      "text" : "books and records\ngot from the library\nLP cover on the bed\nempty jazz no singing",
+      "text" : "got from the library\nLP cover on the bed\nempty jazz no singing",
       "title" : "Miles Davis",
       "uuid" : "D2661ED4-95C1-4CEB-AD6E-334EACE2276E"
     },
@@ -10389,7 +10389,7 @@
       "category" : "descriptive",
       "eraUUID" : "8F23EB6C-80FA-49F6-9C03-322333025775",
       "fileOrder" : "0766",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
@@ -10818,11 +10818,11 @@
         "89D8845C-1D30-4E62-ABE7-70161F62F774"
       ],
       "fileOrder" : "0803",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2E667939-4314-420D-89FF-4FC512542ACB"
       ],
-      "text" : "two whole LPs of noise\nLou Reed says\nmy week equals your year",
+      "text" : "double LP incessant noise\nmy week equals your year",
       "title" : "Metal Machine Music",
       "uuid" : "5818F33F-8414-44D8-9CD1-BD3D8D42BA2F"
     },
