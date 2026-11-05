@@ -3310,11 +3310,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0204",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "9AA45080-C30E-4FB4-AC35-5F5EEA4F0B8B"
       ],
-      "text" : "the counter of the Model Shop\nthe roof where I dreamt I walked\n\nbalsa please\nthick medium thin\nbalsa cement\n\ncraft knife blades\nacross the grain\nalong the grain",
+      "text" : "counter of the Model Shop\nroof where I dream walked\nparallel boy in two worlds\n\nbalsa please\nthick medium thin\nflip featherweight stack \n\nalways keep the cap on\nwhiff quick-dry cement\n\ncraft knife blades \ncrunch across \nslice along \nthe grain",
       "title" : "Model Shop",
       "uuid" : "474C0BB3-541D-4D80-ACEB-7CD9451837A1"
     },
@@ -3557,11 +3557,11 @@
       "category" : "ironic",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0223",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0A8379D5-F722-439D-A0FF-B9373C070FAD"
       ],
-      "text" : "Lamborghini unicorn\nspawns a Scammel sport car\nthat's it did you see",
+      "text" : "Lamborghini unicorn\nspawns \nScammell sports car\n\nthat's it did you see it\n",
       "title" : "Mixed genders",
       "uuid" : "3C590CCC-C86C-474C-904C-57D33D6AD437"
     },
@@ -9452,11 +9452,11 @@
       "category" : "narrative",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0688",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1"
       ],
-      "text" : "throwing a stone\nunder a car\ncar door\nDrumbo Road",
+      "text" : "throwing a stone\nunder a car\nhit \ncar door\nDrumbo Road",
       "title" : "Miscalculated",
       "uuid" : "84DDB032-6F82-4DA6-9D80-59913C83CC99"
     },
