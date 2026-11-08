@@ -2461,7 +2461,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0139",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42"
       ],
@@ -2707,11 +2707,11 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0158",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "188EDF96-FA3A-461D-A705-CB3064D8E84E"
       ],
-      "text" : "here's your pocket money\ndon't spend it all at once\n\nsixpence in the slot\n\npenny\n3d\n\ntwelve shillings in the pound\na guinea's already obsolete\n\ndoubloons\ntreasure chest\n\ntwo and six\n\nhave you ever seen a 50 pound note\nthere's supposed to be a 100 too\n\nbus fare\n\nfondling my replica Confederate currency\nsmells of mothballs",
+      "text" : "here's your pocket money\ndon't spend it all at once\n\nsixpence in the slot\n\npenny\n3d\n\ntwelve shillings in the pound\na guinea's already obsolete\n\nold doubloons\ntreasure chest\n\ntwo and six\n\nhave you ever seen a 50 pound note\nthere's supposed to be a 100 too\n\nbus fare\n\nfondling my replica \nConfederate currency\nsmells of mothballs",
       "title" : "Money",
       "uuid" : "C112044B-4A79-44ED-BAB9-52B0249A91E2"
     },
@@ -3068,11 +3068,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0186",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "16DCAB0F-749D-4169-A3AE-7E61463927A3"
       ],
-      "text" : "flat roofed\nlengthwise\n\nthe Shoe Box\n\njutting into the hill\nBull's family home",
+      "text" : "flat roofed\nlengthwise\n\ncall it the\nShoe Box\n\nBull's family home\njutting into the hill",
       "title" : "Modern house",
       "uuid" : "83DBB91D-135E-4C60-A9BF-3E5BBE4758D7"
     },
@@ -3080,11 +3080,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0187",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
       ],
-      "text" : "Monopoly on the carpet\nGo Risk Cludo Totopoly\nthe rules\nthe start\nthe picking up the card\nthe dice roll\nmy special tiny silver top hat\nslightly badly cast\ntriumph\nrows of red hotels\ndown Mayfair Park Lane\nLondon Town\ncounting money",
+      "text" : "Monopoly on the carpet\nGo Risk Cludo Totopoly\n\nthe rules the start\npicking up the card\nthe dice roll\nmy tiny silver top hat\nslightly badly cast\n\ntriumph\nrows of red hotels\ndown Mayfair Park Lane\nLondon Town\n\ncounting money",
       "title" : "Monopoly",
       "uuid" : "E996F228-64F8-4DD9-9E59-C85F350C5C14"
     },
@@ -3530,13 +3530,13 @@
       "eraUUID" : "01686548-4384-46F3-A5CB-EDC2D83D34DB",
       "fileOrder" : "0221",
       "scratchpad" : "never had a pair of monkey boots\nlooked at them many times\nhard men wear them\non the Shankill\non the Falls\n\nhave a pair of Doctor Martens\nred rugby boot laces\none sole split went flat\ntried to fix it with a hot penknife blade",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0764142C-6140-412D-9E14-D0AB2BE58E87",
         "6643ED8B-5E85-40B2-B9B9-2913DACAA915",
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "never had a pair of monkey boots\nlooked at them many times\n\nhad a pair of Doc Martens\nbut they burst the leak\n\nfavourites are my desert boots\nmuch better when they're old",
+      "text" : "never had a pair of monkey boots\nlooked at them many times\n\nhad a pair of Doc Martens\nbut they burst they leak\n\nfavourites are my desert boots\nso much better when they're old",
       "title" : "Monkey boots",
       "uuid" : "112B6899-402E-410F-A2A0-5F9D33E1A614"
     },
@@ -4167,12 +4167,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0269",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "standing out over\noil paint emerald green\n\nspiky petals hammered\nwith sharp black line\n\ndaffodils from the long grass\nsplayed out in a vase",
+      "text" : "standing out over oil\npaint emerald green\n\nspiky petals hammered\nwith a sharp black line\n\ndaffodils from long grass\nsplayed out in a vase",
       "title" : "Modern flowers",
       "uuid" : "57C9F405-8E8B-48FF-9018-468B3F365858"
     },
@@ -7132,7 +7132,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0502",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
@@ -8193,7 +8193,7 @@
       "category" : "lament",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0587",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26",
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
@@ -8854,11 +8854,11 @@
       "category" : "lament",
       "eraUUID" : "01686548-4384-46F3-A5CB-EDC2D83D34DB",
       "fileOrder" : "0639",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
       ],
-      "text" : "fairisle knitted\nfor middle son\n\nfairisle knitted\nbut never worn\n\nbaggy didn't fit",
+      "text" : "fairisle knitted\nfor middle son\n\nfairisle knitted\nit's never worn\n\nbaggy didn't fit",
       "title" : "Mother's love",
       "uuid" : "0E9DA69C-E062-4F82-AA9C-3721F5D74AB2"
     },
@@ -8938,12 +8938,12 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0646",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7"
       ],
-      "text" : "my father sits down\nin front of it\n\nWindsor & Newton's\nArtists' Canvas Board",
-      "title" : "More practical than a stretched canvas",
+      "text" : "Noel sits \nin front of his\nWindsor & Newton\nArtists' Canvas Board",
+      "title" : "Practical",
       "uuid" : "F83DD181-0711-42A9-8151-68EE1AD05CFD"
     },
     {
