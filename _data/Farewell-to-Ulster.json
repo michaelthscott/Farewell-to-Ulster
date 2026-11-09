@@ -1390,6 +1390,9 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "F84404A1-2E39-4D1E-8B4F-5D3D72623301"
+      ],
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0060",
       "status" : "in progress",
@@ -1715,6 +1718,9 @@
     },
     {
       "category" : "narrative",
+      "distinctPoemUUIDs" : [
+        "8A5D7CF3-C5E5-4AAC-BE25-E5340B790F04"
+      ],
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0084",
       "scratchpad" : "tell me Michael\nhave you got a girlfriend yet\n\nchickens and tomatoes\ni like Ethel\nshe greets me cheerfully\nand with respect\ncasually chatting\nlike an active version of Granny Rip\n\nlet's me play with the egg grader\n\nhow come her kitchen's like this\nenormous old porcelain sink\npipe on the wall not in it\ndark small window no view\n\ncome in and sit down and have a biscuit\nweird to be sitting looking at the front lawn\nbiscuit tin on the table in front of me\njust you sit there a minute",
