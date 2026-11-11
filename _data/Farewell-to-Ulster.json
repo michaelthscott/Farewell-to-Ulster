@@ -3696,7 +3696,7 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0231",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26",
@@ -4573,11 +4573,11 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0297",
       "scratchpad" : "was it in a dream\nthat i murdered him\nand buried him\nor did i murder him\nand bury him\nsome time ago",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C5018569-1A28-4BF3-9D97-7ED6F1768BC7"
       ],
-      "text" : "murdered him\nand buried him\nforgot all about it\nalmost",
+      "text" : "dream\nmurdered him\nand buried him\nforgot all about it\nalmost",
       "title" : "Murder",
       "uuid" : "00680B69-8044-4BC7-819A-C29036942AEF"
     },
