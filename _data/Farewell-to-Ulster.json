@@ -801,6 +801,11 @@
     },
     {
       "category" : "narrative",
+      "distinctPoemUUIDs" : [
+        "1536C220-B706-47F0-893E-77D9514E111D",
+        "9CEEB06C-9B87-4BD0-87DB-AB5BB3104105",
+        "DFF048CD-922C-4BE2-B1C5-F66085891DAA"
+      ],
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0015",
       "scratchpad" : "Longshot Ballyaughlis",
@@ -1608,6 +1613,9 @@
     },
     {
       "category" : "narrative",
+      "distinctPoemUUIDs" : [
+        "6633AA37-47F2-412A-8EFB-9651B52225FC"
+      ],
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0076",
       "status" : "finished",
@@ -1661,6 +1669,9 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "FCBAB435-9715-478E-A16D-2DC3AAF04876"
+      ],
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0080",
       "status" : "in progress",
@@ -2361,6 +2372,9 @@
     },
     {
       "category" : "lyric",
+      "distinctPoemUUIDs" : [
+        "022EFD77-8526-40CC-9514-E6B831064170"
+      ],
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0131",
       "status" : "getting started",
@@ -2386,6 +2400,10 @@
     },
     {
       "category" : "narrative",
+      "distinctPoemUUIDs" : [
+        "8BA6199B-7DF7-4E31-A3BD-CA322F47F0F8",
+        "C39407AF-FC7F-41F7-910F-A09104302A72"
+      ],
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0133",
       "status" : "getting started",
@@ -2400,6 +2418,9 @@
     },
     {
       "category" : "narrative",
+      "distinctPoemUUIDs" : [
+        "C39407AF-FC7F-41F7-910F-A09104302A72"
+      ],
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0134",
       "status" : "in progress",
@@ -2414,6 +2435,9 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "E911C27C-13C8-4245-A36F-17C51F5D7B88"
+      ],
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0135",
       "status" : "in progress",
@@ -2554,6 +2578,10 @@
     },
     {
       "category" : "narrative",
+      "distinctPoemUUIDs" : [
+        "6633AA37-47F2-412A-8EFB-9651B52225FC",
+        "6BCAD48F-2B0D-4DFF-AB63-57754505FDC5"
+      ],
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0146",
       "status" : "in progress",
@@ -3416,6 +3444,9 @@
     },
     {
       "category" : "complaint",
+      "distinctPoemUUIDs" : [
+        "91112620-7EF2-4D48-BD12-ACCFADD1C708"
+      ],
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0212",
       "scratchpad" : "Lady Esquire shoe conditioner",
@@ -4184,6 +4215,9 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "9CEEB06C-9B87-4BD0-87DB-AB5BB3104105"
+      ],
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0270",
       "status" : "in progress",
@@ -4222,12 +4256,12 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0273",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
-      "text" : "Mummy's hair was thick and brown\nwavy from a tortoise shell clip\n\nDaddy liked it like that\n\nMummy's hair is shorter now\nno falling curls at the back\n\nMummy's gawping at the TV\n\nMummy Daddy three boisterous boys",
+      "text" : "Mum's hair thick and brown\nwavy in a tortoise shell clip\n\nDaddy liked it like that\n\nMummy's hair shorter now\nno falling curls at the back\n\nMummy's gawping at the TV\n\nMummy Daddy three boisterous boys",
       "title" : "Mummy's hair",
       "uuid" : "F33A8645-0E06-41D8-B71D-9272A6C99B6C"
     },
@@ -4606,11 +4640,11 @@
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0302",
       "scratchpad" : "old metal arm of wheels and chord\nmoves frighteningly above me",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "FB58C745-62E7-413F-A58F-BAE1A8F4ECD9"
       ],
-      "text" : "sinking feeling \nclimbing the stairs\n\nimpervious intractable\nthe ancient old dentist\n\nWellington Place \nbehind window net\noblivious busy below\n\nthat devilish drill arm\ngrinding wheels \nand dark cord\n\nHeath Robinson\ntorture scene\n\n",
+      "text" : "sinking feeling \nclimb up the stairs\n\nimpervious intractable\nan ancient old dentist\n\nWellington Place \nbehind window net\noblivious busy below\n\ndevilish drill arm\ngrinding wheels \nand dark cord\n\nHeath Robinson\ntorture scene\n\n",
       "title" : "Mr Musenger",
       "uuid" : "9D41FE34-63EA-451F-8D5C-83F0D3DC0397"
     },
@@ -5053,6 +5087,10 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "7B330AB6-C53D-4F38-B1EB-58F0E8E8633A",
+        "E8F4F2E3-483D-422B-BD21-0272A753EE45"
+      ],
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0337",
       "status" : "in progress",
@@ -5740,11 +5778,11 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0391",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5F515830-FED0-471B-8545-C1EEB1A62DBF"
       ],
-      "text" : "a speck\non the horizon \nis that Scotland",
+      "text" : "speck on \nthe horizon \nthat's Scotland",
       "title" : "Mull of Kintyre",
       "uuid" : "BB15825D-F7BF-4CF6-9369-689D3FCC4C35"
     },
@@ -5841,6 +5879,9 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "C39407AF-FC7F-41F7-910F-A09104302A72"
+      ],
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0399",
       "status" : "in progress",
@@ -5855,7 +5896,7 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0400",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7",
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
@@ -6347,6 +6388,11 @@
     },
     {
       "category" : "lament",
+      "distinctPoemUUIDs" : [
+        "7B330AB6-C53D-4F38-B1EB-58F0E8E8633A",
+        "81D8DD33-A6D2-4168-BE22-F5E0119E9119",
+        "AA2F04A5-C1D3-40BF-8C08-EF4C5FE091BB"
+      ],
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0439",
       "scratchpad" : "on the rim of a perfect curving amphitheatre field\nwith the mound of gorse that hides the long lost rath of static time\nwhen there was no draw of city dropout turn on Little Red Schoolbook\nHendrix tie dye psycadelic pot shaped Pink Floyd words\nor Janis Joplin's hellfire wild and frantic dazzling hippy festivals\nin mud that makes bright faces laugh through tangled hair\nnight settles us to sit here side by side the space for\ntwo others left between us two Michaels pals at school confederate\nears bound by some knowledge of each other's thoughts\n\ngazing at a lone complete and silent chestnut tree\nthat stands rooted where it seeded half way up the slope\ni raphsodise of some way out of here six form's gone\nwhat's done is done ignorance sedated panic\nlaughs to note I barely studied lay all summer in the sun\nopened books face down on Granny Scott's comfortable\nold brown tartan picnic blanket\nold cars jaloppy sing song big flasks of tea the freedom of the car\nthere must be somekind of way out of here\nsaid the joker to the theif\nyeah I mean London's the place to go\nwhy hang around here with the Troubles\nit's never going to get any better they love it\nit'll take an age to change I can see it in my father's face\nwhen he drives to work stuck in those checkpoint queues\nwe've got to just get up and go\nhitch a ride we'll see when we get there\nsquatters groups and art labs think",
@@ -6807,13 +6853,13 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0475",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "01D182F4-777F-455D-833C-7993AC66EC42",
         "9924A588-F82D-4241-87C0-2435F61CD7FB"
       ],
-      "text" : "fiddly little key\ntroublesome drawers\nstuffy well polished wood\n\nis a memory for her\n\nchess player architect quiet\nsmoking his pipe in a drawer",
-      "title" : "Mummy's daddy's old bureau",
+      "text" : "fiddly little key\ntroublesome drawers\nstuffy well polished wood\n\nis a memory for Mum\n\nchess player architect quiet\nsmoking his pipe in a drawer",
+      "title" : "Rip's old bureau",
       "uuid" : "39128842-506F-4B4B-A2C7-1E89F5D62607"
     },
     {
@@ -7221,6 +7267,9 @@
     },
     {
       "category" : "narrative",
+      "distinctPoemUUIDs" : [
+        "6BCAD48F-2B0D-4DFF-AB63-57754505FDC5"
+      ],
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0509",
       "status" : "duplicate",
@@ -7375,6 +7424,9 @@
     },
     {
       "category" : "complaint",
+      "distinctPoemUUIDs" : [
+        "6BCAD48F-2B0D-4DFF-AB63-57754505FDC5"
+      ],
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0521",
       "status" : "getting started",
