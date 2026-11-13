@@ -3988,7 +3988,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0253",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26",
         "F530FAE0-F126-447E-9C12-17C4CA78FD69",
@@ -5387,7 +5387,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0361",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F56657FC-2FE4-4CCC-8DAD-367780E34440"
       ],
@@ -5583,7 +5583,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0376",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1",
         "FD27B4E1-20DF-4086-B49A-B2A28CCF9AB3"
@@ -5953,12 +5953,12 @@
       "category" : "complaint",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0404",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "122E5A86-FB23-4F7B-9E3A-EE494FBD39C7",
         "BCFF7E65-2944-4526-B82A-851A9C95D343"
       ],
-      "text" : "Cecil Raphael's \ngleaming cannonball \nwe know from church\n\nthe McDowells \nseem barely polite\n\nthat new family \nwith the monster house\nare trouble makers for sure\n\nonly Scotts and Dorritys combine\n\nsullen fences hedges gates\nfamily life of spiders\ndriving cars",
+      "text" : "Cecil Raphael scabby\ngleaming cannonball \nwe know from church\n\nthe cool McDowells \nseem barely polite\n\nand that new family \nwith the monster house\nare trouble makers for sure\n\nonly Scotts and Dorritys combine\n\nsullen fences hedges gates\nfamily life of spiders\ndriving cars",
       "title" : "Neighbours",
       "uuid" : "CB2F0F31-3E20-4179-9027-95FF0DA43358"
     },
@@ -6219,11 +6219,11 @@
       "category" : "narrative",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0426",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "60699AC7-AABC-4019-BD84-F2E0CB6B6B20"
       ],
-      "text" : "up from Shaw's Bridge\nnever fell out of the canoe",
+      "text" : "go up from Shaw's Bridge\nnever fell out of the canoe",
       "title" : "Natural",
       "uuid" : "CBCD6478-9F2F-4814-AD7C-F43763A7E1A7"
     },
@@ -6289,7 +6289,7 @@
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0431",
       "scratchpad" : "show off to myself\nhow important\nbig tall dominant\nwild horse\nbarbarian\nstranglehold grip",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "326DFE87-6AB7-41BB-895C-CBEECFE1F04B"
       ],
@@ -8062,11 +8062,11 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0572",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "7D78C4B9-0FC2-41A4-B0C7-E241A9170B72"
       ],
-      "text" : "Mum didn't say much\nbut apparently someone \nshot at Mr McCurry\n\nrifleman behind the hedge on the hill",
+      "text" : "Mum didn't say much\napparently someone \nshot at Mr McCurry\n\nrifleman behind the hedge on the hill",
       "title" : "Nasty neighbour",
       "uuid" : "A1A5599B-B0D0-4AD8-9515-11221444F74A"
     },
@@ -8459,12 +8459,12 @@
       "category" : "narrative",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0603",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D99D600E-BC3A-4F79-9EBE-72B91600E03D",
         "F4EEE959-EC1D-4839-95DE-574EB410524F"
       ],
-      "text" : "sunday papers make me sick\nprint smell mixed with car seat\n\npicked up after church\ngloomy shop in Hillhall\n\nthey get me glasses\nbut never wear them\n\nnausea glamour\ncolour supplement",
+      "text" : "sunday papers make me sick\nprint smell mix with car seat\n\npicked up after church\ngloomy shop in Hillhall\n\nthey got me glasses\nbut never wear them\n\nnausea mix glamour of\nthe colour supplement",
       "title" : "Nausea",
       "uuid" : "4525E585-FBDF-45FC-ACC6-0480674AE20F"
     },
