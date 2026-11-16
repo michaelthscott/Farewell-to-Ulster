@@ -1160,12 +1160,12 @@
       "category" : "complaint",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0042",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "7D78C4B9-0FC2-41A4-B0C7-E241A9170B72",
         "E48F317A-4D91-45AE-9EEC-5B364517D3F1"
       ],
-      "text" : "if the North of Ireland \never wanted to go South\nit'll have to get around \na line called the border\n\nand if words of wisdom \nwere to get out of its mouth\nthey'll have to get around \na book called the Bible",
+      "text" : "if the North of Ireland \never wants to go South\nit'll have to get across \na line called The Border\n\nand if words of wisdom \never get out of its mouth\nthey'll have to get around \na book called The Bible",
       "title" : "North of Ireland",
       "uuid" : "8D36F52A-F2F7-4D09-B680-6D399BE1FA79"
     },
@@ -2104,7 +2104,7 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0111",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "66C661EB-14B7-404A-BBDD-AA96573A6B19",
         "99E7B41F-548E-4B9F-BEFD-BB85BF0AED27"
@@ -4740,7 +4740,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0310",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "C37628AB-D572-4377-97C5-919D4D584C96"
@@ -5322,11 +5322,11 @@
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0356",
       "scratchpad" : "unbursted dream bubbles",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
-      "text" : "uniform gone\nhair cut\n\nsomething is supposed to happen\nfrom art college to career\n\nknowing nothing\nassuming the world is full\nassuming that the world is fertile\nassuming that the world will raise me up\n\nrecognise and raise me up",
+      "text" : "uniform gone\ncropped hair\n\nsomething is \nsupposed to happen\nfrom art college to career\n\nknowing nothing\nassuming the world is full\nassuming the world is fertile\nassuming the world will raise me up\n\nrecognise and raise me up",
       "title" : "No more school",
       "uuid" : "F3244B51-42FB-4FFB-AA4A-A0F71B8046A3"
     },
@@ -5506,12 +5506,12 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0370",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1CC2BFC2-8803-49EB-9E2E-B179B70DEBD8",
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
-      "text" : "Mercy Hunter\nseems like a normal name\nbut it’s not",
+      "text" : "Mercy Hunter seems \nlike a normal name\nbut it’s not",
       "title" : "No hidden meaning",
       "uuid" : "DF6110D4-AF47-419F-A358-0D0C26699DE8"
     },
@@ -7429,12 +7429,12 @@
       ],
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0521",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6D87E02A-A247-4394-B411-F16067F44E70",
         "805C994F-34A7-4351-BD62-97454B8B00A9"
       ],
-      "text" : "in the north east corner\nof the island beyond\nthe other island\nlurks a town \ncalled Belfast\n\nwhere men and women\nmake children and\nfight and go to church\n\nwhy I am here is\ninexplicable\nexcept for the obvious\nexplanation that\nI am one of them\nI am one of them because\nsome of them\nget out\n\nhousing estate against the hill\nsays run\n\ndream bullets in the chest\n\nLarne Stranrar\nwindy forgot my passport\nlooking at the sea\nthere and back\non deck\n\nI can only be one of them\nwhen I get out",
+      "text" : "in the north east corner\nof the island beyond\nthe other island\nlurks a town \nBelfast\n\nwhere men and women\nmake children fight \nand go to church\n\nwhy I am here \nis inexplicable\nexcept for the \nobvious explanation\nthat I am one of them\n\nor I am one of them \nbecause some\nget out\n\nhousing estate \nagainst the hill\nsays run\n\ndream bullets in the chest\n\nwindy Larne Stranrar\nforgot my passport\nlooking at the sea\nthere and back\nstill on deck\n\ncan only be one of them\nwhen I get out",
       "title" : "North",
       "uuid" : "81D8DD33-A6D2-4168-BE22-F5E0119E9119"
     },
@@ -7650,7 +7650,7 @@
       "category" : "narrative",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0539",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
@@ -8644,13 +8644,13 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0617",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5FA026D7-1400-439A-AEC0-242DFF0EC504",
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
       ],
-      "text" : "being on my bike\non the road in the night\ncycling from one thought to another",
+      "text" : "being on my bike\non the road in the night\ncycling one thought to another",
       "title" : "Night cycling",
       "uuid" : "B42C7881-EF3A-4BA3-9F4C-01FA8B29913C"
     },
@@ -9214,7 +9214,7 @@
       "category" : "narrative",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0664",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
       ],
@@ -9766,12 +9766,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0709",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D1A854F1-CF5A-437A-956B-9367580C7F74"
       ],
       "text" : "glimpse from bathroom window\nlong hair coming from the bus",
-      "title" : "No girl friend",
+      "title" : "Decoy",
       "uuid" : "7D41F9D4-967D-4EC9-9290-0BA70FB6AFEC"
     },
     {
@@ -10105,11 +10105,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0738",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
       ],
-      "text" : "in the long grass\nin the sky",
+      "text" : "in the long grass\nand into the sky",
       "title" : "Nine lives",
       "uuid" : "62639777-66AA-49F7-B9DE-B3D2A71E4193"
     },
