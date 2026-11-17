@@ -5334,12 +5334,12 @@
       "category" : "lament",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0357",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "EECAB2E4-D977-4D06-84F1-E233C4B34013"
       ],
-      "text" : "can't see the dirt on the plates\nTeddy when are you coming \nto see me\n\nEmmy and Dick need someone \nto cut the grass \nI'll go",
+      "text" : "she can't see the \ndirt on the plates\n\nTeddy when are you \ncoming to see me?\n\nEmmy and Dick need \nhelp to cut the grass \nI'll go",
       "title" : "Old",
       "uuid" : "167F3187-2BDC-46C2-8B5D-6765F0EC8E75"
     },
@@ -7442,7 +7442,7 @@
       "category" : "lyric",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0522",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C5289B40-ED6F-45EB-BF40-9FBC3E23BE23"
       ],
@@ -8539,12 +8539,12 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0609",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26",
         "D99D600E-BC3A-4F79-9EBE-72B91600E03D"
       ],
-      "text" : "Dr Mabin's medicine box\nopens it on the bed\n\npyjamas up\ncold disk placed and placed\nfront and back\ndeep breath please\ntap tap\ngood",
+      "text" : "Dr Mabin's medicine box\nopened on the other bed\n\npyjamas up\ncold disk placed \nand placed \n\nboth front and back\ndeep breath please\ntap tap \ngood",
       "title" : "Off sick",
       "uuid" : "57B6EB2F-A368-4EFE-B885-FDC232FD7419"
     },
