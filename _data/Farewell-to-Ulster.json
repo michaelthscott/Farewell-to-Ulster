@@ -3090,11 +3090,11 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0185",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F530FAE0-F126-447E-9C12-17C4CA78FD69"
       ],
-      "text" : "sideways eyes\nspys\n\nwatch his thumbnail\ntrace a feeling\nagainst his upper lip\n\never since I noticed\nStephen Huston\nhas this habit\nI've been watching it",
+      "text" : "sideways eyes\nspys\n\nwatch his thumbnail\ntrace that feeling\nagainst his upper lip\n\never since I noticed\nStephen Huston\nhas this habit\nI've been watching it",
       "title" : "Observation",
       "uuid" : "BE4658C6-BFC3-4258-9B13-0AEA6563524E"
     },
@@ -4407,12 +4407,12 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0284",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "hallway the stairs \nan upstairs landing",
+      "text" : "hallway to stairs \nupstairs landing",
       "title" : "Not really a room",
       "uuid" : "59DB6404-8EF2-4E11-A809-470E39C85F0A"
     },
@@ -10435,7 +10435,7 @@
       "category" : "narrative",
       "eraUUID" : "ACDAF876-52F9-424C-867F-C24C0CA674D2",
       "fileOrder" : "0765",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F8280D42-533E-4D4F-A6B9-9A2A4CF1F051"
       ],
