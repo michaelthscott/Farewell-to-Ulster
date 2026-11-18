@@ -7795,7 +7795,7 @@
       "subjectUUIDs" : [
         "E22ED538-0F68-4AFC-A2C4-C30B6D3651A3"
       ],
-      "text" : "Harold\nfirmly said\nhalf teasing menace\n\nsilver first\nthen gold\nif lucky\n\ndinner at 6:15\nprecisely\n\nshe raps his knuckles\nwith a spoon",
+      "text" : "Harold!\nfirmly said\nwife half teasing menace\n\nsilver first then \nif lucky gold\n\ndinner 6:15\nprecisely\n\nshe raps his knuckles\nwith a spoon",
       "title" : "Old married couple",
       "uuid" : "9584E3EE-1733-46C9-9588-AAF3E96152A1"
     },
@@ -8394,11 +8394,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0598",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5B51317A-87C9-4321-888F-419461AFEDF4"
       ],
-      "text" : "the kitchen stool\nround red seat\n\nGrandpa Scott's quite elegant\ninstalled on the kitchen stool\n\nlonely bird",
+      "text" : "kitchen stool\nround red seat\n\nGrandpa Scott's quite elegant\ninstalled on the kitchen stool\n\nlonely bird",
       "title" : "Old fisherman",
       "uuid" : "229D7DA8-DB44-48A8-8FC1-D948AF7CE800"
     },
