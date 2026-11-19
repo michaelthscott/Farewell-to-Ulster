@@ -4925,12 +4925,12 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0323",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96",
         "FB6216FC-A6FE-453B-93C6-5C719BCB1321"
       ],
-      "text" : "the garden is a map of use\n\nthere's not a square inch \nI haven't been in seen \nor crawled through\n\nthe front lawn of wobbly bicycle\n\nthe little corner down near the gate \ntoo small to do anything with \nbut keep neat\n\nthe other side at the front\nwhere the bank is steep\nand it floods\n\nsheets of ice in winter\ndark and damp\n\nwarm inside the pile of cut grass",
+      "text" : "the garden is a map of use\n\nthere's not a square inch \nI haven't been in seen \nor crawled through\n\nfront lawn of wobbly bicycle\n\nlittle corner down near the gate \ntoo small to do anything with \nbut keep neat\n\nthe other side at the front\nwhere the bank is steep\nand it floods\n\nsheets of ice in winter\ndark and damp\n\nwarm inside the pile of cut grass",
       "title" : "Our garden",
       "uuid" : "2C1A69F8-74B5-48ED-8C42-7D2901B31B04"
     },
@@ -5324,12 +5324,12 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0355",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "Mum and Dad\ndouble bed\n\nMummy on the right\nDaddy on the left\n\na mat each side they made\nfrom Matisse leaf shapes\n\ncupboards on Mummy's side\nchest of drawers on Daddy's\n\ntwo identical bedside tables\nhoneymoon visit to Heal's\n\nMummy's dressing table \nangled between two windows\n\nthree moveable mirrors\ncareful put them back as they were\n\nthe other chest of drawers\nfull of Mum's things underwear\n\nas you come in\nbeside the door\n\nthe little armchair\nbeside the upstairs phone\n\nDaddy's bookshelves\nholiday slides in boxes\n\nand the big trunk on short legs\ncontains Daddy's painting things\n\nsavour turpentine and linseed oil\nlatch the snap back catches\n\nbehind the bed\ntheir homemade headboard\n\nbeneath the carpet\noriginal floor boards",
+      "text" : "Mum and Dad\ndouble bed\n\nMum on the right\nDad is on the left\n\nmat each side they made\nfrom Matisse leaf shapes\n\ncupboards on Mummy's side\nchest of drawers on Daddy's\n\ntwo identical bedside tables\nhoneymoon visit to Heal's\n\nMummy's dressing table \nangled between two windows\n\nthree moveable mirrors careful \nput them back as they were\n\nthe other chest of drawers\nfull of Mum's things underwear\n\nas you come in\nbeside the door\n\nthe little armchair\nbeside the upstairs phone\n\nDaddy's bookshelves\nholiday slides in boxes\n\nand that big trunk on short legs\ncontains Daddy's painting things\n\nsavour turpentine and linseed oil\nlatch the snap back catches\n\nbehind the bed\ntheir homemade headboard\n\nbeneath the carpet\noriginal floor boards",
       "title" : "Our parents' bedroom",
       "uuid" : "420D6501-29CA-43B8-A013-7F38E7A666DF"
     },
@@ -6739,11 +6739,11 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0464",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "finally they paid off\nthe mortgage for \nthe field\n\nthat farm house you can see\nin the distance on the hill\nagainst the tree\nlike the house\ni used to stare at\nin the curtain\nold London\nfabric from Heals\n\nMr McCormick\nwho sold\nMum and Dad\nthe land\n\nthe hay machine\n\nwe live in the countryside\nbut we're not people of the land\n\nfarmers\ngardeners",
+      "text" : "finally they paid off\nthe mortgage for \nthe field\n\nthat farm house you can see\nin the distance on the hill\nagainst the tree\nlike the house\nI used to stare at\nin the curtain\nolde London\nfabric from Heals\n\nMr McCormick\nwho sold\nMum and Dad\nthe land\n\nthe hay machine\n\nwe live in the countryside\nbut not people of the land\n\nfarmers\ngardeners",
       "title" : "Our house",
       "uuid" : "ED1524ED-F83C-47F5-8AD8-51F88725FECD"
     },
@@ -6827,7 +6827,7 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0471",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "6BC2C809-6E0C-4FC1-970C-6898357DE6BF"
       ],
@@ -7928,7 +7928,7 @@
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0559",
       "scratchpad" : "Trimble?",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "CDD2D804-8965-4ECE-BDAC-95B7FC0FC0B1",
         "F530FAE0-F126-447E-9C12-17C4CA78FD69"
@@ -10822,7 +10822,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0797",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
