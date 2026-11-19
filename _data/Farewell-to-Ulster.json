@@ -2642,13 +2642,13 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0150",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "D0A143CA-8080-4954-9C77-F1D22931F2D5",
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
-      "text" : "where did my father get his artistic\nonce only once\nhe confided in me\nI used to be interested in that\ndid he have Gauguin dreams too",
+      "text" : "where did my father get his artistic\npink Gauguin book\nonce only once\nhe confided in me\nI used to be interested in that",
       "title" : "Once",
       "uuid" : "4C8453C1-FCDA-4DAD-84C0-CF4EA6A6FF55"
     },
@@ -3222,7 +3222,7 @@
       "category" : "lyric",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0195",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7"
       ],
@@ -7601,11 +7601,11 @@
       "category" : "descriptive",
       "eraUUID" : "01686548-4384-46F3-A5CB-EDC2D83D34DB",
       "fileOrder" : "0535",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2500E8D7-9B12-40B6-BD54-9475EF8F696F"
       ],
-      "text" : "corners worn\nspines curved \nand wrinkled\n\ncovers stick in your mind\nmore than what was read",
+      "text" : "corners worn\nspine curved \nand wrinkled\n\ncovers stick in your mind\nmore than what was read",
       "title" : "Old paperbacks",
       "uuid" : "A96B8260-5FA3-4BEC-BCC4-04EABE3BF870"
     },
@@ -8086,11 +8086,11 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0574",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "open our garden\nto the public\n\nwe would get\ncompliments\n\nsuch a beautiful garden\nMr and Mrs Scott\n\nwhen we came here\nit was a field",
+      "text" : "open our garden\ninvite the public\n\nwe would get\ncompliments\n\nsuch a beautiful garden\nMr and Mrs Scott\n\nwhen we came here\nit was a field",
       "title" : "Open day",
       "uuid" : "E8304ABD-1094-4218-86B7-7BC2D29B5E9A"
     },
