@@ -1504,6 +1504,10 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "3871998F-2AB9-47C0-99E4-5644503B7E26",
+        "6DC4F3B9-F6AE-45D4-BD8D-C0F169FA3BCC"
+      ],
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0068",
       "status" : "getting started",
@@ -1655,6 +1659,9 @@
     },
     {
       "category" : "narrative",
+      "distinctPoemUUIDs" : [
+        "21E6135E-B1CD-4B42-9250-A8B4024175F3"
+      ],
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0079",
       "status" : "in progress",
@@ -2035,6 +2042,9 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "79B0FB47-78A8-4E87-A841-70ED3B27ED18"
+      ],
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0106",
       "status" : "in progress",
@@ -2048,6 +2058,9 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "17AD4CB8-DAE6-4576-B9B3-9305E3C0E831"
+      ],
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0107",
       "scratchpad" : "Ballyaughlis crossroads",
@@ -3405,6 +3418,9 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "EF260372-0BB0-498E-9A86-F5F192E6DAB1"
+      ],
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0209",
       "status" : "getting started",
@@ -4797,7 +4813,7 @@
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
-      "text" : "the darkness of a cupboard\nwhen it's closed\n\nthe feel of the Welsh blanket\nthat covers the bed\n\nthe way the ornaments\njust sit around\n\nvarious types of floor\nunder various types of carpet\n\nthe hinges on the door\n\nice cold earthenware tiles\nin the hallway\n\nthe creeper cut back\nfrom around the upstairs\nbathroom toilet windows\n\nafternoon spent carving out the\nrot from those selfsame windows\n\nwho cleans the toilet bowl\n\nthere's a bristly brush on a\nlong bamboo pole in\nthe toilet in the hall\n\nit's for cleaning cobwebs\nfrom the corners of a room\nbut rarely used\n\nthere's probably nothing in this house\nI don't know about\n\nMummy's drawer\nDaddy's drawer\n\nthe cupboards in their bedroom",
+      "text" : "the darkness of a cupboard\nwhen it's closed\n\nthe feel of the Welsh blanket\nthat covers the bed\n\nthe way ornaments\njust sit around\n\nvarious types of floor\nunder various types of carpet\n\nthe hinges on the door\n\nice cold earthenware tiles\nin the hallway\n\nthe creeper cut back\nfrom around the upstairs\nbathroom toilet windows\n\nafternoon spent carving out the\nrot from those selfsame windows\n\nwho cleans the toilet bowl\n\nthere's a bristly brush on a\nlong bamboo pole in\nthe toilet in the hall\n\nit's for cleaning cobwebs\nfrom the corners of a room\nbut rarely used\n\nthere's probably nothing in this house\nI don't know about\n\nMummy's drawer\nDaddy's drawer\n\nthe cupboards in their bedroom",
       "title" : "Things I know about this house",
       "uuid" : "410A8BD8-8465-40EF-ACCE-9113CD27F06E"
     },
@@ -5788,6 +5804,9 @@
     },
     {
       "category" : "descriptive",
+      "distinctPoemUUIDs" : [
+        "C3D040D3-B7C2-4A17-8CC4-B3329C911ABC"
+      ],
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0392",
       "status" : "getting started",
@@ -6689,6 +6708,9 @@
     },
     {
       "category" : "narrative",
+      "distinctPoemUUIDs" : [
+        "17AD4CB8-DAE6-4576-B9B3-9305E3C0E831"
+      ],
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0462",
       "status" : "in progress",
