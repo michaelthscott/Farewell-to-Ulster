@@ -2841,7 +2841,7 @@
       "category" : "descriptive",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0165",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39",
         "D3D54B58-91C1-45D4-AE27-8963F3032291"
@@ -8440,11 +8440,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0600",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7"
       ],
-      "text" : "Daddy puts his pictures on the wall\nand others that he has bought\n\nBasil Blackshaw\nNoreen Rice\nColin Middleton\nGros\n\nsome I know when they were painted\nothers date from long ago\nTosa Lagan Como\n\nGrandpa Rip's old master\n\nsome of mine in the playroom\nand Tim's nail thing",
+      "text" : "Daddy puts his pictures on the wall\nand others that he has bought\n\nBasil Blackshaw\nNoreen Rice\nColin Middleton\nGros\n\nsome I know when they were painted\nothers date from long ago\nTosa Lagan Como\n\nGrandpa Rip's old master\nnot by Guido Reni \n\nsome of mine in the playroom\nand Tim's nail thing",
       "title" : "Paintings",
       "uuid" : "311D65A6-1E4E-413F-B239-2CA10E64B8D4"
     },
@@ -9470,11 +9470,11 @@
       "category" : "complaint",
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0683",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "E48F317A-4D91-45AE-9EEC-5B364517D3F1"
       ],
-      "text" : "places I find\nwhen alone\nin nature\n\nwhere wind sun\nbirds insects show\nthere's a wide world\nwhere question of food\nwould be problematic\n\nwhole Ulster\nsocial fabric fungus\nhouse family home thing\npatchwork fields and roads\nbogus not in the world\njust a way to ignore it\nlets us view nature \nnot belong in it",
+      "text" : "places I find when \nalone in nature\n\nwhere wind sun\nbirds insects show\nthere's a wide world\nwhere food questions\nwould be problematic\n\nwhole Ulster\nsocial fabric fungus\nhouse family home thing\npatchwork fields and roads\nbogus not in the world\njust a way to ignore it\nlets us view nature \nnot belong in it",
       "title" : "Outside",
       "uuid" : "1D4CC621-770F-442E-A5B6-95C329FC0729"
     },
@@ -10238,11 +10238,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0747",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7"
       ],
-      "text" : "my father is out with the paints\nsmoothing zinc white on the sky",
+      "text" : "my father is out with oil paints\nsmoothing zinc white on the sky",
       "title" : "Painter",
       "uuid" : "268C99B3-8B9E-4226-A1EB-4A574C2A7F00"
     },
