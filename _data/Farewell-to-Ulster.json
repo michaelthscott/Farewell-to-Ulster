@@ -1201,11 +1201,11 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0045",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "122E5A86-FB23-4F7B-9E3A-EE494FBD39C7"
       ],
-      "text" : "Drumbo Road\nis Jacob's Ladder\n\nresidential countryside\ngardens backed by fields",
+      "text" : "Drumbo Road\nJacob's Ladder\n\nresidential countryside\ngardens backed by fields",
       "title" : "Our road",
       "uuid" : "78956866-9BB5-4DB9-8742-8884B0DCB62B"
     },
@@ -3076,7 +3076,7 @@
       "category" : "narrative",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0183",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0764142C-6140-412D-9E14-D0AB2BE58E87",
         "F8C2CB36-6367-4BBF-A1FB-9409E4D3901B"
@@ -3726,7 +3726,7 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0232",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9",
         "C084DF66-00B8-475E-BBC3-1B14329CDD3E"
@@ -8508,7 +8508,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0605",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "BCFF7E65-2944-4526-B82A-851A9C95D343"
       ],
