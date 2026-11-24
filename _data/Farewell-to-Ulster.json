@@ -4668,11 +4668,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0303",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "937498DF-E340-49CA-8134-82ED96E503EB"
       ],
-      "text" : "peach melba \nsmooth glossy tinned peaches\n\nMum’s homemade \nconfectioner's custard \nvanilla ice cream\n\nfresh from the garden \nraspberry sauce full of pips\n\nall \nsliding down \npast the insides \nof both my cheeks",
+      "text" : "smooth glossy tinned peaches\nconfectioner's custard \nMum’s homemade \nvanilla ice cream\n\nfresh from the garden \nraspberry sauce full of pips\n\nall \nsliding down \npast the insides \nof both my cheeks",
       "title" : "Peach Melba",
       "uuid" : "2F053F35-077D-4D67-B699-EC356E478F00"
     },
