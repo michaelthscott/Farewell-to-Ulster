@@ -767,11 +767,11 @@
       "category" : "narrative",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0012",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "9924A588-F82D-4241-87C0-2435F61CD7FB"
       ],
-      "text" : "cardboard cutout\nold man with pipe\nright in the middle of the window\n\noh I want that\ncan i have it when you are finished with it\n\nBertrand Russell\nGrandpa Rip\n\ncarried home\nunder my arm",
+      "text" : "cardboard cutout\nold man with pipe\nW H Smith window\n\nwant that \ngo in ask\ncan I have that \nwhen you're finished ok yes\n\nBertrand Russell\nmy Grandpa Rip\n\ncarried home\nunder my arm",
       "title" : "Pipe",
       "uuid" : "A03339B1-03C9-4D24-84FE-AB3D8893DDCE"
     },
@@ -6113,7 +6113,7 @@
       "category" : "narrative",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0415",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "5B51317A-87C9-4321-888F-419461AFEDF4"
       ],
@@ -8862,7 +8862,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0633",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
       ],
@@ -8994,11 +8994,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0644",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
-      "text" : "Daddy's paintings\nare all round the house",
+      "text" : "Daddy's paintings\nall round the house",
       "title" : "Pictures",
       "uuid" : "3608EBCC-6432-4842-B299-E124C09F0B14"
     },
@@ -10054,7 +10054,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0732",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "2E667939-4314-420D-89FF-4FC512542ACB"
       ],
@@ -11807,7 +11807,7 @@
       "category" : "lyric",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0878",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "0A8379D5-F722-439D-A0FF-B9373C070FAD"
       ],
