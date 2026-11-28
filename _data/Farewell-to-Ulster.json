@@ -1993,13 +1993,13 @@
       "category" : "narrative",
       "eraUUID" : "03C1D8E2-5CAD-4A17-AC7C-F7362CC4560C",
       "fileOrder" : "0102",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "087A4E98-2E36-4AED-A4C1-698C91CD9B55",
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
-      "text" : "tall deep narrow street Queens Street\ndull flat and closed door\nArt School Foundation Year\ndid Latin instead of Art\nno portfolio\nMum tries to solve\nthe problem of what\nher Michael should do\nnow that he has failed\nso many exams\n\nsmall slim brown and black portfolio\nlabelled left against the pile\nin the corner in the corridor\n\nrejected without an interview",
-      "title" : "Portfolio",
+      "text" : "tall deep narrow street\ndull flat and closed door\nArt School Foundation Year\ndid Latin instead of Art\nno portfolio\n\nMum tries to solve\nthe problem of what\nher Michael should do\nnow that he has failed\nso many exams\n\nsmall slim \nbrown black \nportfolio labelled \nleft against the pile\ncorner of the corridor\n\nrejected without an interview",
+      "title" : "Queens Street",
       "uuid" : "82120DEB-4D37-4F9C-883E-E2D82A477D12"
     },
     {
@@ -2669,11 +2669,11 @@
       "category" : "complaint",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0151",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "876C0503-2522-4DE9-97AB-A98F9660FA0D"
       ],
-      "text" : "have to go to school\nhave to go to school\n\nmiddle aged\nadults owners\nmake all the rules\n\nI hate to go to school\nhate to wear a uniform\nhate to study do exams\n\nwish I could be me\ncould be free",
+      "text" : "have to go to school\nhave to go to school\n\nmiddle aged\nadults owners\nmaking all the rules\n\nI hate to go to school\nhate to wear a uniform\nhate to study do exams\n\nwish I could be me\ncould be free",
       "title" : "Prison",
       "uuid" : "1DDE2D58-6D61-4442-914B-9CE840C5BDDD"
     },
@@ -6644,12 +6644,12 @@
       "category" : "ironic",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0457",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "8ED11B87-901F-44F0-ADC3-F4DE88EFBA87",
         "A67D28A4-6D11-4B43-912D-8707A657E567"
       ],
-      "text" : "to have less knowledge\nand less certainty\n\nshaman with his drum\nwhere all these growing things\nand cosmic cycles\n\ntreetop feather dances the wind\n\ngive the imagemakers power\nto lead with symbols",
+      "text" : "to have less knowledge\nand less certainty\n\nshaman with his drum\nall these growing things\nand cosmic cycles\n\ntreetop feather dances the wind\n\ngive imagemakers power\nto lead with symbols",
       "title" : "Pretend magic",
       "uuid" : "4C917989-2999-4680-8C30-91503D0D1DD3"
     },
@@ -8704,7 +8704,7 @@
       "category" : "descriptive",
       "eraUUID" : "BF57A2D9-B181-417B-81F9-55020069D93E",
       "fileOrder" : "0620",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "57CD1810-6E41-424B-9F18-1582FB8010FF",
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26"
@@ -8778,11 +8778,11 @@
       "category" : "descriptive",
       "eraUUID" : "1E69A6D4-702B-4384-B7A3-0AE08E370F08",
       "fileOrder" : "0626",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "281DAE71-EDFB-43F5-981C-39C6B8C20B39"
       ],
-      "text" : "my father Noel Scott\nin the hall of his home\nis tapping the glass\nto see what weather will come",
+      "text" : "my father Noel Scott\nin the hall of his home\nis tapping the glass to \nsee what weather will come",
       "title" : "Pressure",
       "uuid" : "772D5AAF-1537-4ED2-9871-1A9369F7C0A7"
     },
@@ -9324,11 +9324,11 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0671",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C084DF66-00B8-475E-BBC3-1B14329CDD3E"
       ],
-      "text" : "from the petrol station\ngot this decal they call it\nzigzag bullet hole in white\nto stick on windscreen\npretend bullet hole\nit amuses me\nI love it",
+      "text" : "from the petrol station\ngot this decal they call it\nzigzag bullet hole in white\nto stick on a windscreen\npretend bullet hole\nit amuses me\nI love it",
       "title" : "Pretend bullet hole",
       "uuid" : "3F64B22F-C067-48AE-9C0E-5BBEEBAC10A3"
     },
@@ -9494,7 +9494,7 @@
       "category" : "narrative",
       "eraUUID" : "EBE25509-202F-49AF-B654-A7746CCC01A2",
       "fileOrder" : "0685",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "1B648023-4DEF-428F-BB47-560A3B040709",
         "D2B90C69-8D8B-4812-85BF-5717D55ADC26",
