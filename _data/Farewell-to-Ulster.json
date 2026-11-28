@@ -2480,7 +2480,7 @@
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0137",
       "scratchpad" : "chose tubes random\nsqueeze blobs down edge\nscrape steady ruler\nwasteland drama space\n\nsnip round\nSunday Times colour supplement\nGI gun helmet Yanks\ncarefully paste them down\nwar hell men nowhere\nwe are public political pop",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "A2F2703B-3CA7-49A1-B3FE-42290619BBF7"
       ],
@@ -3345,7 +3345,7 @@
       "category" : "narrative",
       "eraUUID" : "E86C3877-3815-42AE-BEBF-3787BDB69C56",
       "fileOrder" : "0203",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "EDF42329-B389-40CA-B5BC-E4CEBDA2A1EC"
       ],
@@ -3974,7 +3974,7 @@
       "category" : "descriptive",
       "eraUUID" : "E0980C38-7FCE-45AF-93FF-E46A1358CD14",
       "fileOrder" : "0251",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
       ],
@@ -4066,11 +4066,11 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0257",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "805C994F-34A7-4351-BD62-97454B8B00A9"
       ],
-      "text" : "what is at the bottom of the pond\ntadpoles dead snails\ndamp dark nothing",
+      "text" : "what is at the bottom\ntadpoles dead snails\ndamp dark nothing",
       "title" : "Pond",
       "uuid" : "16F1A7E4-3BE6-4890-A295-862D42F5F1AD"
     },
@@ -4410,7 +4410,7 @@
       "category" : "descriptive",
       "eraUUID" : "955A02A6-3C2F-4604-8B43-6750E7CC1AB6",
       "fileOrder" : "0283",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "38748FDE-EDBA-4F62-851C-FCA560C08CB1",
         "F317C79E-8975-4B3A-A842-CA670BCE5DBF"
@@ -9921,7 +9921,7 @@
       "category" : "lyric",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0720",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "F4EEE959-EC1D-4839-95DE-574EB410524F"
       ],
@@ -11684,7 +11684,7 @@
       "category" : "descriptive",
       "eraUUID" : "F487E1AC-48D1-4F82-9954-1DDF108B988A",
       "fileOrder" : "0868",
-      "status" : "getting started",
+      "status" : "in progress",
       "subjectUUIDs" : [
         "C37628AB-D572-4377-97C5-919D4D584C96"
       ],
